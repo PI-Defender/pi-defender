@@ -11,17 +11,17 @@
 <area shape="rect" id="node7" href="$class_k___o_b.html#a6b236f7c3b792f31133c3428966a2921" title="We get notify when a process want a handle." alt="" coords="449,283,608,309"/>
 <area shape="rect" id="node8" href="$class_k___o_b.html#adbc9032c14f29ca14460dde65ee71b0d" title="Checks if : ." alt="" coords="788,56,904,83"/>
 <area shape="rect" id="node9" href="$class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a499a9ef09e19ef4cc0827bff8ff04130" title=" " alt="" coords="733,107,959,133"/>
-<area shape="rect" id="node12" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a04500e749540f2f0f34735f5a5542a29" title="Convert NT Path to DOS Path (letter)" alt="" coords="749,158,943,199"/>
-<area shape="rect" id="node13" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a256b9ffb749d08ded50470033c7038cc" title="Retrieve the file hash of &quot;FileName&quot;." alt="" coords="754,224,938,251"/>
-<area shape="rect" id="node14" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#add7e1153991b68995c3c05d631c48ed6" title="Get the full image name by providing a handle to a process." alt="" coords="751,275,941,317"/>
+<area shape="rect" id="node12" href="$class_k___h_e_l_p_e_r.html#af0e495aace15b35cba75c083a8d795ce" title=" " alt="" coords="749,158,943,199"/>
+<area shape="rect" id="node13" href="$class_k___h_e_l_p_e_r.html#a68247f779a7948cc3413076957829623" title=" " alt="" coords="761,224,931,251"/>
+<area shape="rect" id="node14" href="$class_k___h_e_l_p_e_r.html#a4b0d108fc4b9b7d6780126dd07895730" title=" " alt="" coords="741,275,951,317"/>
 <area shape="rect" id="node15" href="$class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#afb0e428195d7ac67b5685dfb73166d94" title=" " alt="" coords="742,341,950,368"/>
 <area shape="rect" id="node17" href="$class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#aa0eade5fe406c90f04b739bf85e098f5" title=" " alt="" coords="735,392,957,419"/>
 <area shape="rect" id="node20" href="$class_k___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a896b333aee4306520563c138c09f7b4e" title="This function is used to send Data to the User&#45;Mode service." alt="" coords="753,443,939,469"/>
 <area shape="rect" id="node10" href="$class_k___c_a_c_h_e.html#a785a988fa6c22e5a7626afe75bd447e3" title="Add a Hash in the Cache and remember if it is signed or not." alt="" coords="1057,197,1172,224"/>
-<area shape="rect" id="node11" href="$class_k___c_a_c_h_e.html#a2a803e7f4af2e18b582ccc4f2b9f747a" title="Set &quot;pbIsOk&quot; to TRUE if cache contains specified Hash, FALSE otherwise." alt="" coords="1257,265,1453,292"/>
+<area shape="rect" id="node11" href="$class_k___c_a_c_h_e.html#a2a803e7f4af2e18b582ccc4f2b9f747a" title="Set &quot;pbIsOk&quot; to TRUE if cache contains specified Hash, FALSE otherwise." alt="" coords="1272,265,1468,292"/>
 <area shape="rect" id="node16" href="$class_k___c_a_c_h_e.html#a98344c274506318cf85edd7debb5de80" title="Set bIsOk to TRUE if cache contains specified Hash, FALSE otherwise." alt="" coords="1020,337,1209,364"/>
 <area shape="rect" id="node18" href="$class_k___w_h_i_t_e_l_i_s_t.html#a0002133cb46ec30f7f0044eecc5c58a9" title="Check if whitelist contains provided string." alt="" coords="1023,392,1207,419"/>
-<area shape="rect" id="node19" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#aadb9afab0bf42478750a9332ff264f77" title="Remake of PathCchRemoveFileSpec available in kernel&#45;mode." alt="" coords="1259,385,1452,426"/>
+<area shape="rect" id="node19" href="$class_k___h_e_l_p_e_r.html#ad3301a9648f8b5a88f758ec4cd3b531e" title=" " alt="" coords="1257,385,1483,426"/>
 <area shape="rect" id="node22" href="$class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a834e0751914de6a38db6a4c7544062d1" title=" " alt="" coords="385,415,672,441"/>
 <area shape="rect" id="node23" href="$class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#af798bb1ed7052bdfb257d471afbcec59" title=" " alt="" coords="410,465,647,492"/>
 <area shape="rect" id="node24" href="$class_k___c_o_m_m_u_n_i_c_a_t_i_o_n.html#afa2b920efeb5d740d33f1ff7d443059f" title="Initialize the communicaton." alt="" coords="427,516,630,543"/>
@@ -30,10 +30,10 @@
 <area shape="rect" id="node28" href="$class_k___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a53e190b73eab90e5fb6bfc07c8fe934f" title="Unload the communication." alt="" coords="749,625,943,652"/>
 <area shape="rect" id="node30" href="$class_k___c_a_c_h_e.html#a85480c0051eb20e2188f5ff40d3debee" title="Set maximum size of Cache and initialize mutex." alt="" coords="459,633,598,660"/>
 <area shape="rect" id="node31" href="$class_k___w_h_i_t_e_l_i_s_t.html#a1932a532f12efb5c5ce142933536d0ad" title="Set maximum size of Cache and initialize mutex." alt="" coords="449,684,609,711"/>
-<area shape="rect" id="node34" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a2bb4656fb57aaaf242dce4841cfcf3a5" title="Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry conta..." alt="" coords="436,735,621,761"/>
-<area shape="rect" id="node35" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a74a9a8166861c8b2f8cd1ce816030e59" title="Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry conta..." alt="" coords="436,786,621,827"/>
-<area shape="rect" id="node36" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#ac0ef6d450ccad1191414cd7551723e5d" title="Wrapper for ZwOpenKey ." alt="" coords="429,852,629,879"/>
-<area shape="rect" id="node37" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a1e6236708e8f0490c13b4ebd7752cacd" title="Wrapper for ZwQueryValueKey." alt="" coords="410,903,647,929"/>
-<area shape="rect" id="node32" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a98e7806ad180b50600ded0f2cfbe7721" title="Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)." alt="" coords="746,677,946,718"/>
-<area shape="rect" id="node33" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a23d61cfecbdbc066af919da96cd175cd" title="Translate a DOS path into a NT path." alt="" coords="739,743,953,769"/>
+<area shape="rect" id="node34" href="$class_k___h_e_l_p_e_r.html#ad3cc3cc83a534646b185a241bd12a53c" title="Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry conta..." alt="" coords="443,735,614,761"/>
+<area shape="rect" id="node35" href="$class_k___h_e_l_p_e_r.html#a588df73e2bee03d09a622fb064d8ad95" title="Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry conta..." alt="" coords="427,785,630,812"/>
+<area shape="rect" id="node36" href="$class_k___h_e_l_p_e_r.html#a3ab02ccffaaec9ecde6aa8d323f87279" title=" " alt="" coords="435,836,622,863"/>
+<area shape="rect" id="node37" href="$class_k___h_e_l_p_e_r.html#a3047a01b1ecb04618056eea485a04e1f" title=" " alt="" coords="417,887,640,913"/>
+<area shape="rect" id="node32" href="$class_k___h_e_l_p_e_r.html#a55e39ba2e33bf68c7bf9bf81f1fe5b8e" title="Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)." alt="" coords="748,677,944,718"/>
+<area shape="rect" id="node33" href="$class_k___h_e_l_p_e_r.html#af1e60e3b4d1f195ee8986b2411a949fa" title=" " alt="" coords="747,743,945,769"/>
 </map>
