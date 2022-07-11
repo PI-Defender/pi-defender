@@ -1,0 +1,4 @@
+<map id="U_CONFIGURATION::GetCommunicationPort" name="U_CONFIGURATION::GetCommunicationPort">
+<area shape="rect" id="node1" title="Get the communication port used by the driver to interact with the service." alt="" coords="5,5,292,32"/>
+<area shape="rect" id="node2" href="$class_u___r_e_g_i_s_t_r_y.html#ab8fcbe86de2429b471dcaa94d9025aa8" title="Read the content (DWORD) of the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="340,5,515,32"/>
+</map>

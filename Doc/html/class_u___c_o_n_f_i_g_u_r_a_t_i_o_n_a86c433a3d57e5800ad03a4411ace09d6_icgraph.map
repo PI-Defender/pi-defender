@@ -1,0 +1,9 @@
+<map id="U_CONFIGURATION::GetMaxWorkerThreads" name="U_CONFIGURATION::GetMaxWorkerThreads">
+<area shape="rect" id="node1" title="Get the number of threads of the service by reading the values in the REGISTRY::" alt="" coords="528,74,767,115"/>
+<area shape="rect" id="node2" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#aad2db6e150e4eac643ee28b874af54fa" title="Print and populate service structure with the configuration read from registry keys." alt="" coords="227,56,480,83"/>
+<area shape="rect" id="node6" href="$_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="318,107,389,133"/>
+<area shape="rect" id="node3" href="$_u___service_8cpp.html#aff39ead9760e0687df750416a070f137" title="Wrap the query information about the service." alt="" coords="118,5,175,32"/>
+<area shape="rect" id="node5" href="$_u___service_8cpp.html#a21146308d44a2de57aa21d12af7e5b65" title="Wrap the start of the service." alt="" coords="121,56,172,83"/>
+<area shape="rect" id="node4" href="$_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,56,67,83"/>
+<area shape="rect" id="node7" href="$_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="115,107,179,133"/>
+</map>

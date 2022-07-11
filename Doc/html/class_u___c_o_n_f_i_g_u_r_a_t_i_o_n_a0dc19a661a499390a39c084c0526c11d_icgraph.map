@@ -1,0 +1,5 @@
+<map id="U_CONFIGURATION::DeleteLogsRegistry" name="U_CONFIGURATION::DeleteLogsRegistry">
+<area shape="rect" id="node1" title="Delete all the registry keys needed for ETW Logs." alt="" coords="221,5,437,47"/>
+<area shape="rect" id="node2" href="$_u___service_8cpp.html#a1d7c8f0ec682b654c05c04ba5fcb6e12" title="Wrap the deletion of the driver and the service." alt="" coords="115,13,173,39"/>
+<area shape="rect" id="node3" href="$_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,13,67,39"/>
+</map>

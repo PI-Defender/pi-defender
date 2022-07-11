@@ -1,0 +1,8 @@
+<map id="U_CONTROLLER::LaunchService" name="U_CONTROLLER::LaunchService">
+<area shape="rect" id="node1" title="Start the service &quot;szServiceName&quot;." alt="" coords="5,64,221,91"/>
+<area shape="rect" id="node2" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a65733b52c6801a89b0c12d7836feef9c" title="Get a handle to the Service Controller Database." alt="" coords="269,5,499,32"/>
+<area shape="rect" id="node3" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a6cbf07b4ef4a8f7f1e148e7b6d5bcb5d" title="Get a handle to the service." alt="" coords="283,57,485,98"/>
+<area shape="rect" id="node4" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#ad0b0328deb4197e357bb5d74c3173775" title="This routine will display an error message based off of the Win32 error code that is passed in." alt="" coords="293,123,475,149"/>
+<area shape="rect" id="node5" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#aa177d472a3d1e5f03fdb24d9181ab9a9" title="Popup error message displaying the function that failed associated with the error code." alt="" coords="547,97,755,124"/>
+<area shape="rect" id="node6" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a20839968820f2161ef19972f7316a141" title="Print error message in the terminal." alt="" coords="803,123,995,149"/>
+</map>

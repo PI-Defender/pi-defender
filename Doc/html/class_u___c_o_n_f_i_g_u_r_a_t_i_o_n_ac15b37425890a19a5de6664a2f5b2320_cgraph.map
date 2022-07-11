@@ -1,0 +1,10 @@
+<map id="U_CONFIGURATION::_CreateRegistryForLogs" name="U_CONFIGURATION::_CreateRegistryForLogs">
+<area shape="rect" id="node1" title="Create all the registry keys needed for ETW Logs." alt="" coords="5,115,201,156"/>
+<area shape="rect" id="node2" href="$class_u___r_e_g_i_s_t_r_y.html#acb3aa163feb4caa0bbd10c41579ff78a" title="Create the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="249,21,469,47"/>
+<area shape="rect" id="node3" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a13ad12137e1edc6873eeac1b4848194e" title="Get the full DOS Path of the message DLL associated with the binary." alt="" coords="261,71,457,98"/>
+<area shape="rect" id="node5" href="$class_u___l_o_g_s.html#a0f2932b79fce103453dd1cfc60de2007" title="Send the reported event in the Event Viewer (Application &#45;&gt; PI&#45;Defender_UM)." alt="" coords="752,71,925,98"/>
+<area shape="rect" id="node6" href="$class_u___r_e_g_i_s_t_r_y.html#ac826205b4627137b899c1e0066b3fb9a" title="Write DWORD in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="265,173,453,215"/>
+<area shape="rect" id="node8" href="$class_u___r_e_g_i_s_t_r_y.html#aa82742460b375f1fbd9534cd8f845bd0" title="Write STRING in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="266,239,453,280"/>
+<area shape="rect" id="node4" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a96db4752f1f9917f495d28c520320c88" title="Get the current folder of the binary responsible for the launch of the service." alt="" coords="523,5,698,47"/>
+<area shape="rect" id="node7" href="$class_u___r_e_g_i_s_t_r_y.html#aa3f355ae1e9c7c1f9db8496d25ac1f7d" title="Write data in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="517,205,704,247"/>
+</map>
