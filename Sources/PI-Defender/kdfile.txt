@@ -1,0 +1,3 @@
+map
+\SystemRoot\Users\admin-cyb\Desktop\PI-Defender.sys
+C:\Users\admin-cyb\Desktop\PI-Defender\x64\Release\PI-Defender.sys

@@ -1,0 +1,8 @@
+<map id="U_COMMUNICATION::_CreateThreadPool" name="U_COMMUNICATION::_CreateThreadPool">
+<area shape="rect" id="node1" title="Creation of a thread pool used to create worker thread to check file signature." alt="" coords="763,35,963,76"/>
+<area shape="rect" id="node2" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a1cbfbcf7e7e895608457abf405455e6a" title="Thread listening message sends from kernel driver." alt="" coords="513,35,715,76"/>
+<area shape="rect" id="node3" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a6deffcdba8e0b72ee1a4da15b9f8597c" title="Creation of threads listening to message sends from kernel driver." alt="" coords="227,5,465,47"/>
+<area shape="rect" id="node4" href="$_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="311,71,381,98"/>
+<area shape="rect" id="node5" href="$_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="115,71,179,98"/>
+<area shape="rect" id="node6" href="$_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,71,67,98"/>
+</map>

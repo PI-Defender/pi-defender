@@ -1,0 +1,15 @@
+<map id="U_COMMUNICATION::CreateListenerThread" name="U_COMMUNICATION::CreateListenerThread">
+<area shape="rect" id="node1" title="Creation of threads listening to message sends from kernel driver." alt="" coords="5,333,244,375"/>
+<area shape="rect" id="node2" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a1cbfbcf7e7e895608457abf405455e6a" title="Thread listening message sends from kernel driver." alt="" coords="292,304,493,345"/>
+<area shape="rect" id="node13" href="$class_u___l_o_g_s.html#a0f2932b79fce103453dd1cfc60de2007" title="Send the reported event in the Event Viewer (Application &#45;&gt; PI&#45;Defender_UM)." alt="" coords="557,370,730,397"/>
+<area shape="rect" id="node3" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a3c8d63d47d80de606ed12566e913e2c2" title="Creation of a thread pool used to create worker thread to check file signature." alt="" coords="543,123,743,164"/>
+<area shape="rect" id="node4" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a87d0f531204d9141da9e181c20a18c59" title="Worker thread used to check file signature." alt="" coords="541,188,745,229"/>
+<area shape="rect" id="node6" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#ad0b0328deb4197e357bb5d74c3173775" title="This routine will display an error message based off of the Win32 error code that is passed in." alt="" coords="1091,166,1273,193"/>
+<area shape="rect" id="node5" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a6f2f0c62b6e4f1270d5c95c6e6521ee3" title="Push a new message in the queue." alt="" coords="793,5,1043,47"/>
+<area shape="rect" id="node9" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#ac7267746e2596819493bbf7fca1d4520" title="Reply to the kernel driver." alt="" coords="821,71,1015,98"/>
+<area shape="rect" id="node10" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#adc2b6bd88871b96833fab5b34fb94d23" title="Get the handle to a file by providing it&#39;s name." alt="" coords="817,123,1019,164"/>
+<area shape="rect" id="node11" href="$class_u___s_i_g_n_a_t_u_r_e.html#a4a2b43ca305cb41a3eab3b76d60cb6db" title="Verify the signature of &#39;szFile&#39; by looking at catalogs files." alt="" coords="819,188,1017,229"/>
+<area shape="rect" id="node12" href="$class_u___s_i_g_n_a_t_u_r_e.html#a08a76b9f115ae35af11c805c8a58ebb0" title="Check if the file &quot;szFile&quot; is signed by a trusted authority." alt="" coords="811,253,1025,295"/>
+<area shape="rect" id="node7" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#aa177d472a3d1e5f03fdb24d9181ab9a9" title="Popup error message displaying the function that failed associated with the error code." alt="" coords="1321,141,1529,167"/>
+<area shape="rect" id="node8" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a20839968820f2161ef19972f7316a141" title="Print error message in the terminal." alt="" coords="1577,166,1769,193"/>
+</map>

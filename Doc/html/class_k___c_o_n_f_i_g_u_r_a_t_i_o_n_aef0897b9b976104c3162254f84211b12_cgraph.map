@@ -1,0 +1,11 @@
+<map id="K_CONFIGURATION::Initialize" name="K_CONFIGURATION::Initialize">
+<area shape="rect" id="node1" title="Initialize configuration from Registry." alt="" coords="5,132,204,159"/>
+<area shape="rect" id="node2" href="$class_k___c_a_c_h_e.html#a85480c0051eb20e2188f5ff40d3debee" title="Set maximum size of Cache and initialize mutex." alt="" coords="294,5,433,32"/>
+<area shape="rect" id="node3" href="$class_k___w_h_i_t_e_l_i_s_t.html#a1932a532f12efb5c5ce142933536d0ad" title="Set maximum size of Cache and initialize mutex." alt="" coords="283,56,443,83"/>
+<area shape="rect" id="node6" href="$class_k___h_e_l_p_e_r.html#ad3cc3cc83a534646b185a241bd12a53c" title="Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry conta..." alt="" coords="278,107,449,133"/>
+<area shape="rect" id="node7" href="$class_k___h_e_l_p_e_r.html#a588df73e2bee03d09a622fb064d8ad95" title="Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry conta..." alt="" coords="262,157,465,184"/>
+<area shape="rect" id="node8" href="$class_k___h_e_l_p_e_r.html#a3ab02ccffaaec9ecde6aa8d323f87279" title=" " alt="" coords="270,208,457,235"/>
+<area shape="rect" id="node9" href="$class_k___h_e_l_p_e_r.html#a3047a01b1ecb04618056eea485a04e1f" title=" " alt="" coords="252,259,475,285"/>
+<area shape="rect" id="node4" href="$class_k___h_e_l_p_e_r.html#a55e39ba2e33bf68c7bf9bf81f1fe5b8e" title="Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)." alt="" coords="524,19,720,61"/>
+<area shape="rect" id="node5" href="$class_k___h_e_l_p_e_r.html#af1e60e3b4d1f195ee8986b2411a949fa" title=" " alt="" coords="523,85,721,112"/>
+</map>

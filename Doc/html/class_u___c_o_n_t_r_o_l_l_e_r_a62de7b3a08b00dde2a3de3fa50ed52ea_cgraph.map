@@ -1,0 +1,9 @@
+<map id="U_CONTROLLER::SvcCtrlHandler" name="U_CONTROLLER::SvcCtrlHandler">
+<area shape="rect" id="node1" title="Receive signal send by the User / SC Manager, handle it, update service status." alt="" coords="5,81,223,108"/>
+<area shape="rect" id="node2" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a24b9f6b8b2ec28d44b96e46804ee7ddb" title="Disconnect the client." alt="" coords="275,5,495,32"/>
+<area shape="rect" id="node3" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a32bed2bf85d659bbaff8e1d3fcafa42e" title="Stop the service &quot;szServiceName&quot;." alt="" coords="285,56,486,83"/>
+<area shape="rect" id="node6" href="$class_u___l_o_g_s.html#a0f2932b79fce103453dd1cfc60de2007" title="Send the reported event in the Event Viewer (Application &#45;&gt; PI&#45;Defender_UM)." alt="" coords="299,107,472,133"/>
+<area shape="rect" id="node7" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a01343cb31a17c7a8077472a59927415a" title="Depending on the state of the service, it can receive order from the user space." alt="" coords="271,157,500,184"/>
+<area shape="rect" id="node4" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a65733b52c6801a89b0c12d7836feef9c" title="Get a handle to the Service Controller Database." alt="" coords="791,56,1020,83"/>
+<area shape="rect" id="node5" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#af55beae6c2742cab857466b32140a5dd" title="Query the service &quot;szServiceName&quot; and return its state." alt="" coords="548,78,743,119"/>
+</map>

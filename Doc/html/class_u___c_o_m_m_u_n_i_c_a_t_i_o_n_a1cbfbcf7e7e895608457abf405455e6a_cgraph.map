@@ -1,0 +1,13 @@
+<map id="U_COMMUNICATION::ListenerThread" name="U_COMMUNICATION::ListenerThread">
+<area shape="rect" id="node1" title="Thread listening message sends from kernel driver." alt="" coords="5,197,207,239"/>
+<area shape="rect" id="node2" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a87d0f531204d9141da9e181c20a18c59" title="Worker thread used to check file signature." alt="" coords="255,197,459,239"/>
+<area shape="rect" id="node4" href="$class_u___h_e_l_p_e_r.html#a6fca38e2de32e2da0598743ef731c2f1" title="This routine will display an error message based off of the Win32 error code that is passed in." alt="" coords="806,81,975,107"/>
+<area shape="rect" id="node8" href="$class_u___l_o_g_s.html#a0f2932b79fce103453dd1cfc60de2007" title="Send the reported event in the Event Viewer (Application &#45;&gt; PI&#45;Defender_UM)." alt="" coords="804,335,977,362"/>
+<area shape="rect" id="node3" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a6f2f0c62b6e4f1270d5c95c6e6521ee3" title="Push a new message in the queue." alt="" coords="507,168,756,209"/>
+<area shape="rect" id="node7" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#ac7267746e2596819493bbf7fca1d4520" title="Reply to the kernel driver." alt="" coords="534,285,729,311"/>
+<area shape="rect" id="node9" href="$class_u___h_e_l_p_e_r.html#a0532d2f45a1a8977c99caf1c6d27e7c1" title=" " alt="" coords="509,234,753,261"/>
+<area shape="rect" id="node10" href="$class_u___s_i_g_n_a_t_u_r_e.html#a4a2b43ca305cb41a3eab3b76d60cb6db" title="Verify the signature of &#39;szFile&#39; by looking at catalogs files." alt="" coords="533,37,730,79"/>
+<area shape="rect" id="node11" href="$class_u___s_i_g_n_a_t_u_r_e.html#a08a76b9f115ae35af11c805c8a58ebb0" title="Check if the file &quot;szFile&quot; is signed by a trusted authority." alt="" coords="524,103,739,144"/>
+<area shape="rect" id="node5" href="$class_u___h_e_l_p_e_r.html#a74e583e738595b638363c7cdec7b3d3f" title="Popup error message displaying the function that failed associated with the error code." alt="" coords="1025,55,1220,82"/>
+<area shape="rect" id="node6" href="$class_u___h_e_l_p_e_r.html#a54991307972870225fd074f0e7a21686" title="Print error message in the terminal." alt="" coords="1268,81,1447,107"/>
+</map>

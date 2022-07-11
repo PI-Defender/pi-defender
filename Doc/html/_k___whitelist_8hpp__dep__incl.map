@@ -1,0 +1,12 @@
+<map id="C:/Users/admin&#45;cyb/Desktop/pi&#45;defender/Sources/PI&#45;Defender/K_Whitelist.hpp" name="C:/Users/admin&#45;cyb/Desktop/pi&#45;defender/Sources/PI&#45;Defender/K_Whitelist.hpp">
+<area shape="rect" id="node1" title="Header for K_Whitelist.cpp." alt="" coords="313,5,459,76"/>
+<area shape="rect" id="node2" href="$_k___configuration_8hpp.html" title="Header for K_Configuration.cpp." alt="" coords="229,124,375,195"/>
+<area shape="rect" id="node10" href="$_k___whitelist_8cpp.html" title="Store paths of autorized files and folders." alt="" coords="399,124,544,195"/>
+<area shape="rect" id="node3" href="$_k___configuration_8cpp.html" title="Load the configuration of the driver." alt="" coords="5,243,151,313"/>
+<area shape="rect" id="node4" href="$_k___driver_8hpp.html" title="Header for K_Driver.cpp." alt="" coords="285,361,431,432"/>
+<area shape="rect" id="node6" href="$_k___filter_8hpp.html" title="Header for K_Filter.cpp." alt="" coords="175,243,320,313"/>
+<area shape="rect" id="node8" href="$_k___ob_callback_8hpp.html" title="Header for K_ObCallback.cpp." alt="" coords="396,243,541,313"/>
+<area shape="rect" id="node5" href="$_k___driver_8cpp.html" title="Entrypoint of the driver, unload routine." alt="" coords="285,480,431,551"/>
+<area shape="rect" id="node7" href="$_k___filter_8cpp.html" title="Initialize filter object used by the communication." alt="" coords="116,361,261,432"/>
+<area shape="rect" id="node9" href="$_k___ob_callback_8cpp.html" title="Handle request callback." alt="" coords="455,361,600,432"/>
+</map>

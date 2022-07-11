@@ -1,0 +1,4 @@
+<map id="U_CONFIGURATION::GetWhitelist" name="U_CONFIGURATION::GetWhitelist">
+<area shape="rect" id="node1" title="Get the whitelist used to allow user&#45;specified apps." alt="" coords="5,13,228,39"/>
+<area shape="rect" id="node2" href="$class_u___h_e_l_p_e_r.html#abea5f0267dd3ed7ae7e13da331a27897" title="Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)" alt="" coords="276,5,472,47"/>
+</map>

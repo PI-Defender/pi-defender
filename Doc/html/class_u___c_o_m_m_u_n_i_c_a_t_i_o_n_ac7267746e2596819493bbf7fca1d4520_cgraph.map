@@ -1,0 +1,4 @@
+<map id="U_COMMUNICATION::_Reply" name="U_COMMUNICATION::_Reply">
+<area shape="rect" id="node1" title="Reply to the kernel driver." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$class_u___l_o_g_s.html#a0f2932b79fce103453dd1cfc60de2007" title="Send the reported event in the Event Viewer (Application &#45;&gt; PI&#45;Defender_UM)." alt="" coords="248,5,421,32"/>
+</map>
