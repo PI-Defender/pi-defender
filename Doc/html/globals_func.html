@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PI-Defender: Getting started</title>
+<title>PI-Defender: File Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('md__doxygen__g_e_t_t_i_n_g__s_t_a_r_t_e_d.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('globals_func.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -90,49 +90,21 @@ $(document).ready(function(){initNavTree('md__doxygen__g_e_t_t_i_n_g__s_t_a_r_t_
 </iframe>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">Getting started </div></div>
-</div><!--header-->
 <div class="contents">
-<div class="textblock"><p >These instructions will get you a copy of the project up and running on your local machine.</p>
-<h1><a class="anchor" id="autotoc_md50"></a>
-Tested on</h1>
-<ul>
-<li>Microsoft Visual Studio version 2019.</li>
-<li>Windows Driver Kit (WDK) 10.0.19041.685.</li>
-<li>Windows Software Development Kit (SDK) 10.0.19041.685.</li>
+&#160;<ul>
+<li>_Success_()&#160;:&#160;<a class="el" href="_k___helper_8cpp.html#a4ea3525287dec90b870c995e51d2dba7">K_Helper.cpp</a>, <a class="el" href="_u___communication_8cpp.html#a180a9a7bb4cabf242a7d6d55fc0661b7">U_Communication.cpp</a>, <a class="el" href="_u___helper_8cpp.html#a7f13dfe79c6150a01e9043c2916814d9">U_Helper.cpp</a></li>
+<li>_tmain()&#160;:&#160;<a class="el" href="_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee">U_Service.cpp</a></li>
+<li>Delete()&#160;:&#160;<a class="el" href="_u___service_8cpp.html#a1d7c8f0ec682b654c05c04ba5fcb6e12">U_Service.cpp</a>, <a class="el" href="_u___service_8hpp.html#a1d7c8f0ec682b654c05c04ba5fcb6e12">U_Service.hpp</a></li>
+<li>DriverEntry()&#160;:&#160;<a class="el" href="_k___driver_8cpp.html#abd482ac5174a4365b1fa1c26e463c60d">K_Driver.cpp</a>, <a class="el" href="_k___driver_8hpp.html#a9961cdde052343b343b900a026f6addb">K_Driver.hpp</a></li>
+<li>DriverUnload()&#160;:&#160;<a class="el" href="_k___driver_8cpp.html#a551262cb86f3d855ff91a51b2448945f">K_Driver.cpp</a>, <a class="el" href="_k___driver_8hpp.html#a551262cb86f3d855ff91a51b2448945f">K_Driver.hpp</a></li>
+<li>Install()&#160;:&#160;<a class="el" href="_u___service_8cpp.html#ab5c4ad56c0967c7aa59e84c28c445bc6">U_Service.cpp</a>, <a class="el" href="_u___service_8hpp.html#ab5c4ad56c0967c7aa59e84c28c445bc6">U_Service.hpp</a></li>
+<li>Query()&#160;:&#160;<a class="el" href="_u___service_8cpp.html#aff39ead9760e0687df750416a070f137">U_Service.cpp</a>, <a class="el" href="_u___service_8hpp.html#aff39ead9760e0687df750416a070f137">U_Service.hpp</a></li>
+<li>Service()&#160;:&#160;<a class="el" href="_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519">U_Service.cpp</a>, <a class="el" href="_u___service_8hpp.html#afa2e3daf278842db7a49d41ebebc8519">U_Service.hpp</a></li>
+<li>Start()&#160;:&#160;<a class="el" href="_u___service_8cpp.html#a21146308d44a2de57aa21d12af7e5b65">U_Service.cpp</a>, <a class="el" href="_u___service_8hpp.html#a21146308d44a2de57aa21d12af7e5b65">U_Service.hpp</a></li>
+<li>Stop()&#160;:&#160;<a class="el" href="_u___service_8cpp.html#a0532e721ee8f5d84f2c2f57cb3b19951">U_Service.cpp</a>, <a class="el" href="_u___service_8hpp.html#a0532e721ee8f5d84f2c2f57cb3b19951">U_Service.hpp</a></li>
+<li>SvcMain()&#160;:&#160;<a class="el" href="_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a">U_Service.cpp</a>, <a class="el" href="_u___service_8hpp.html#a2ef7fa664545ef1bfd08460f37d2140a">U_Service.hpp</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md51"></a>
-Building</h1>
-<ul>
-<li>Clone the project. <div class="fragment"><div class="line">git clone ...</div>
-</div><!-- fragment --></li>
-<li>Load PI-Defender.sln with Visual Studio.</li>
-<li>Make sure the configuration manager is set to x64 (Release).</li>
-<li>Build the solution (Crtl + Maj + B).</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md52"></a>
-Installation</h1>
-<ul>
-<li>The driver uses test signing, so before using it Windows should be set to install and run test signed drivers. Enable test signed drivers can be done in elevated command prompt with the following command: <div class="fragment"><div class="line">bcdedit /set testsigning on</div>
-</div><!-- fragment --></li>
-<li>Restart Windows for changes to take effect.</li>
-<li>Install the driver with a right click on the .inf file.</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md53"></a>
-Start / Usage</h1>
-<div class="fragment"><div class="line">$ PI-Defender_UM.exe [install,start,query,stop,delete]</div>
-<div class="line"> </div>
-<div class="line">Protect your system from process injection.</div>
-<div class="line"> </div>
-<div class="line">Actions:</div>
-<div class="line">    install     Install the service User-Mode and the Driver kernel.</div>
-<div class="line">    start       Start the service User-Mode and the driver kernel.</div>
-<div class="line">    query       Query informations about the service and the driver.</div>
-<div class="line">    stop        Stop the service user-mode and the driver.</div>
-<div class="line">    delete      Delete the service user-mode and the driver.</div>
-</div><!-- fragment --> </div></div><!-- contents -->
-</div><!-- PageDoc -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->

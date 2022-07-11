@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PI-Defender: Getting started</title>
+<title>PI-Defender: _DATA_TRANSMIT Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('md__doxygen__g_e_t_t_i_n_g__s_t_a_r_t_e_d.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('struct___d_a_t_a___t_r_a_n_s_m_i_t.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -90,54 +90,53 @@ $(document).ready(function(){initNavTree('md__doxygen__g_e_t_t_i_n_g__s_t_a_r_t_
 </iframe>
 </div>
 
-<div><div class="header">
-  <div class="headertitle"><div class="title">Getting started </div></div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="struct___d_a_t_a___t_r_a_n_s_m_i_t-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">_DATA_TRANSMIT Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p >These instructions will get you a copy of the project up and running on your local machine.</p>
-<h1><a class="anchor" id="autotoc_md50"></a>
-Tested on</h1>
-<ul>
-<li>Microsoft Visual Studio version 2019.</li>
-<li>Windows Driver Kit (WDK) 10.0.19041.685.</li>
-<li>Windows Software Development Kit (SDK) 10.0.19041.685.</li>
+
+<p><code>#include &lt;<a class="el" href="_shared_defs_8hpp_source.html">SharedDefs.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for _DATA_TRANSMIT:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="struct___d_a_t_a___t_r_a_n_s_m_i_t__coll__graph.svg" width="156" height="228"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a0eeaaf6f9a50e7ed421c9618cf1b4b92"><td class="memItemLeft" align="right" valign="top">WCHAR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct___d_a_t_a___t_r_a_n_s_m_i_t.html#a0eeaaf6f9a50e7ed421c9618cf1b4b92">wFileName</a> [<a class="el" href="_shared_defs_8hpp.html#aa131fc5e657c1b77eb8ec17ff426491c">TRIPLE_MAX_PATH</a>]</td></tr>
+<tr class="separator:a0eeaaf6f9a50e7ed421c9618cf1b4b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0eeaaf6f9a50e7ed421c9618cf1b4b92" name="a0eeaaf6f9a50e7ed421c9618cf1b4b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eeaaf6f9a50e7ed421c9618cf1b4b92">&#9670;&nbsp;</a></span>wFileName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">WCHAR _DATA_TRANSMIT::wFileName[<a class="el" href="_shared_defs_8hpp.html#aa131fc5e657c1b77eb8ec17ff426491c">TRIPLE_MAX_PATH</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="class_k___o_b.html#a6b236f7c3b792f31133c3428966a2921">K_OB::_PreObCallback()</a>, <a class="el" href="class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a87d0f531204d9141da9e181c20a18c59">U_COMMUNICATION::_WorkerThread()</a>, and <a class="el" href="class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a1cbfbcf7e7e895608457abf405455e6a">U_COMMUNICATION::ListenerThread()</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>C:/Users/admin-cyb/Desktop/pi-defender/Sources/SharedDefs/<a class="el" href="_shared_defs_8hpp_source.html">SharedDefs.hpp</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md51"></a>
-Building</h1>
-<ul>
-<li>Clone the project. <div class="fragment"><div class="line">git clone ...</div>
-</div><!-- fragment --></li>
-<li>Load PI-Defender.sln with Visual Studio.</li>
-<li>Make sure the configuration manager is set to x64 (Release).</li>
-<li>Build the solution (Crtl + Maj + B).</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md52"></a>
-Installation</h1>
-<ul>
-<li>The driver uses test signing, so before using it Windows should be set to install and run test signed drivers. Enable test signed drivers can be done in elevated command prompt with the following command: <div class="fragment"><div class="line">bcdedit /set testsigning on</div>
-</div><!-- fragment --></li>
-<li>Restart Windows for changes to take effect.</li>
-<li>Install the driver with a right click on the .inf file.</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md53"></a>
-Start / Usage</h1>
-<div class="fragment"><div class="line">$ PI-Defender_UM.exe [install,start,query,stop,delete]</div>
-<div class="line"> </div>
-<div class="line">Protect your system from process injection.</div>
-<div class="line"> </div>
-<div class="line">Actions:</div>
-<div class="line">    install     Install the service User-Mode and the Driver kernel.</div>
-<div class="line">    start       Start the service User-Mode and the driver kernel.</div>
-<div class="line">    query       Query informations about the service and the driver.</div>
-<div class="line">    stop        Stop the service user-mode and the driver.</div>
-<div class="line">    delete      Delete the service user-mode and the driver.</div>
-</div><!-- fragment --> </div></div><!-- contents -->
-</div><!-- PageDoc -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.1-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="struct___d_a_t_a___t_r_a_n_s_m_i_t.html">_DATA_TRANSMIT</a></li>
     <li class="footer">Generated on Mon Jul 11 2022 09:27:21 for PI-Defender by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
