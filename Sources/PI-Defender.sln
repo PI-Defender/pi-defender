@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PI-Defender", "PI-Defender\PI-Defender.vcxproj", "{E8C7F698-1F06-4627-8504-6806E7C186E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PI-Defender_UM", "PI-Defender_UM\PI-Defender_UM.vcxproj", "{D7DBEA3E-65D3-494F-8A57-C05701BB459E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedDefs", "SharedDefs", "{FFBB3219-7638-4AD8-B73F-092A888A7368}"
+	ProjectSection(SolutionItems) = preProject
+		SharedDefs\SharedDefs.hpp = SharedDefs\SharedDefs.hpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8C7F698-1F06-4627-8504-6806E7C186E5}.Release|Win32.ActiveCfg = Release|Win32
+		{E8C7F698-1F06-4627-8504-6806E7C186E5}.Release|Win32.Build.0 = Release|Win32
+		{E8C7F698-1F06-4627-8504-6806E7C186E5}.Release|x64.ActiveCfg = Release|x64
+		{E8C7F698-1F06-4627-8504-6806E7C186E5}.Release|x64.Build.0 = Release|x64
+		{D7DBEA3E-65D3-494F-8A57-C05701BB459E}.Release|Win32.ActiveCfg = Release|Win32
+		{D7DBEA3E-65D3-494F-8A57-C05701BB459E}.Release|Win32.Build.0 = Release|Win32
+		{D7DBEA3E-65D3-494F-8A57-C05701BB459E}.Release|x64.ActiveCfg = Release|x64
+		{D7DBEA3E-65D3-494F-8A57-C05701BB459E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83F4B119-F89B-423D-8BFC-448AF47422A4}
+	EndGlobalSection
+EndGlobal
