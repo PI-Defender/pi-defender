@@ -1,0 +1,15 @@
+<map id="U_REGISTRY::ReadValue" name="U_REGISTRY::ReadValue">
+<area shape="rect" id="node1" title="Read the content (DWORD) of the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="863,136,1037,163"/>
+<area shape="rect" id="node2" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a5d693465439549ecef553ae863f04cb5" title="Get the number of items to be kept in the cache by the filter." alt="" coords="554,5,789,32"/>
+<area shape="rect" id="node7" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#aafcf880d7361d9f00cd4dd497c3a97fa" title="Get the communication port used by the driver to interact with the service." alt="" coords="528,107,815,133"/>
+<area shape="rect" id="node10" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a11328249616049976aeafd9ad80429bc" title="Get the number of threads of the service by reading the values in the Registry." alt="" coords="562,158,781,199"/>
+<area shape="rect" id="node11" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a16a3374e66a338c898a4e84fc6602368" title="Get the maximum number of clients of the service by reading the values in the REGISTRY:: &#160;[i] This va..." alt="" coords="553,56,790,83"/>
+<area shape="rect" id="node12" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a86c433a3d57e5800ad03a4411ace09d6" title="Get the number of threads of the service by reading the values in the REGISTRY::" alt="" coords="552,223,791,265"/>
+<area shape="rect" id="node13" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a3979610ba0d110c0e79481925f413ea0" title="Get the number of threads of the service by reading the values in the Registry." alt="" coords="554,289,789,330"/>
+<area shape="rect" id="node3" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#aad2db6e150e4eac643ee28b874af54fa" title="Print and populate service structure with the configuration read from registry keys." alt="" coords="227,137,480,164"/>
+<area shape="rect" id="node4" href="$_u___service_8cpp.html#aff39ead9760e0687df750416a070f137" title="Wrap the query information about the service." alt="" coords="118,144,175,171"/>
+<area shape="rect" id="node6" href="$_u___service_8cpp.html#a21146308d44a2de57aa21d12af7e5b65" title="Wrap the start of the service." alt="" coords="121,93,172,120"/>
+<area shape="rect" id="node5" href="$_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,144,67,171"/>
+<area shape="rect" id="node8" href="$_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="318,195,389,221"/>
+<area shape="rect" id="node9" href="$_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="115,195,179,221"/>
+</map>

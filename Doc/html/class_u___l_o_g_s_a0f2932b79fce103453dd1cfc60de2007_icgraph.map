@@ -1,0 +1,18 @@
+<map id="U_LOGS::SvcReportEvent" name="U_LOGS::SvcReportEvent">
+<area shape="rect" id="node1" title="Send the reported event in the Event Viewer (Application &#45;&gt; PI&#45;Defender_UM)." alt="" coords="1276,305,1449,331"/>
+<area shape="rect" id="node2" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#ac15b37425890a19a5de6664a2f5b2320" title="Create all the registry keys needed for ETW Logs." alt="" coords="480,83,676,124"/>
+<area shape="rect" id="node4" href="$_u___service_8cpp.html#ab5c4ad56c0967c7aa59e84c28c445bc6" title="Wrap the installation of the service." alt="" coords="115,203,171,230"/>
+<area shape="rect" id="node6" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a8f3d16e06161196da0043bfe31f636eb" title="Connection to the driver." alt="" coords="1018,381,1221,407"/>
+<area shape="rect" id="node7" href="$_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="808,381,879,407"/>
+<area shape="rect" id="node8" href="$_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="546,330,610,357"/>
+<area shape="rect" id="node9" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a6deffcdba8e0b72ee1a4da15b9f8597c" title="Creation of threads listening to message sends from kernel driver." alt="" coords="724,512,963,553"/>
+<area shape="rect" id="node10" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a0dc19a661a499390a39c084c0526c11d" title="Delete all the registry keys needed for ETW Logs." alt="" coords="1011,600,1227,641"/>
+<area shape="rect" id="node12" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a96db4752f1f9917f495d28c520320c88" title="Get the current folder of the binary responsible for the launch of the service." alt="" coords="1032,112,1207,153"/>
+<area shape="rect" id="node13" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a13ad12137e1edc6873eeac1b4848194e" title="Get the full DOS Path of the message DLL associated with the binary." alt="" coords="745,90,941,117"/>
+<area shape="rect" id="node14" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a81c82381327f2e86e44e97bd330f2796" title="Install the service &quot;szServiceName&quot;." alt="" coords="739,178,947,205"/>
+<area shape="rect" id="node15" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a1cbfbcf7e7e895608457abf405455e6a" title="Thread listening message sends from kernel driver." alt="" coords="1019,483,1220,524"/>
+<area shape="rect" id="node16" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a62de7b3a08b00dde2a3de3fa50ed52ea" title="Receive signal send by the User / SC Manager, handle it, update service status." alt="" coords="1011,431,1228,458"/>
+<area shape="rect" id="node3" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#adf54f299b42ec1596e92f49cb640d3ba" title="Create registry keys needed for the service configuration." alt="" coords="219,97,432,139"/>
+<area shape="rect" id="node5" href="$_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,330,67,357"/>
+<area shape="rect" id="node11" href="$_u___service_8cpp.html#a1d7c8f0ec682b654c05c04ba5fcb6e12" title="Wrap the deletion of the driver and the service." alt="" coords="296,490,355,517"/>
+</map>
