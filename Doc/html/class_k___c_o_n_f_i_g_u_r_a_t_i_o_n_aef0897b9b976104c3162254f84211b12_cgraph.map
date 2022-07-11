@@ -1,0 +1,11 @@
+<map id="K_CONFIGURATION::Initialize" name="K_CONFIGURATION::Initialize">
+<area shape="rect" id="node1" title="Initialize configuration from Registry." alt="" coords="5,136,204,163"/>
+<area shape="rect" id="node2" href="$class_k___c_a_c_h_e.html#a85480c0051eb20e2188f5ff40d3debee" title="Set maximum size of Cache and initialize mutex." alt="" coords="301,5,440,32"/>
+<area shape="rect" id="node3" href="$class_k___w_h_i_t_e_l_i_s_t.html#a1932a532f12efb5c5ce142933536d0ad" title="Set maximum size of Cache and initialize mutex." alt="" coords="291,56,451,83"/>
+<area shape="rect" id="node6" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a2bb4656fb57aaaf242dce4841cfcf3a5" title="Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry conta..." alt="" coords="278,107,463,133"/>
+<area shape="rect" id="node7" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a74a9a8166861c8b2f8cd1ce816030e59" title="Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry conta..." alt="" coords="278,158,463,199"/>
+<area shape="rect" id="node8" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#ac0ef6d450ccad1191414cd7551723e5d" title="Wrapper for ZwOpenKey ." alt="" coords="271,224,471,251"/>
+<area shape="rect" id="node9" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a1e6236708e8f0490c13b4ebd7752cacd" title="Wrapper for ZwQueryValueKey." alt="" coords="252,275,489,301"/>
+<area shape="rect" id="node4" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a98e7806ad180b50600ded0f2cfbe7721" title="Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)." alt="" coords="544,19,744,61"/>
+<area shape="rect" id="node5" href="$class_k___u_t_i_l_i_t_a_i_r_e.html#a23d61cfecbdbc066af919da96cd175cd" title="Translate a DOS path into a NT path." alt="" coords="537,85,751,112"/>
+</map>
