@@ -105,9 +105,10 @@ Modify the registry key ```HKLM\SYSTEM\CurrentControlSet\Services\PI-Defender_UM
 These instructions will get you a copy of the project up and running on your local machine.
 
 ### Tested on
-1. Microsoft Visual Studio version 2019.
-2. Windows Driver Kit (WDK) 10.0.19041.685.
-3. Windows Software Development Kit (SDK) 10.0.19041.685.
+1. Windows 10 21H2 19044.1415
+2. Microsoft Visual Studio version 2019.
+3. Windows Driver Kit (WDK) 10.0.19041.685.
+4. Windows Software Development Kit (SDK) 10.0.19041.685.
 
 ### Building
 1. Clone the project.  
@@ -145,7 +146,7 @@ Actions:
 
 The offline documentation is available in the **Docs/** directory.
 
-The online documentation is available in the main [website](tobedefined).
+The online documentation is available in the main [website](https://pi-defender.github.io/).
 
 ## Maintainers / Authors
 
