@@ -11,6 +11,6 @@
 <area shape="rect" id="node10" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a86c433a3d57e5800ad03a4411ace09d6" title="Get the number of threads of the service by reading the values in the REGISTRY::" alt="" coords="436,275,675,317"/>
 <area shape="rect" id="node11" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a3979610ba0d110c0e79481925f413ea0" title="Get the number of threads of the service by reading the values in the Registry." alt="" coords="438,341,673,382"/>
 <area shape="rect" id="node12" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a3d4d97df1d0d20e20f7a1d696f9c4150" title="Get the whitelist used to allow user&#45;specified apps." alt="" coords="444,407,667,433"/>
-<area shape="rect" id="node6" href="$class_u___r_e_g_i_s_t_r_y.html#ab8fcbe86de2429b471dcaa94d9025aa8" title="Read the content (DWORD) of the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="759,195,934,221"/>
-<area shape="rect" id="node13" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a2c076a3a7da58e7cf05d81404acd5b55" title="Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)" alt="" coords="747,399,947,441"/>
+<area shape="rect" id="node6" href="$class_u___r_e_g_i_s_t_r_y.html#ab8fcbe86de2429b471dcaa94d9025aa8" title="Read the content (DWORD) of the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="757,195,932,221"/>
+<area shape="rect" id="node13" href="$class_u___h_e_l_p_e_r.html#abea5f0267dd3ed7ae7e13da331a27897" title="Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)" alt="" coords="747,399,943,441"/>
 </map>

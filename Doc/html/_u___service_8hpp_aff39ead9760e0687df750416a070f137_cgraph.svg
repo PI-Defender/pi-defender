@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 714;
+var viewWidth = 711;
 var viewHeight = 335;
 var sectionId = 'dynsection-6';
 </script>
@@ -235,62 +235,62 @@ var sectionId = 'dynsection-6';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_u___r_e_g_i_s_t_r_y.html#ab8fcbe86de2429b471dcaa94d9025aa8" target="_top" xlink:title="Read the content (DWORD) of the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;.">
-<polygon fill="none" stroke="black" points="565.5,-165 565.5,-184 696.5,-184 696.5,-165 565.5,-165"/>
-<text text-anchor="middle" x="631" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">U_REGISTRY::ReadValue</text>
+<polygon fill="none" stroke="black" points="564,-165 564,-184 695,-184 695,-165 564,-165"/>
+<text text-anchor="middle" x="629.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">U_REGISTRY::ReadValue</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M492.16,-268.93C501.75,-266.47 511.24,-263.38 520,-259.5 557.4,-242.92 593.5,-211.03 613.62,-191.38"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="616.15,-193.8 620.76,-184.26 611.2,-188.84 616.15,-193.8"/>
+<path fill="none" stroke="midnightblue" d="M492.18,-268.98C501.77,-266.52 511.26,-263.41 520,-259.5 556.86,-243.01 592.27,-211.33 612.13,-191.65"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="614.88,-193.84 619.41,-184.26 609.9,-188.92 614.88,-193.84"/>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M480.23,-231C493.54,-228.43 507.31,-225.29 520,-221.5 548.77,-212.91 580.14,-199.03 601.99,-188.57"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="603.55,-191.7 611.02,-184.19 600.5,-185.41 603.55,-191.7"/>
+<path fill="none" stroke="midnightblue" d="M480.53,-230.99C493.75,-228.43 507.41,-225.29 520,-221.5 548.46,-212.92 579.45,-199.01 600.99,-188.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="602.76,-191.57 610.18,-184.01 599.66,-185.29 602.76,-191.57"/>
 </g>
 <!-- Node8&#45;&gt;Node6 -->
 <g id="edge9" class="edge">
 <title>Node8&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M494.73,-188.25C514.55,-186.23 535.67,-184.09 555.18,-182.1"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="555.62,-185.58 565.21,-181.08 554.91,-178.61 555.62,-185.58"/>
+<path fill="none" stroke="midnightblue" d="M494.78,-188.18C514.14,-186.2 534.7,-184.1 553.74,-182.15"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="554.26,-185.62 563.85,-181.12 553.54,-178.65 554.26,-185.62"/>
 </g>
 <!-- Node9&#45;&gt;Node6 -->
 <g id="edge11" class="edge">
 <title>Node9&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M501.56,-161.45C519.37,-163.26 537.94,-165.14 555.24,-166.9"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="554.96,-170.39 565.26,-167.92 555.67,-163.43 554.96,-170.39"/>
+<path fill="none" stroke="midnightblue" d="M501.57,-161.51C518.86,-163.28 536.84,-165.12 553.64,-166.84"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="553.63,-170.36 563.93,-167.89 554.34,-163.39 553.63,-170.36"/>
 </g>
 <!-- Node10&#45;&gt;Node6 -->
 <g id="edge13" class="edge">
 <title>Node10&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M483.16,-123.52C495.5,-126.56 508.18,-129.93 520,-133.5 546.39,-141.48 575.61,-152.48 597.29,-161.07"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="596.11,-164.37 606.69,-164.83 598.71,-157.87 596.11,-164.37"/>
+<path fill="none" stroke="midnightblue" d="M483.45,-123.54C495.71,-126.57 508.28,-129.93 520,-133.5 546.22,-141.5 575.24,-152.58 596.67,-161.21"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="595.36,-164.46 605.94,-164.98 597.99,-157.97 595.36,-164.46"/>
 </g>
 <!-- Node11&#45;&gt;Node6 -->
 <g id="edge15" class="edge">
 <title>Node11&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M495.1,-74.57C503.71,-77.35 512.16,-80.64 520,-84.5 557.9,-103.19 594.32,-137.15 614.28,-157.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="611.88,-160.14 621.32,-164.95 616.94,-155.3 611.88,-160.14"/>
+<path fill="none" stroke="midnightblue" d="M495.13,-74.51C503.73,-77.31 512.18,-80.61 520,-84.5 557.53,-103.17 593.41,-137.14 613.04,-157.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="610.57,-160.06 619.97,-164.94 615.66,-155.26 610.57,-160.06"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="class_u___u_t_i_l_i_t_a_i_r_e.html#a2c076a3a7da58e7cf05d81404acd5b55" target="_top" xlink:title="Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)">
-<polygon fill="none" stroke="black" points="556,-0.5 556,-30.5 706,-30.5 706,-0.5 556,-0.5"/>
-<text text-anchor="start" x="564" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">U_UTILITAIRE::CountWStrings</text>
-<text text-anchor="middle" x="631" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">InBuffer</text>
+<g id="a_node13"><a xlink:href="class_u___h_e_l_p_e_r.html#abea5f0267dd3ed7ae7e13da331a27897" target="_top" xlink:title="Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)">
+<polygon fill="none" stroke="black" points="556,-0.5 556,-30.5 703,-30.5 703,-0.5 556,-0.5"/>
+<text text-anchor="start" x="564" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">U_HELPER::CountWStringsIn</text>
+<text text-anchor="middle" x="629.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Buffer</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node13 -->
 <g id="edge17" class="edge">
 <title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M496.28,-15.5C512.49,-15.5 529.51,-15.5 545.77,-15.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="545.78,-19 555.78,-15.5 545.78,-12 545.78,-19"/>
+<path fill="none" stroke="midnightblue" d="M496.01,-15.5C512.29,-15.5 529.38,-15.5 545.67,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="545.69,-19 555.69,-15.5 545.69,-12 545.69,-19"/>
 </g>
 <!-- Node14&#45;&gt;Node3 -->
 <g id="edge19" class="edge">
