@@ -1,0 +1,15 @@
+<map id="U_UTILITAIRE::PrintMessage" name="U_UTILITAIRE::PrintMessage">
+<area shape="rect" id="node1" title="Print error message in the terminal." alt="" coords="1813,122,2005,149"/>
+<area shape="rect" id="node2" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#ad0b0328deb4197e357bb5d74c3173775" title="This routine will display an error message based off of the Win32 error code that is passed in." alt="" coords="1327,122,1509,149"/>
+<area shape="rect" id="node13" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#aa177d472a3d1e5f03fdb24d9181ab9a9" title="Popup error message displaying the function that failed associated with the error code." alt="" coords="1557,147,1765,174"/>
+<area shape="rect" id="node3" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a6f2f0c62b6e4f1270d5c95c6e6521ee3" title="Push a new message in the queue." alt="" coords="1029,5,1279,47"/>
+<area shape="rect" id="node5" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a1cbfbcf7e7e895608457abf405455e6a" title="Thread listening message sends from kernel driver." alt="" coords="521,31,722,72"/>
+<area shape="rect" id="node9" href="$_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,147,67,174"/>
+<area shape="rect" id="node10" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a79692e46fa7724a4ada34301a145bad3" title="Enable the virtual terminal to be able to print text in color." alt="" coords="785,224,974,265"/>
+<area shape="rect" id="node11" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a031d85cad5238299ce37dcac69a91ffc" title="Start the service &quot;szServiceName&quot;." alt="" coords="513,173,729,199"/>
+<area shape="rect" id="node4" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a87d0f531204d9141da9e181c20a18c59" title="Worker thread used to check file signature." alt="" coords="777,5,981,47"/>
+<area shape="rect" id="node6" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a6deffcdba8e0b72ee1a4da15b9f8597c" title="Creation of threads listening to message sends from kernel driver." alt="" coords="227,5,465,47"/>
+<area shape="rect" id="node7" href="$_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="311,71,381,98"/>
+<area shape="rect" id="node8" href="$_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="115,71,179,98"/>
+<area shape="rect" id="node12" href="$_u___service_8cpp.html#a21146308d44a2de57aa21d12af7e5b65" title="Wrap the start of the service." alt="" coords="121,173,172,199"/>
+</map>
