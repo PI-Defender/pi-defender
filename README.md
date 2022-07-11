@@ -144,7 +144,7 @@ Actions:
 
 ## Documentation
 
-The offline documentation is available in the **Docs/** directory.
+The offline documentation is available in the **Doc/** directory.
 
 The online documentation is available in the main [website](https://pi-defender.github.io/).
 
