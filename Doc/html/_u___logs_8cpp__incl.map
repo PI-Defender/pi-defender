@@ -1,9 +1,9 @@
-<map id="C:/Users/admin&#45;cyb/Desktop/PI&#45;Defender/Sources/PI&#45;Defender_UM/U_Logs.cpp" name="C:/Users/admin&#45;cyb/Desktop/PI&#45;Defender/Sources/PI&#45;Defender_UM/U_Logs.cpp">
+<map id="C:/Users/admin&#45;cyb/Desktop/pi&#45;defender/Sources/PI&#45;Defender_UM/U_Logs.cpp" name="C:/Users/admin&#45;cyb/Desktop/pi&#45;defender/Sources/PI&#45;Defender_UM/U_Logs.cpp">
 <area shape="rect" id="node1" title="Report Event to ETW." alt="" coords="477,5,622,76"/>
 <area shape="rect" id="node2" href="$_u___logs_8hpp.html" title="Header for U_Logs.cpp." alt="" coords="504,124,595,151"/>
 <area shape="rect" id="node3" href="$_u___global_header_8hpp.html" title="Header used by several .hpp files." alt="" coords="576,497,717,524"/>
 <area shape="rect" id="node9" href="$_u___registry_8hpp.html" title="Header for U_Registry.cpp." alt="" coords="215,423,326,449"/>
-<area shape="rect" id="node10" href="$_u___utilitaire_8hpp.html" title="Header for U_Utilitaire.cpp." alt="" coords="494,199,605,225"/>
+<area shape="rect" id="node10" href="$_u___helper_8hpp.html" title="Header for U_Helper.cpp." alt="" coords="499,199,599,225"/>
 <area shape="rect" id="node4" title=" " alt="" coords="653,572,739,599"/>
 <area shape="rect" id="node5" title=" " alt="" coords="763,572,834,599"/>
 <area shape="rect" id="node6" title=" " alt="" coords="480,572,541,599"/>
