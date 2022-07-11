@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 813;
+var viewWidth = 835;
 var viewHeight = 318;
 var sectionId = 'dynsection-4';
 </script>
@@ -111,10 +111,10 @@ var sectionId = 'dynsection-4';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="class_k___u_t_i_l_i_t_a_i_r_e.html#a04500e749540f2f0f34735f5a5542a29" target="_top" xlink:title="Convert NT Path to DOS Path (letter)">
+<g id="a_node7"><a xlink:href="class_k___h_e_l_p_e_r.html#af0e495aace15b35cba75c083a8d795ce" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="286.5,-203 286.5,-233 432.5,-233 432.5,-203 286.5,-203"/>
-<text text-anchor="start" x="294.5" y="-221" font-family="Helvetica,sans-Serif" font-size="10.00">K_UTILITAIRE::ConvertNtPath</text>
-<text text-anchor="middle" x="359.5" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">ToDosPath</text>
+<text text-anchor="start" x="294.5" y="-221" font-family="Helvetica,sans-Serif" font-size="10.00">K_HELPER::ConvertNtPathTo</text>
+<text text-anchor="middle" x="359.5" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">DosPath</text>
 </a>
 </g>
 </g>
@@ -127,33 +127,33 @@ var sectionId = 'dynsection-4';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="class_k___u_t_i_l_i_t_a_i_r_e.html#a256b9ffb749d08ded50470033c7038cc" target="_top" xlink:title="Retrieve the file hash of &quot;FileName&quot;.">
-<polygon fill="none" stroke="black" points="290.5,-164.5 290.5,-183.5 428.5,-183.5 428.5,-164.5 290.5,-164.5"/>
-<text text-anchor="middle" x="359.5" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">K_UTILITAIRE::GetFileHash</text>
+<g id="a_node8"><a xlink:href="class_k___h_e_l_p_e_r.html#a68247f779a7948cc3413076957829623" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="295.5,-164.5 295.5,-183.5 423.5,-183.5 423.5,-164.5 295.5,-164.5"/>
+<text text-anchor="middle" x="359.5" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">K_HELPER::GetFileHash</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node2&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M239.28,-159.26C252.4,-160.89 266.51,-162.63 280.27,-164.33"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="279.86,-167.81 290.22,-165.56 280.72,-160.86 279.86,-167.81"/>
+<path fill="none" stroke="midnightblue" d="M239.28,-159.26C254.06,-161.09 270.11,-163.08 285.5,-164.98"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="285.15,-168.46 295.5,-166.21 286,-161.51 285.15,-168.46"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="class_k___u_t_i_l_i_t_a_i_r_e.html#add7e1153991b68995c3c05d631c48ed6" target="_top" xlink:title="Get the full image name by providing a handle to a process.">
-<polygon fill="none" stroke="black" points="288.5,-115 288.5,-145 430.5,-145 430.5,-115 288.5,-115"/>
-<text text-anchor="start" x="296.5" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">K_UTILITAIRE::GetFullImage</text>
-<text text-anchor="middle" x="359.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">NameByHandle</text>
+<g id="a_node9"><a xlink:href="class_k___h_e_l_p_e_r.html#a4b0d108fc4b9b7d6780126dd07895730" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="281,-115 281,-145 438,-145 438,-115 281,-115"/>
+<text text-anchor="start" x="289" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">K_HELPER::GetFullImageName</text>
+<text text-anchor="middle" x="359.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00">ByHandle</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node2&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M239.28,-144.74C251.78,-143.19 265.2,-141.53 278.35,-139.91"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="278.84,-143.37 288.33,-138.67 277.98,-136.43 278.84,-143.37"/>
+<path fill="none" stroke="midnightblue" d="M239.28,-144.74C249.33,-143.49 259.97,-142.18 270.58,-140.87"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="271.24,-144.31 280.74,-139.61 270.38,-137.36 271.24,-144.31"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
@@ -219,16 +219,16 @@ var sectionId = 'dynsection-4';
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="class_k___c_a_c_h_e.html#a2a803e7f4af2e18b582ccc4f2b9f747a" target="_top" xlink:title="Set &quot;pbIsOk&quot; to TRUE if cache contains specified Hash, FALSE otherwise.">
-<polygon fill="none" stroke="black" points="658,-133.5 658,-152.5 805,-152.5 805,-133.5 658,-133.5"/>
-<text text-anchor="middle" x="731.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">K_CACHE::_GetCachedValue</text>
+<polygon fill="none" stroke="black" points="669,-133.5 669,-152.5 816,-152.5 816,-133.5 669,-133.5"/>
+<text text-anchor="middle" x="742.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">K_CACHE::_GetCachedValue</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M585.57,-184.41C614.37,-176.18 656.04,-164.27 687.32,-155.34"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="688.42,-158.66 697.08,-152.55 686.5,-151.93 688.42,-158.66"/>
+<path fill="none" stroke="midnightblue" d="M587.64,-184.41C618.35,-176.14 662.84,-164.17 696.09,-155.22"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="697.27,-158.53 706.02,-152.55 695.45,-151.77 697.27,-158.53"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
@@ -248,8 +248,8 @@ var sectionId = 'dynsection-4';
 <!-- Node11&#45;&gt;Node6 -->
 <g id="edge11" class="edge">
 <title>Node11&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M583.5,-98.53C612.98,-107.45 657.19,-120.82 689.42,-130.57"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="688.43,-133.93 699.01,-133.47 690.46,-127.23 688.43,-133.93"/>
+<path fill="none" stroke="midnightblue" d="M585.44,-98.53C616.87,-107.49 664.07,-120.94 698.33,-130.7"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="697.5,-134.1 708.07,-133.47 699.42,-127.37 697.5,-134.1"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
@@ -269,18 +269,18 @@ var sectionId = 'dynsection-4';
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="class_k___u_t_i_l_i_t_a_i_r_e.html#aadb9afab0bf42478750a9332ff264f77" target="_top" xlink:title="Remake of PathCchRemoveFileSpec available in kernel&#45;mode.">
-<polygon fill="none" stroke="black" points="659,-33 659,-63 804,-63 804,-33 659,-33"/>
-<text text-anchor="start" x="667" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">K_UTILITAIRE::MyNtPathCch</text>
-<text text-anchor="middle" x="731.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">RemoveFileSpec</text>
+<g id="a_node14"><a xlink:href="class_k___h_e_l_p_e_r.html#ad3301a9648f8b5a88f758ec4cd3b531e" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="658,-33 658,-63 827,-63 827,-33 658,-33"/>
+<text text-anchor="start" x="666" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">K_HELPER::MyNtPathCchRemove</text>
+<text text-anchor="middle" x="742.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">FileSpec</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
 <g id="edge14" class="edge">
 <title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M620.25,-48C629.5,-48 639.07,-48 648.53,-48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="648.73,-51.5 658.73,-48 648.73,-44.5 648.73,-51.5"/>
+<path fill="none" stroke="midnightblue" d="M620.15,-48C629.11,-48 638.41,-48 647.71,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="647.77,-51.5 657.77,-48 647.77,-44.5 647.77,-51.5"/>
 </g>
 </g>
 </svg>
