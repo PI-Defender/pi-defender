@@ -1,10 +1,12 @@
 /**
- * @file		U_Controller.hpp
- * @brief		Header for U_Controller.cpp
- * @author		Berenger BRAULT, Nicolas JALLET
- * @version		1.0
- * @date		02/06/2022
- * @copyright	LGPLv3
+ * @file       U_Controller.hpp
+ * @brief      Header for U_Controller.cpp
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
 */
 
 
@@ -20,7 +22,7 @@
 #include "U_Helper.hpp"
 
 
-#define GROUP				"FSFilter Anti-Virus"
+#define GROUP			"FSFilter Anti-Virus"
 #define DEPEND_ON_SERVICE	"FltMgr"
 
 
