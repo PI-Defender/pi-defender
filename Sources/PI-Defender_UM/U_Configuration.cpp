@@ -1,10 +1,12 @@
 /**
- * @file		U_Configuration.cpp
- * @brief		Set all the needed configuration for the driver and the user-mode service
- * @author		Berenger BRAULT, Nicolas JALLET
- * @version		1.0
- * @date		02/06/2022
- * @copyright	LGPLv3
+ * @file       U_Configuration.cpp
+ * @brief      Set all the needed configuration for the driver and the user-mode service
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
 */
 
 
@@ -13,12 +15,12 @@
 
 LSTATUS U_CONFIGURATION::SetServiceConfiguration()
 /**
- * @brief		Create registry keys needed for the service configuration.
+ * @brief   Create registry keys needed for the service configuration.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		ERROR_SUCCESS - No error occurs.\n
- *				Other status - Error status.
+ * @return   ERROR_SUCCESS - No error occurs.
+ *           Other status  - Error status.
 */
 {
 	LSTATUS lResult = 0;
@@ -60,12 +62,12 @@ LSTATUS U_CONFIGURATION::SetServiceConfiguration()
 
 LSTATUS U_CONFIGURATION::SetDriverConfiguration()
 /**
- * @brief		Create registry keys needed for the driver configuration.
+ * @brief   Create registry keys needed for the driver configuration.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		ERROR_SUCCESS - No error occurs.\n
- *				Other status - Error status.
+ * @return  ERROR_SUCCESS - No error occurs.
+ *          Other status  - Error status.
 */
 {
 	LSTATUS lResult = 0;
@@ -141,15 +143,15 @@ LSTATUS U_CONFIGURATION::SetDriverConfiguration()
 
 VOID U_CONFIGURATION::PrintConfiguration()
 /**
- * @brief		Print and populate service structure with the configuration read from registry keys.\n
- *				- Max number of clients
- *				- Communication Port
- *				- Whitelist
- *				- Number of threads of the service
+ * @brief   Print and populate service structure with the configuration read from registry keys.\n
+ *             - Max number of clients
+ *             - Communication Port
+ *             - Whitelist
+ *             - Number of threads of the service
  *
- * @param		None.
+ * @param   None.
  *
- * @return		None.
+ * @return  None.
 */
 {
 	PCWSTR szPort = NULL;
@@ -226,12 +228,12 @@ VOID U_CONFIGURATION::PrintConfiguration()
 
 LSTATUS U_CONFIGURATION::_CreateRegistryForLogs()
 /**
- * @brief		Create all the registry keys needed for ETW Logs.
+ * @brief   Create all the registry keys needed for ETW Logs.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		ERROR_SUCCESS - No error occurs.\n
- *				Other status - Error status.
+ * @return  ERROR_SUCCESS - No error occurs.
+ *          Other status  - Error status.
 */
 {
 	LSTATUS lResult = 0;
@@ -313,13 +315,13 @@ LSTATUS U_CONFIGURATION::_CreateRegistryForLogs()
 
 LSTATUS U_CONFIGURATION::DeleteLogsRegistry()
 /**
- * @brief		Delete all the registry keys needed for ETW Logs.\n
- *				This function is called when the service UM is deleted.
+ * @brief   Delete all the registry keys needed for ETW Logs.
+ *          This function is called when the service UM is deleted.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		ERROR_SUCCESS - No error occurs.\n
- *				Other status - Error status.
+ * @return  ERROR_SUCCESS - No error occurs.
+ *          Other status - Error status.
 */
 {
 	LSTATUS lResult = 0 ;
@@ -346,11 +348,11 @@ LSTATUS U_CONFIGURATION::DeleteLogsRegistry()
 
 DWORD U_CONFIGURATION::GetListenerThreads()
 /**
- * @brief		Get the number of threads of the service by reading the values in the Registry.
+ * @brief   Get the number of threads of the service by reading the values in the Registry.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		dwThreads - Number of threads of the service.
+ * @return  dwThreads - Number of threads of the service.
 */
 {
 	PVOID pData = nullptr;
@@ -362,11 +364,11 @@ DWORD U_CONFIGURATION::GetListenerThreads()
 
 DWORD U_CONFIGURATION::GetMinWorkerThreads()
 /**
- * @brief		Get the number of threads of the service by reading the values in the Registry.
+ * @brief   Get the number of threads of the service by reading the values in the Registry.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		dwMinThreads - Number of threads of the service.
+ * @return  dwMinThreads - Number of threads of the service.
 */
 {
 	PVOID pData = nullptr;
@@ -378,11 +380,11 @@ DWORD U_CONFIGURATION::GetMinWorkerThreads()
 
 DWORD U_CONFIGURATION::GetMaxWorkerThreads()
 /**
- * @brief		Get the number of threads of the service by reading the values in the REGISTRY::
+ * @brief   Get the number of threads of the service by reading the values in the REGISTRY::
  *
- * @param		None.
+ * @param   None.
  *
- * @return		dwMaxThreads - Number of threads of the service.
+ * @return  dwMaxThreads - Number of threads of the service.
 */
 {
 	PVOID pData = nullptr;
@@ -394,12 +396,12 @@ DWORD U_CONFIGURATION::GetMaxWorkerThreads()
 
 DWORD U_CONFIGURATION::GetMaxClients()
 /**
- * @brief		Get the maximum number of clients of the service by reading the values in the REGISTRY::\n
+ * @brief   Get the maximum number of clients of the service by reading the values in the REGISTRY::\n
  *				[i] This value is loaded but never used by the service (only for printing purpose). The driver will also load the key to setup the communication.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		dwMaxClients - Maximum number of clients allowed to connect to the driver. 
+ * @return  dwMaxClients - Maximum number of clients allowed to connect to the driver. 
 */
 {
 	PVOID pData = nullptr;
@@ -411,11 +413,11 @@ DWORD U_CONFIGURATION::GetMaxClients()
 
 PCWSTR U_CONFIGURATION::GetCommunicationPort()
 /**
- * @brief		Get the communication port used by the driver to interact with the service.
+ * @brief   Get the communication port used by the driver to interact with the service.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		szCommunicationPort - String containing the port used by the driver to initiate the communication.
+ * @return  szCommunicationPort - String containing the port used by the driver to initiate the communication.
 */
 {
 	PVOID pData = nullptr;
@@ -427,11 +429,11 @@ PCWSTR U_CONFIGURATION::GetCommunicationPort()
 
 PWHITELIST U_CONFIGURATION::GetWhitelist()
 /**
- * @brief		Get the whitelist used to allow user-specified apps.
+ * @brief   Get the whitelist used to allow user-specified apps.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		pWhitelist - pointer to the loaded Whitelist (Don't forget to free at unload)
+ * @return  pWhitelist - pointer to the loaded Whitelist (Don't forget to free at unload)
 */
 {
 	LSTATUS lResult = 0;
@@ -511,13 +513,13 @@ PWHITELIST U_CONFIGURATION::GetWhitelist()
 
 				// Allocate memory (this process is needed to have strings aligned on memory)
 #pragma warning(disable : 6386)
-			// Warning C6386 (Buffer overrun) is ok, because `i` goes from 0 to pWhitelist.iLength (previous calloc)
+				// Warning C6386 (Buffer overrun) is ok, because `i` goes from 0 to pWhitelist.iLength (previous calloc)
 				pWhitelist->szBuffer[i] = (PCWSTR)calloc(pEnd - pBegin, sizeof(WCHAR));
 #pragma warning(default : 6386)
 
 				// Copy string
 #pragma warning(disable : 6385)
-			// Warning C6385 (Reading invalid data) is same as C6386 above
+				// Warning C6385 (Reading invalid data) is same as C6386 above
 				memcpy_s((PVOID)pWhitelist->szBuffer[i], (pEnd - pBegin) * sizeof(WCHAR), &readBuffer[pBegin], (pEnd - pBegin) * sizeof(WCHAR));
 #pragma warning(default : 6385)
 
@@ -549,11 +551,11 @@ PWHITELIST U_CONFIGURATION::GetWhitelist()
 
 DWORD U_CONFIGURATION::GetCacheSize()
 /**
- * @brief		Get the number of items to be kept in the cache by the filter.
+ * @brief   Get the number of items to be kept in the cache by the filter.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		dwCacheSize - number of items to be kept in the cache by the filter.
+ * @return  dwCacheSize - number of items to be kept in the cache by the filter.
 */
 {
 	PVOID pData = nullptr;
