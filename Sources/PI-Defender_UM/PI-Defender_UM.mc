@@ -1,3 +1,14 @@
+/**
+ * @file       PI-Defender_UM.mc
+ * @brief      Define log messages string to display
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
+*/
+
 LanguageNames=(English=0x409:MSG00409)
 
 ; // MESSAGE DEFINITIONS
