@@ -1,10 +1,12 @@
 /**
- * @file		U_Helper.hpp
- * @brief		Header for U_Helper.cpp
- * @author		Berenger BRAULT, Nicolas JALLET
- * @version		1.0
- * @date		02/06/2022
- * @copyright	LGPLv3
+ * @file       U_Helper.hpp
+ * @brief      Header for U_Helper.cpp
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
 */
 
 
@@ -21,8 +23,8 @@
 #include <iostream>
 #include <TlHelp32.h>	// GetProcessByName
 #include <strsafe.h>	// for _fileno
-#include <io.h>			// for _setmode
-#include <fcntl.h>		// for _O_U16TEXT
+#include <io.h>		// for _setmode
+#include <fcntl.h>	// for _O_U16TEXT
 
 #include "U_GlobalHeader.hpp"
 #include "U_Logs.hpp"
@@ -35,7 +37,7 @@ class U_HELPER
 
 		// Print
 		typedef enum class _MESSAGE_TYPE {
-			TYPE_ERROR,		// print in red
+			TYPE_ERROR,	// print in red
 			TYPE_SUCCESS	// print in green
 		} MESSAGE_TYPE;
 
