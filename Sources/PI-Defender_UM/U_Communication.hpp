@@ -34,8 +34,8 @@ class U_COMMUNICATION
 
 		typedef struct _MESSAGE {
 			FILTER_MESSAGE_HEADER messageHeader;	// Required structure header
-			DATA_TRANSMIT Data;						// Custom data structure
-			OVERLAPPED Ovlp;						// Required structure when dealing with asynchronous message handling
+			DATA_TRANSMIT Data;			// Custom data structure
+			OVERLAPPED Ovlp;			// Required structure when dealing with asynchronous message handling
 		} MESSAGE, * PMESSAGE;
 
 		typedef struct _THREAD_PARAMETERS {
@@ -47,8 +47,8 @@ class U_COMMUNICATION
 		} THREAD_PARAMETERS, * PTHREAD_PARAMETERS;
 
 		U_COMMUNICATION() {
-			_hPort				= INVALID_HANDLE_VALUE;
-			_hCompletion		= INVALID_HANDLE_VALUE;
+			_hPort		= INVALID_HANDLE_VALUE;
+			_hCompletion	= INVALID_HANDLE_VALUE;
 		};
 
 		_Success_(return == S_OK) HRESULT Connect(_In_ PWSTR szPortName, _In_ DWORD dwListeningThreads, _Out_ HANDLE * hCompletion, _Out_ HANDLE * hPort);
@@ -60,7 +60,7 @@ class U_COMMUNICATION
 		typedef struct _REPLY_MESSAGE
 		{
 			FILTER_REPLY_HEADER ReplyHeader;	// Required structure header
-			DATA_REPLY DataReply;				// Is the exe provided is signed ?
+			DATA_REPLY DataReply;			// Is the exe provided is signed ?
 		} REPLY_MESSAGE, * PREPLY_MESSAGE;
 
 		HANDLE _hPort;
