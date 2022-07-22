@@ -1,10 +1,12 @@
 /**
- * @file		U_Helper.cpp
- * @brief		Help function used by several .cpp files
- * @author		Berenger BRAULT, Nicolas JALLET
- * @version		1.0
- * @date		02/06/2022
- * @copyright	LGPLv3
+ * @file       U_Helper.cpp
+ * @brief      Help function used by several .cpp files
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
 */
 
 
@@ -14,13 +16,13 @@
 
 _Success_(return != FALSE) BOOLEAN U_HELPER::EnableVirtualTerminal(_Out_ HANDLE* hCon, _Out_ DWORD* dwOldMode)
 /**
- * @brief		Enable the virtual terminal to be able to print text in color.
+ * @brief        Enable the virtual terminal to be able to print text in color.
  *
- * @param[out]	"hCon"			- Virtual Terminal Handle
- * @param[out]	"dwOldMode"		- Previous used terminal mode (backup)
+ * @param[out]   "hCon"      - Virtual Terminal Handle
+ * @param[out]   "dwOldMode" - Previous used terminal mode (backup)
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - An error occurs.
+ * @return       TRUE - No error occurs.
+ *               FALSE - An error occurs.
 */
 {
 	BOOLEAN bResult = FALSE;
@@ -70,11 +72,11 @@ _Success_(return != FALSE) BOOLEAN U_HELPER::EnableVirtualTerminal(_Out_ HANDLE*
 
 VOID U_HELPER::WelcomeMessage()
 /**
- * @brief		Welcome banner message.
+ * @brief   Welcome banner message.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		None.
+ * @return  None.
 */
 {
 	_tprintf_s(TEXT("\n\
@@ -83,17 +85,17 @@ VOID U_HELPER::WelcomeMessage()
 |    |    |__/ |___ |    |___ | \\| |__/ |___ | \\\033[0m\n\
 \n\
 \033[1;30mPI-Defender Tool - Copyright (C) NAVAL-Group\n\
-Authors Nicolas JALLET - B�renger BRAULT\n\
+Authors Nicolas JALLET - Bérenger BRAULT\n\
 Version 1.0\033[0m\n\n"));
 }
 
 VOID U_HELPER::PrintUsage()
 /**
- * @brief		Message showing the possible arguments that the program can handle.
+ * @brief   Message showing the possible arguments that the program can handle.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		None.
+ * @return  None.
 
 */
 {
@@ -106,12 +108,12 @@ VOID U_HELPER::PrintUsage()
 
 _Success_(return != FALSE) BOOLEAN U_HELPER::GetCurrentFolder(_Inout_ PWSTR szFolder)
 /**
- * @brief			Get the current folder of the binary responsible for the launch of the service.
+ * @brief         Get the current folder of the binary responsible for the launch of the service.
  *
- * @param[inout]	"szFolder" - DOS Path of the folder containing the binary responsible for the launch of the service.
+ * @param[inout]  "szFolder" - DOS Path of the folder containing the binary responsible for the launch of the service.
  *
- * @return			TRUE - No error occurs.\n
- *					FALSE - An error occurs.
+ * @return        TRUE - No error occurs.
+ *                FALSE - An error occurs.
 */
 {
 	DWORD dwStatus = 0;
@@ -146,12 +148,12 @@ _Success_(return != FALSE) BOOLEAN U_HELPER::GetCurrentFolder(_Inout_ PWSTR szFo
 
 _Success_(return != FALSE) BOOLEAN U_HELPER::GetDllFullPath(_Out_ PWSTR szPath)
 /**
- * @brief			Get the full DOS Path of the message DLL associated with the binary.
+ * @brief       Get the full DOS Path of the message DLL associated with the binary.
  *
- * @param[out]		"szPath" - DOS Path of the dll
+ * @param[out]  "szPath" - DOS Path of the dll
  *
- * @return			TRUE - No error occurs.\n
- *					FALSE - An error occurs.
+ * @return      TRUE - No error occurs.
+ *              FALSE - An error occurs.
 */
 {
 	HRESULT hResult;
@@ -188,13 +190,13 @@ _Success_(return != FALSE) BOOLEAN U_HELPER::GetDllFullPath(_Out_ PWSTR szPath)
 
 _Success_(return != FALSE) BOOLEAN U_HELPER::GetHandleFromFileName(_Out_ HANDLE* hFileToCheck, _In_ PCWSTR szFileName)
 /**
- * @brief			Get the handle to a file by providing it's name.
+ * @brief       Get the handle to a file by providing it's name.
  *
- * @param[out]		"hFileToCheck" - Handle file return to the caller
- * @param[in]		"szFileName" - Name of the file which we need a handle to it.
+ * @param[out]  "hFileToCheck" - Handle file return to the caller
+ * @param[in]   "szFileName" - Name of the file which we need a handle to it.
  *
- * @return			TRUE - No error occurs.\n
- *					FALSE - An error occurs.
+ * @return      TRUE - No error occurs.
+ *              FALSE - An error occurs.
 */
 {
 	BOOLEAN bStatus = FALSE;
@@ -218,8 +220,8 @@ _Success_(return != FALSE) BOOLEAN U_HELPER::GetHandleFromFileName(_Out_ HANDLE*
 	}
 	__finally {
 		
-		// No free(Path)			--> returned to caller (out parameter)
-		// No CloseHandle(hFile)	--> returned to caller (out parameter)
+		// No free(Path)         --> returned to caller (out parameter)
+		// No CloseHandle(hFile) --> returned to caller (out parameter)
 		
 		return bStatus;
 
@@ -228,13 +230,13 @@ _Success_(return != FALSE) BOOLEAN U_HELPER::GetHandleFromFileName(_Out_ HANDLE*
 
 VOID U_HELPER::DisplayError(_In_ PCWSTR szFunction)
 /**
- * @brief			This routine will display an error message based off of the Win32 error
- *					code that is passed in. This allows the user to see an understandable
- *					error message instead of just the code.
+ * @brief      This routine will display an error message based off of the Win32 error
+ *             code that is passed in. This allows the user to see an understandable
+ *             error message instead of just the code.
  *
- * @param[in]		"szFunction" - Name of function which failed.
+ * @param[in]  "szFunction" - Name of function which failed.
  *
- * @return			None.
+ * @return     None.
 */
 {
 	LPVOID lpMsgBuf = NULL;
@@ -270,12 +272,12 @@ VOID U_HELPER::DisplayError(_In_ PCWSTR szFunction)
 
 VOID U_HELPER::PrintMessage(_In_ MESSAGE_TYPE msgType, _In_ _Printf_format_string_ LPCTSTR szFormat, ...)
 /**
- * @brief			Print error message in the terminal.
+ * @brief      Print error message in the terminal.
  *
- * @param[in]		"msgType" - Type of the associated message (warning, error, etc.)
- * @param[in]		"szFormat" - Formatted string litteral
+ * @param[in]  "msgType"  - Type of the associated message (warning, error, etc.)
+ * @param[in]  "szFormat" - Formatted string litteral
  *
- * @return			None.
+ * @return     None.
 */
 {
 	if (!szFormat || !szFormat[0]) 
@@ -330,12 +332,12 @@ VOID U_HELPER::PrintMessage(_In_ MESSAGE_TYPE msgType, _In_ _Printf_format_strin
 
 VOID U_HELPER::DisplayMessage(_In_ MESSAGE_TYPE msgType, _In_ _Printf_format_string_ LPCTSTR szFormat, ...)
 /**
- * @brief			Popup error message displaying the function that failed associated with the error code.
+ * @brief      Popup error message displaying the function that failed associated with the error code.
  *
- * @param[in]		"msgType" - Type of the associated message (warning, error, etc.)
- * @param[in]		"szFormat" - Formatted string litteral
+ * @param[in]  "msgType"  - Type of the associated message (warning, error, etc.)
+ * @param[in]  "szFormat" - Formatted string litteral
  *
- * @return			None.
+ * @return None.
 */
 {
 	if (!szFormat || !szFormat[0]) 
@@ -394,12 +396,12 @@ VOID U_HELPER::DisplayMessage(_In_ MESSAGE_TYPE msgType, _In_ _Printf_format_str
 
 ULONG U_HELPER::CountWStringsInBuffer(_In_ PCWSTR szBuffer, _In_ const ULONG ulSize)
 /**
- * @brief			Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)
+ * @brief     Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ)
  *
- * @param[in]		"szBuffer"	- pointer to a buffer that contains raw data from a REG_MULTI_SZ
- * @param[in]		"ulSize"		- szBuffer size in bytes
+ * @param[in]  "szBuffer" - pointer to a buffer that contains raw data from a REG_MULTI_SZ
+ * @param[in]  "ulSize"   - szBuffer size in bytes
  *
- * @return			None.
+ * @return     None.
 */
 {
 	int count = 0;
@@ -411,8 +413,8 @@ ULONG U_HELPER::CountWStringsInBuffer(_In_ PCWSTR szBuffer, _In_ const ULONG ulS
 				hasAtLeastOneChar = FALSE;
 				count++;
 			}
-			else if (i > 0) { // and !hasAtLeastOneChar
-				break; // stop here (two '\0' in a row)
+			else if (i > 0) {  // and !hasAtLeastOneChar
+				break;     // stop here (two '\0' in a row)
 			}
 		}
 		else {
@@ -425,12 +427,12 @@ ULONG U_HELPER::CountWStringsInBuffer(_In_ PCWSTR szBuffer, _In_ const ULONG ulS
 
 _Success_(return != INVALID_HANDLE_VALUE && return != NULL) HANDLE U_HELPER::GetProcessHandleByName(_In_ PWSTR szProcessName)
 /**
- * @brief			Return the handle of the process name provided in parameter ('szProcessName')
+ * @brief      Return the handle of the process name provided in parameter ('szProcessName')
  *
- * @param[in]		"szProcessName" - Name of the process we need the handle.
+ * @param[in]  "szProcessName" - Name of the process we need the handle.
  *
- * @return			Valid Handle - Handle of the process\n
- *					Invalid Handle - Error occurs.
+ * @return     Valid Handle   - Handle of the process
+ *             Invalid Handle - Error occurs.
 */
 {
 	HANDLE hProcess = INVALID_HANDLE_VALUE;
