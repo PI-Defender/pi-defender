@@ -1,10 +1,12 @@
 /**
- * @file		U_Registry.cpp
- * @brief		Create / Write / Delete registry key
- * @author		Berenger BRAULT, Nicolas JALLET
- * @version		1.0
- * @date		02/06/2022
- * @copyright	LGPLv3
+ * @file       U_Registry.cpp
+ * @brief      Create / Write / Delete registry key
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
 */
 
 
@@ -13,17 +15,17 @@
 
 LSTATUS U_REGISTRY::_WriteDataInRegistry(_In_ HKEY hKeyParent, _In_ PCWSTR szSubKey, _In_ PCWSTR szValueName, _In_ ULONG ulValueType, _In_ const BYTE* pData, _In_ DWORD dwDataSize)
 /**
- * @brief		Write data in the registry key "szSubKey" located in the HIVE "hKeyParent"
+ * @brief    Write data in the registry key "szSubKey" located in the HIVE "hKeyParent"
  *
- * @param[in]	"hKeyParent"	- Hive(HKLM, HKCU, etc..)
- * @param[in]	"szSubKey"		- Key that has to be created
- * @param[in]	"szValueName"	- Name of the value
- * @param[in]	"ulValueType"	- Type of the data (ex: REG_DWORD)
- * @param[in]	"pData"			- Pointer to the data (value) to store in the Registry
- * @param[in]	"dwDataSize"	- Size of data in bytes
+ * @param[in]  "hKeyParent"  - Hive(HKLM, HKCU, etc..)
+ * @param[in]  "szSubKey"    - Key that has to be created
+ * @param[in]  "szValueName" - Name of the value
+ * @param[in]  "ulValueType" - Type of the data (ex: REG_DWORD)
+ * @param[in]  "pData"       - Pointer to the data (value) to store in the Registry
+ * @param[in]  "dwDataSize"  - Size of data in bytes
  *
- * @return		ERROR_SUCCESS - No error occurs.\n
- *				Other status - Error status.
+ * @return     ERROR_SUCCESS - No error occurs.
+ *             Other status  - Error status.
 */
 {
 	LSTATUS lResult = 0;
@@ -58,13 +60,13 @@ LSTATUS U_REGISTRY::_WriteDataInRegistry(_In_ HKEY hKeyParent, _In_ PCWSTR szSub
 
 LSTATUS U_REGISTRY::CreateRegistryKey(_In_ HKEY hKeyParent, _In_ PCWSTR szSubKey)
 /**
- * @brief		Create the registry key "szSubKey" located in the HIVE "hKeyParent"
+ * @brief      Create the registry key "szSubKey" located in the HIVE "hKeyParent"
  *
- * @param[in]	"hKeyParent"	- Hive (HKLM, HKCU, etc..)
- * @param[in]	"szSubKey"		- Key that has to be created
+ * @param[in]  "hKeyParent" - Hive (HKLM, HKCU, etc..)
+ * @param[in]  "szSubKey"   - Key that has to be created
  *
- * @return		ERROR_SUCCESS	- No error occurs.\n
- *				Other status	- Error status.
+ * @return     ERROR_SUCCESS - No error occurs.
+ *             Other status  - Error status.
 */
 {
 	LSTATUS lResult = 0;
@@ -84,15 +86,15 @@ LSTATUS U_REGISTRY::CreateRegistryKey(_In_ HKEY hKeyParent, _In_ PCWSTR szSubKey
 
 LSTATUS U_REGISTRY::WriteDwordInRegistry(_In_ HKEY hKeyParent, _In_ PCWSTR szSubKey, _In_ PCWSTR szValueName, _In_ DWORD dwData)
 /**
- * @brief		Write DWORD in the registry key "szSubKey" located in the HIVE "hKeyParent"
+ * @brief      Write DWORD in the registry key "szSubKey" located in the HIVE "hKeyParent"
  *
- * @param[in]	"hKeyParent"	- Hive(HKLM, HKCU, etc..)
- * @param[in]	"szSubKey"		- Key that has to be created
- * @param[in]	"szValueName"	- Name of the value
- * @param[in]	"dwData"		- Value (int, hex, ..)
+ * @param[in]  "hKeyParent"   - Hive(HKLM, HKCU, etc..)
+ * @param[in]  "szSubKey"     - Key that has to be created
+ * @param[in]  "szValueName"  - Name of the value
+ * @param[in]  "dwData"       - Value (int, hex, ..)
  *
- * @return		ERROR_SUCCESS - No error occurs.\n
- *				Other status - Error status.
+ * @return     ERROR_SUCCESS - No error occurs.
+ *             Other status  - Error status.
 */
 {
 	LSTATUS lResult = 0;
@@ -111,15 +113,15 @@ LSTATUS U_REGISTRY::WriteDwordInRegistry(_In_ HKEY hKeyParent, _In_ PCWSTR szSub
 
 LSTATUS U_REGISTRY::WriteStringInRegistry(_In_ HKEY hKeyParent, _In_ PCWSTR szSubKey, _In_ PCWSTR szValueName, _In_ PWSTR szData)
 /**
- * @brief		Write STRING in the registry key "szSubKey" located in the HIVE "hKeyParent"
+ * @brief      Write STRING in the registry key "szSubKey" located in the HIVE "hKeyParent"
  *
- * @param[in]	"hKeyParent"	- Hive(HKLM, HKCU, etc..)
- * @param[in]	"szSubKey"		- Key that has to be created
- * @param[in]	"szValueName"	- Name of the value
- * @param[in]	"szData"		- Value (str)
+ * @param[in]  "hKeyParent"   - Hive(HKLM, HKCU, etc..)
+ * @param[in]  "szSubKey"     - Key that has to be created
+ * @param[in]  "szValueName"  - Name of the value
+ * @param[in]  "szData"       - Value (str)
  *
- * @return		ERROR_SUCCESS - No error occurs.\n
- *				Other status - Error status.
+ * @return     ERROR_SUCCESS - No error occurs.
+ *             Other status  - Error status.
 */
 {
 	LSTATUS lResult = 0;
@@ -139,16 +141,16 @@ LSTATUS U_REGISTRY::WriteStringInRegistry(_In_ HKEY hKeyParent, _In_ PCWSTR szSu
 
 LSTATUS U_REGISTRY::WriteMultiStringInRegistry(_In_ HKEY hKeyParent, _In_ PCWSTR szSubKey, _In_ PCWSTR szValueName, _In_ const BYTE* pData, _In_ DWORD dwDataSize)
 /**
- * @brief		Write MULTI_SZ STRING in the registry key "szSubKey" located in the HIVE "hKeyParent"
+ * @brief      Write MULTI_SZ STRING in the registry key "szSubKey" located in the HIVE "hKeyParent"
  *
- * @param[in]	"hKeyParent"	- Hive(HKLM, HKCU, etc..)
- * @param[in]	"szSubKey"		- Key that has to be created
- * @param[in]	"szValueName"	- Name of the value
- * @param[in]	"pData"			- Value (str with TWO terminating null-bytes)
- * @param[in]	"dwDataSize"		- Size of data in bytes
+ * @param[in]  "hKeyParent"   - Hive(HKLM, HKCU, etc..)
+ * @param[in]  "szSubKey"     - Key that has to be created
+ * @param[in]  "szValueName"  - Name of the value
+ * @param[in]  "pData"        - Value (str with TWO terminating null-bytes)
+ * @param[in]  "dwDataSize"   - Size of data in bytes
  *
- * @return		ERROR_SUCCESS - No error occurs.\n
- *				Other status - Error status.
+ * @return     ERROR_SUCCESS - No error occurs.
+ *             Other status  - Error status.
 */
 {
 	LSTATUS lResult = 0;
@@ -167,17 +169,17 @@ LSTATUS U_REGISTRY::WriteMultiStringInRegistry(_In_ HKEY hKeyParent, _In_ PCWSTR
 
 LSTATUS U_REGISTRY::ReadValue(_In_ HKEY hKeyParent, _In_ PCWSTR szSubKey, _In_ PCWSTR szValueName, _In_ ULONG ulValueType, _Out_ PVOID* pData)
 /**
- * @brief		Read the content (DWORD) of the registry key "szSubKey" located in the HIVE "hKeyParent".
- *				The return pointer pData is allocated here and needs to be free after use by the caller.
+ * @brief       Read the content (DWORD) of the registry key "szSubKey" located in the HIVE "hKeyParent".
+ *              The return pointer pData is allocated here and needs to be free after use by the caller.
  *
- * @param[in]	"hKeyParent"	- Hive(HKLM, HKCU, etc..).
- * @param[in]	"szSubKey"		- Key that has to be created.
- * @param[in]	"szValueName"	- Name of the value.
- * @param[in]	"ulValueType"	- Type of the data (ex: REG_DWORD)
- * @param[out]	"pData"			- Pointer to the data (value) extracted from the Registry.
+ * @param[in]   "hKeyParent"   - Hive(HKLM, HKCU, etc..).
+ * @param[in]   "szSubKey"     - Key that has to be created.
+ * @param[in]   "szValueName"  - Name of the value.
+ * @param[in]   "ulValueType"  - Type of the data (ex: REG_DWORD)
+ * @param[out]  "pData"        - Pointer to the data (value) extracted from the Registry.
  *
- * @return		ERROR_SUCCESS - No error occurs.\n
- *				Other status - Error status.
+ * @return      ERROR_SUCCESS - No error occurs.
+ *              Other status  - Error status.
 */
 {
 	LSTATUS lResult = 0;
