@@ -19,11 +19,11 @@ K_CACHE::CACHELIST K_CACHE::_Cache = { 0, 0, nullptr };
 
 VOID K_CACHE::Initialize(_In_ DWORD dwSize)
 /**
- * @brief		Set maximum size of Cache and initialize mutex
+ * @brief       Set maximum size of Cache and initialize mutex
  *
- * @param[in]	"dwSize" - Size of the buffer (cache), number of items to be kept.
+ * @param[in]   "dwSize" - Size of the buffer (cache), number of items to be kept.
  *
- * @return		None.
+ * @return      None.
 */
 {
 	// Initialize _Cache static attribute
@@ -43,7 +43,7 @@ VOID K_CACHE::Initialize(_In_ DWORD dwSize)
 BOOLEAN K_CACHE::_GetCachedValue(_In_ ULONG ulHashSize, _In_ PVOID pHash, _Out_opt_ BOOLEAN * bIsOk)
 /**
  * @brief               Set "pbIsOk" to TRUE if cache contains specified Hash, FALSE otherwise.\n
- *					/!\ WARNING, not protected with mutex, use GetCachedValue() for public access instead
+ *                      /!\ WARNING, not protected with mutex, use GetCachedValue() for public access instead
  *
  * @param[in]		"ulHashSize"- Size of bHash in bytes
  * @param[in]		"pHash"		- Pointer to buffer that holds Hash
