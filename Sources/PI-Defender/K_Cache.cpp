@@ -140,7 +140,7 @@ VOID K_CACHE::Add(_In_ ULONG ulHashSize, _In_ PVOID pHash, _In_ BOOLEAN bIsOk)
 		_Cache.dwLength = (_Cache.dwLength + 1) % _Cache.dwMaxLength;
 
 	}
-
+	
 	__finally {
 
 		// Exit guarded region
