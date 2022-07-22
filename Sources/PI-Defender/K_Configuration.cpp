@@ -1,12 +1,12 @@
 /**
- * @file		K_Configuration.cpp
- * @brief		Load the configuration of the driver
- * @author		NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
- * @version		1.0
- * @date		02/06/2022
- * @copyright	©Naval Group SA.
- *				This document in its content and form is the property of Naval Group SA and/or third parties.
- *				This project is released under the LGPLv3 license.
+ * @file        K_Configuration.cpp
+ * @brief       Load the configuration of the driver
+ * @author      NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version     1.0
+ * @date        02/06/2022
+ * @copyright   ©Naval Group SA.
+ *              This document in its content and form is the property of Naval Group SA and/or third parties.
+ *              This project is released under the LGPLv3 license.
 */
 
 
@@ -18,11 +18,11 @@
 
 VOID K_CONFIGURATION::Unload()
 /**
- * @brief		Free previously allocated memory. Called by DriverUnload.
+ * @brief       Free previously allocated memory. Called by DriverUnload.
  *
- * @param		None.
+ * @param       None.
  *
- * @return		None.
+ * @return      None.
 */
 {
 	// Free allocated memory to save configuration strings
@@ -37,14 +37,14 @@ VOID K_CONFIGURATION::Unload()
 
 NTSTATUS K_CONFIGURATION::Initialize(_In_ PUNICODE_STRING szRegistryPath)
 /**
- * @brief		Initialize configuration from Registry.\n
- *				Must be called once before calling others methods of this class.\n
- *				The configuration is loaded from HKLM\SYSTEM\CurrentControlSet\Services\PI-Defender\Parameters.
+ * @brief       Initialize configuration from Registry.\n
+ *              Must be called once before calling others methods of this class.\n
+ *              The configuration is loaded from HKLM\SYSTEM\CurrentControlSet\Services\PI-Defender\Parameters.
  *
  * @param[in]	"szRegistryPath" - Registry path to service key
  *
- * @return		STATUS_SUCCESS	- No error occurs.\n
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS	- No error occurs.\n
+ *              Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	NTSTATUS status = STATUS_SUCCESS;
