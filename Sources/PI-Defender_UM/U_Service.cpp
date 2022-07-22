@@ -1,28 +1,30 @@
 /**
- * @file		U_Service.cpp
- * @brief		Entrypoint of the process & the service
- * @author		Berenger BRAULT, Nicolas JALLET
- * @version		1.0
- * @date		02/06/2022
- * @copyright	LGPLv3
+ * @file       U_Service.cpp
+ * @brief      Entrypoint of the process & the service
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
 */
 
 
 #include "U_Service.hpp"
 
 
-U_COMMUNICATION Communication;			// Used by controller to disconnect the client.
-sSERVICE strctService = { 0 };			// Used by controller to send event to Service Controller
+U_COMMUNICATION Communication;	// Used by controller to disconnect the client.
+sSERVICE strctService = { 0 };	// Used by controller to send event to Service Controller
 
 
 BOOLEAN Install()
 /**
- * @brief		Wrap the installation of the service
+ * @brief   Wrap the installation of the service
  *
- * @param		None.
+ * @param   None.
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - Error occurs.
+ * @return  TRUE  - No error occurs.
+ *          FALSE - Error occurs.
 */
 {
 	LSTATUS lResult = 0;
@@ -35,7 +37,7 @@ BOOLEAN Install()
 
 	__try {
 
-		//	Check if service already installed
+		// Check if service already installed
 		bResult = U_CONTROLLER::IsServiceInstalled(DRIVER_NAME);
 		if (bResult)
 		{
@@ -80,7 +82,7 @@ BOOLEAN Install()
 
 	__try{
 
-		//	Check if service already installed
+		// Check if service already installed
 		bResult = U_CONTROLLER::IsServiceInstalled(SERVICE_NAME);
 		if (bResult)
 		{
@@ -123,12 +125,12 @@ BOOLEAN Install()
 
 BOOLEAN Query()
 /**
- * @brief		Wrap the query information about the service
+ * @brief   Wrap the query information about the service
  *
- * @param		None.
+ * @param   None.
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - Error occurs.
+ * @return  TRUE - No error occurs.
+ *          FALSE - Error occurs.
 */
 {
 	if (U_CONTROLLER::IsServiceInstalled(DRIVER_NAME))
@@ -143,13 +145,13 @@ BOOLEAN Query()
 
 BOOLEAN Delete()
 /**
- * @brief		Wrap the deletion of the driver and the service.\n
- *				[i] If an error occur when trying to delete the driver, the service will not be deleted.
+ * @brief   Wrap the deletion of the driver and the service.
+ *          [i] If an error occur when trying to delete the driver, the service will not be deleted.
  * 
- * @param		None.
+ * @param   None.
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - Error occurs.
+ * @return  TRUE - No error occurs.
+ *          FALSE - Error occurs.
 */
 {
 	BOOLEAN bResult = TRUE;
@@ -171,12 +173,12 @@ BOOLEAN Delete()
 
 BOOLEAN Start()
 /**
- * @brief		Wrap the start of the service
+ * @brief   Wrap the start of the service
  *
- * @param		None.
+ * @param   one.
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - Error occurs.
+ * @return  TRUE  - No error occurs.
+ *          FALSE - Error occurs.
 */
 {
 	BOOLEAN bResult = TRUE;
@@ -205,13 +207,13 @@ BOOLEAN Start()
 
 BOOLEAN Stop()
 /**
- * @brief		Wrap the stop of the driver and the service.\n
- *				[i] If the driver failed to stop, the service isn't stopped.
+ * @brief   Wrap the stop of the driver and the service.\n
+ *          [i] If the driver failed to stop, the service isn't stopped.
  * 
- * @param		None.
+ * @param   None.
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - Error occurs.
+ * @return  TRUE  - No error occurs.
+ *          FALSE - Error occurs.
 */
 {
 	return U_CONTROLLER::StopService(DRIVER_NAME) & U_CONTROLLER::StopService(SERVICE_NAME);
@@ -220,11 +222,11 @@ BOOLEAN Stop()
 
 VOID Service()
 /**
- * @brief		Wrap the call to the service entrypoint.
+ * @brief   Wrap the call to the service entrypoint.
  *
- * @param		None.
+ * @param   None.
  *
- * @return		None.
+ * @return  None.
 */
 {
 	BOOLEAN bResult;
@@ -245,13 +247,13 @@ VOID Service()
 
 int _tmain(_In_ int argc, _In_ TCHAR* argv[])
 /**
- * @brief		Entrypoint of the user space executable.
+ * @brief      Entrypoint of the user space executable.
  *
- * @param[in]	"argc" - Number of arguments.
- * @param[in]	"argv" - Array that contains arguments values.
+ * @param[in]  "argc" - Number of arguments.
+ * @param[in]  "argv" - Array that contains arguments values.
  *
- * @return		EXIT_SUCCESS (0) - No error occurs.\n
- *				EXIT_FAILURE (1) - Error occurs.
+ * @return     EXIT_SUCCESS (0) - No error occurs.
+ *             EXIT_FAILURE (1) - Error occurs.
 */
 {
 	BOOLEAN bResult = TRUE;
@@ -338,12 +340,12 @@ int _tmain(_In_ int argc, _In_ TCHAR* argv[])
 
 VOID WINAPI SvcMain(_In_ DWORD dwArgc, _In_ PWSTR* pszArgv)
 /**
- * @brief		Entrypoint and core of the user space service.
+ * @brief       Entrypoint and core of the user space service.
  *
- * @param[in]	"dwArgc"	- Number of arguments
- * @param[out]	"lpszArgv"	- Array that contains arguments values
+ * @param[in]   "dwArgc"   - Number of arguments
+ * @param[out]  "lpszArgv" - Array that contains arguments values
  *
- * @return		None.
+ * @return      None.
 */
 {
 	BOOLEAN bResult = FALSE;
@@ -371,7 +373,7 @@ VOID WINAPI SvcMain(_In_ DWORD dwArgc, _In_ PWSTR* pszArgv)
 		U_CONTROLLER::SvcReportStatus(strctService.SvcStatus, strctService.hSvcStatus, SERVICE_START_PENDING, NO_ERROR, 3000);
 
 		// Create a stop event for whenever the user decide to send a stop signal
-		strctService.hSvcStopEvent = CreateEvent(NULL, TRUE, FALSE, NULL);		// Stop Event
+		strctService.hSvcStopEvent = CreateEvent(NULL, TRUE, FALSE, NULL);  // Stop Event
 		if (strctService.hSvcStopEvent == NULL)
 		{
 			U_CONTROLLER::SvcReportStatus(strctService.SvcStatus, strctService.hSvcStatus, SERVICE_STOP, NO_ERROR, 0);
