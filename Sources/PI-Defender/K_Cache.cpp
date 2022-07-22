@@ -42,15 +42,15 @@ VOID K_CACHE::Initialize(_In_ DWORD dwSize)
 
 BOOLEAN K_CACHE::_GetCachedValue(_In_ ULONG ulHashSize, _In_ PVOID pHash, _Out_opt_ BOOLEAN * bIsOk)
 /**
- * @brief			Set "pbIsOk" to TRUE if cache contains specified Hash, FALSE otherwise.\n
+ * @brief               Set "pbIsOk" to TRUE if cache contains specified Hash, FALSE otherwise.\n
  *					/!\ WARNING, not protected with mutex, use GetCachedValue() for public access instead
  *
  * @param[in]		"ulHashSize"- Size of bHash in bytes
  * @param[in]		"pHash"		- Pointer to buffer that holds Hash
  * @param[outopt]	"bIsOk"		- Pointer to a BOOLEAN variable that will get cache result (optional)
  *
- * @return			TRUE	- No error occurs.\n
- *					FALSE	- Error occurs
+ * @return              TRUE	- No error occurs.\n
+ *                      FALSE	- Error occurs
 */
 {
 	BOOLEAN bResult = FALSE;
@@ -76,15 +76,15 @@ BOOLEAN K_CACHE::_GetCachedValue(_In_ ULONG ulHashSize, _In_ PVOID pHash, _Out_o
 
 BOOLEAN K_CACHE::GetCachedValue(_In_ ULONG ulHashSize, _In_ PVOID pHash, _Out_opt_ BOOLEAN * bIsOk)
 /**
- * @brief			Set bIsOk to TRUE if cache contains specified Hash, FALSE otherwise.\n
- *					Wrapper for _GetCachedValue() with mutex protection (public use).
+ * @brief	        Set bIsOk to TRUE if cache contains specified Hash, FALSE otherwise.
+ *                      Wrapper for _GetCachedValue() with mutex protection (public use).
  *
- * @param[in]		"ulHashSize"- Size of bHash in bytes
- * @param[in]		"pHash"		- Pointer to buffer that holds Hash
- * @param[outopt]	"bIsOk"		- Pointer to a BOOLEAN variable that will get cache result (optional)
+ * @param[in]           "ulHashSize"- Size of bHash in bytes
+ * @param[in]           "pHash"		- Pointer to buffer that holds Hash
+ * @param[outopt]       "bIsOk"		- Pointer to a BOOLEAN variable that will get cache result (optional)
  *
- * @return			TRUE - No error occurs.\n
- *					FALSE - Error occurs
+ * @return              TRUE - No error occurs.\n
+ *                      FALSE - Error occurs
 */
 {
 	BOOLEAN bResult = FALSE;
@@ -103,13 +103,13 @@ BOOLEAN K_CACHE::GetCachedValue(_In_ ULONG ulHashSize, _In_ PVOID pHash, _Out_op
 
 VOID K_CACHE::Add(_In_ ULONG ulHashSize, _In_ PVOID pHash, _In_ BOOLEAN bIsOk)
 /**
- * @brief			Add a Hash in the Cache and remember if it is signed or not
+ * @brief               Add a Hash in the Cache and remember if it is signed or not
  *
- * @param[in]		"ulHashSize"- Size of bHash in bytes
- * @param[in]		"pHash"		- Pointer to buffer that holds Hash
- * @param[outopt]	"bIsOk"		- Pointer to a BOOLEAN variable that will get cache result (optional)
+ * @param[in]           "ulHashSize"- Size of bHash in bytes
+ * @param[in]           "pHash"		- Pointer to buffer that holds Hash
+ * @param[outopt]       "bIsOk"		- Pointer to a BOOLEAN variable that will get cache result (optional)
  *
- * @return			None.
+ * @return              None.
 */
 {
 	PHASH pMyHash = nullptr;
