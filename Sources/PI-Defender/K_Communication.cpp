@@ -1,12 +1,12 @@
 /**
- * @file		K_Communication.cpp
- * @brief		Create the communication server, send data to the user-mode service once a client is connected
- * @author		NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
- * @version		1.0
- * @date		02/06/2022
- * @copyright	©Naval Group SA.
- *				This document in its content and form is the property of Naval Group SA and/or third parties.
- *				This project is released under the LGPLv3 license.
+ * @file        K_Communication.cpp
+ * @brief       Create the communication server, send data to the user-mode service once a client is connected
+ * @author      NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version     1.0
+ * @date        02/06/2022
+ * @copyright   ©Naval Group SA.
+ *              This document in its content and form is the property of Naval Group SA and/or third parties.
+ *              This project is released under the LGPLv3 license.
 */
 
 
@@ -21,13 +21,13 @@ extern DRIVER_DATA globalDriverData;
 
 NTSTATUS K_COMMUNICATION::Initialize(_In_ PCWSTR szPort, _In_ LONG lMaxClients)
 /**
- * @brief		Initialize the communicaton.
+ * @brief       Initialize the communicaton.
  *
- * @param[in]	"szPort"		- Port communication handle.
- * @param[in]	"lMaxClients"	- Number of clients allowed to connect simultanely to the service.
+ * @param[in]   "szPort"        - Port communication handle.
+ * @param[in]   "lMaxClients"   - Number of clients allowed to connect simultanely to the service.
  *
- * @return		STATUS_SUCCESS	- No error occurs.\n
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS  - No error occurs.\n
+ *              Other status    - Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	NTSTATUS status = STATUS_SUCCESS;
@@ -101,16 +101,16 @@ NTSTATUS K_COMMUNICATION::Initialize(_In_ PCWSTR szPort, _In_ LONG lMaxClients)
 
 NTSTATUS K_COMMUNICATION::_NewConnectionCallback(_In_ PFLT_PORT pClientPort, _In_ PVOID pServerPortCookie, _In_ PVOID pConnectionContext, _In_ ULONG ulSizeOfContext, _Out_ PVOID* pConnectionPortCookie)
 /**
- * @brief		The connection notify callback is called when a user mode application connect to the server port.
+ * @brief       The connection notify callback is called when a user mode application connect to the server port.
  *
- * @param[in]	"pClientPort"			- Client port that is established between the user-mode application and the kernel-mode minifilter driver.
- * @param[in]	"pServerPortCookie"		- Pointer to context information defined by the minifilter driver (can be used to distinguish multiple communication port from same driver).
- * @param[in]	"pConnectionContext"	- Context information pointer that the user-mode application passed in the lpContext parameter.
- * @param[in]	"ulSizeOfContext"		- Size of the context
- * @param[out]	"pConnectionPortCookie"	- Pointer to information that uniquely identifies this client port.
+ * @param[in]   "pClientPort"           - Client port that is established between the user-mode application and the kernel-mode minifilter driver.
+ * @param[in]   "pServerPortCookie"     - Pointer to context information defined by the minifilter driver (can be used to distinguish multiple communication port from same driver).
+ * @param[in]   "pConnectionContext"    - Context information pointer that the user-mode application passed in the lpContext parameter.
+ * @param[in]   "ulSizeOfContext"       - Size of the context
+ * @param[out]  "pConnectionPortCookie"	- Pointer to information that uniquely identifies this client port.
  *
- * @return		STATUS_SUCCESS	- No error occurs.\n
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS  - No error occurs.\n
+ *              Other status    - Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	DBG_UNREFERENCED_PARAMETER(pServerPortCookie);
@@ -135,12 +135,12 @@ NTSTATUS K_COMMUNICATION::_NewConnectionCallback(_In_ PFLT_PORT pClientPort, _In
 
 VOID K_COMMUNICATION::_DisconnectionCallback(_In_ PVOID pConnectionCookie)
 /**
- * @brief		The disconnection notify callback is called when a user mode application disconnect from the server port.
+ * @brief       The disconnection notify callback is called when a user mode application disconnect from the server port.
  *
- * @param[in]	"pConnectionCookie" - Pointer to information that uniquely identifies this client port.
+ * @param[in]   "pConnectionCookie" - Pointer to information that uniquely identifies this client port.
  *
- * @return		STATUS_SUCCESS	- No error occurs.\n
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS  - No error occurs.\n
+ *              Other statuS    - Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	DBG_UNREFERENCED_PARAMETER(pConnectionCookie);
@@ -158,13 +158,13 @@ VOID K_COMMUNICATION::_DisconnectionCallback(_In_ PVOID pConnectionCookie)
 
 NTSTATUS K_COMMUNICATION::Send(_In_ PDATA_TRANSMIT pData, _Out_ DATA_REPLY* pReply)
 /**
- * @brief		This function is used to send Data to the User-Mode service.
+ * @brief       This function is used to send Data to the User-Mode service.
  *
- * @param[in]	"pData"		- Structure to be transmited to the user-mode service
- * @param[out]	"pReply"	- Structure used by the user-mode service to reply
+ * @param[in]   "pData"     - Structure to be transmited to the user-mode service
+ * @param[out]  "pReply"    - Structure used by the user-mode service to reply
  *
- * @return		STATUS_SUCCESS	- No error occurs.\n
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS  - No error occurs.\n
+ *              Other statuS    - Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	NTSTATUS status = STATUS_SUCCESS;
@@ -213,11 +213,11 @@ NTSTATUS K_COMMUNICATION::Send(_In_ PDATA_TRANSMIT pData, _Out_ DATA_REPLY* pRep
 
 VOID K_COMMUNICATION::Unload()
 /**
- * @brief		Unload the communication. It is called by Filter::Unload/.
+ * @brief       Unload the communication. It is called by Filter::Unload/.
  *
- * @param		None.
+ * @param       None.
  *
- * @return		None.
+ * @return      None.
 */
 {
 	if (globalDriverData.pClientPort != nullptr) 
