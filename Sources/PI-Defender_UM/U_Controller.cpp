@@ -1,10 +1,12 @@
 /**
- * @file		U_Controller.cpp
- * @brief		Controll the service/driver (Install|Start|Stop|Delete|Query)
- * @author		Berenger BRAULT, Nicolas JALLET
- * @version		1.0
- * @date		02/06/2022
- * @copyright	LGPLv3
+ * @file       U_Controller.cpp
+ * @brief      Controll the service/driver (Install|Start|Stop|Delete|Query)
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
 */
 
 
@@ -17,12 +19,12 @@ extern sSERVICE strctService;
 
 SC_HANDLE U_CONTROLLER::_GetSCMHandle()
 /**
- * @brief		Get a handle to the Service Controller Database.
+ * @brief   Get a handle to the Service Controller Database.
  * 
- * @param		None
+ * @param   None
  * 
- * @return		SC_HANDLE (no error occurs)\n
- *				NULL (error occurs) 
+ * @return  SC_HANDLE (no error occurs)
+ *          NULL (error occurs) 
 */
 {
 	SC_HANDLE hSCManager = NULL;
@@ -37,13 +39,13 @@ SC_HANDLE U_CONTROLLER::_GetSCMHandle()
 
 SC_HANDLE U_CONTROLLER::_GetServiceHandle(_In_ SC_HANDLE hSCManager, _In_ PCWSTR szServiceName)
 /**
- * @brief		Get a handle to the service
+ * @brief       Get a handle to the service
  * 
- * @param[in]	"hSCManager"	- Handle to the service Manager
- * @param[in]	"szServiceName" - Name of the service
+ * @param[in]   "hSCManager"    - Handle to the service Manager
+ * @param[in]   "szServiceName" - Name of the service
  * 
- * @return		SC_HANDLE (no error occurs)\n
- *				NULL (error occurs)
+ * @return      SC_HANDLE (no error occurs)\n
+ *              NULL (error occurs)
 */
 {
 	SC_HANDLE hService = NULL;
@@ -58,11 +60,11 @@ SC_HANDLE U_CONTROLLER::_GetServiceHandle(_In_ SC_HANDLE hSCManager, _In_ PCWSTR
 
 BOOLEAN U_CONTROLLER::IsServiceInstalled(_In_ PCWSTR szServiceName)
 /**
- * @brief		Check if the service is already installed
+ * @brief       Check if the service is already installed
  * 
- * @param[in]	"szServiceName" - Name of the service
+ * @param[in]   "szServiceName" - Name of the service
  * 
- * @return		TRUE (no error occurs) - FALSE (error occurs)
+ * @return      TRUE (no error occurs) - FALSE (error occurs)
 */
 {
 	BOOLEAN bResult = FALSE;
@@ -82,9 +84,9 @@ BOOLEAN U_CONTROLLER::IsServiceInstalled(_In_ PCWSTR szServiceName)
 		// Get Service handle, if the service is installed, we get the handle. Else we got an error.
 		hService = OpenService(hSCManager, szServiceName, SC_MANAGER_ALL_ACCESS);
 		if (hService == NULL)		// Error if service not installed
-			__leave;				// Return TRUE to the caller -> He has to install the service
+			__leave;		// Return TRUE to the caller -> He has to install the service
 
-		bResult = TRUE;				// Service already installed
+		bResult = TRUE;			// Service already installed
 
 	}
 	__finally {
@@ -102,12 +104,12 @@ BOOLEAN U_CONTROLLER::IsServiceInstalled(_In_ PCWSTR szServiceName)
 
 BOOLEAN U_CONTROLLER::InstallService(_In_ PCWSTR szServiceName, _In_ BOOLEAN bDriver)
 /**
- * @brief		Install the service "szServiceName".
+ * @brief       Install the service "szServiceName".
  * 
- * @param[in]	"szServiceName" - Name of the service.
+ * @param[in]   "szServiceName" - Name of the service.
  * 
- * @return		TRUE (no error occurs)\n
- *				FALSE (error occurs)
+ * @return      TRUE (no error occurs)
+ *              FALSE (error occurs)
 */
 {
 	BOOLEAN bResult = FALSE;
@@ -255,13 +257,13 @@ BOOLEAN U_CONTROLLER::InstallService(_In_ PCWSTR szServiceName, _In_ BOOLEAN bDr
 
 DWORD U_CONTROLLER::GetServiceState(_In_ PCWSTR szServiceName)
 /**
- * @brief		Query the service "szServiceName" and return its state.
+ * @brief       Query the service "szServiceName" and return its state.
  *
- * @param[in]	"szServiceName" - Name of the service
+ * @param[in]   "szServiceName" - Name of the service
  *
- * @return		dwStatus - current state of the service, can be one of the following values:\n
- *				SERVICE_CONTINUE_PENDIND, SERVICE_PAUSE_PENDING, SERVICE_PAUSED, SERVICE_RUNNING,
- *				SERVICE_START_PENDING, SERVICE_STOP_PENDING, SERVICE_STOPPED
+ * @return      dwStatus - current state of the service, can be one of the following values:
+ *              SERVICE_CONTINUE_PENDIND, SERVICE_PAUSE_PENDING, SERVICE_PAUSED, SERVICE_RUNNING,
+ *              SERVICE_START_PENDING, SERVICE_STOP_PENDING, SERVICE_STOPPED
 */
 {
 	DWORD dwStatus = 0;
@@ -332,12 +334,12 @@ DWORD U_CONTROLLER::GetServiceState(_In_ PCWSTR szServiceName)
 
 BOOLEAN U_CONTROLLER::LaunchService(_In_ PCWSTR szServiceName)
 /**
- * @brief		Start the service "szServiceName".
+ * @brief       Start the service "szServiceName".
  *
- * @param[in]	"szServiceName" - Name of the service
+ * @param[in]   "szServiceName" - Name of the service
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - Error occurs.
+ * @return      TRUE - No error occurs.
+ *              FALSE - Error occurs.
 */
 {
 	BOOLEAN bResult = FALSE;
@@ -386,12 +388,12 @@ BOOLEAN U_CONTROLLER::LaunchService(_In_ PCWSTR szServiceName)
 
 BOOLEAN U_CONTROLLER::StopService(_In_ PCWSTR szServiceName)
 /**
- * @brief		Stop the service "szServiceName".
+ * @brief       Stop the service "szServiceName".
  *
- * @param[in]	"szServiceName" - Name of the service
+ * @param[in]   "szServiceName" - Name of the service
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - Error occurs.
+ * @return      TRUE - No error occurs.
+ *              FALSE - Error occurs.
 */
 {
 	BOOLEAN bResult = TRUE;
@@ -470,12 +472,12 @@ BOOLEAN U_CONTROLLER::StopService(_In_ PCWSTR szServiceName)
 
 BOOLEAN U_CONTROLLER::QueryService(_In_ PCWSTR szServiceName)
 /**
- * @brief		Query the service "szServiceName" configuration.
+ * @brief       Query the service "szServiceName" configuration.
  *
- * @param[in]	"szServiceName" - Name of the service
+ * @param[in]   "szServiceName" - Name of the service
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - Error occurs.
+ * @return      TRUE - No error occurs.
+ *              FALSE - Error occurs.
 */
 {
 	DWORD dwStatus = 0;
@@ -581,12 +583,12 @@ BOOLEAN U_CONTROLLER::QueryService(_In_ PCWSTR szServiceName)
 
 BOOLEAN U_CONTROLLER::DelService(_In_ PCWSTR szServiceName)
 /**
- * @brief		Delete the service "szServiceName".
+ * @brief       Delete the service "szServiceName".
  *
- * @param[in]	"szServiceName"	- Name of the service
+ * @param[in]   "szServiceName" - Name of the service
  *
- * @return		TRUE - No error occurs.\n
- *				FALSE - Error occurs.
+ * @return      TRUE - No error occurs.
+ *              FALSE - Error occurs.
 */
 {
 	BOOLEAN bResult = TRUE;
@@ -605,9 +607,9 @@ BOOLEAN U_CONTROLLER::DelService(_In_ PCWSTR szServiceName)
 
 		// Get Service handle, if the service is installed, we get the handle. Else we raise an error.
 		hService = OpenService(
-			hSCManager,							// Handle SC Manager
-			szServiceName,							// Svc Name
-			DELETE									// Delete Access
+			hSCManager,	// Handle SC Manager
+			szServiceName,	// Svc Name
+			DELETE		// Delete Access
 		);
 		if (hService == INVALID_HANDLE_VALUE)
 		{
@@ -642,11 +644,11 @@ BOOLEAN U_CONTROLLER::DelService(_In_ PCWSTR szServiceName)
 
 VOID WINAPI U_CONTROLLER::SvcCtrlHandler(_In_ DWORD dwCtrl)
 /**
- * @brief		Receive signal send by the User / SC Manager, handle it, update service status.
+ * @brief       Receive signal send by the User / SC Manager, handle it, update service status.
  *
- * @param[in]	"dwCtrl" - Service signal.
+ * @param[in]   "dwCtrl" - Service signal.
  *
- * @return		None.
+ * @return      None.
 */
 {
 	if (dwCtrl == SERVICE_CONTROL_STOP)
@@ -673,14 +675,14 @@ VOID WINAPI U_CONTROLLER::SvcCtrlHandler(_In_ DWORD dwCtrl)
 
 VOID U_CONTROLLER::SvcReportStatus(_In_ SERVICE_STATUS SvcStatus, _In_ SERVICE_STATUS_HANDLE SvcStatusHandle, _In_ DWORD dwCurrentState, _In_ DWORD dwWin32ExitCode, _In_ DWORD dwWaitHint)
 /**
- * @brief		Depending on the state of the service, it can receive order from the user space.
+ * @brief       Depending on the state of the service, it can receive order from the user space.
  *
- * @param[in]	"dwCurrentState"	- State of the service.
- * @param[in]	"dwWin32ExitCode"	- Exit code.
- * @param[in]	"dwCurrentState"	- State of the service.
- * @param[in]	"dwWaitHint"		- Max Waiting time before action occur.
+ * @param[in]   "dwCurrentState"  - State of the service.
+ * @param[in]   "dwWin32ExitCode" - Exit code.
+ * @param[in]   "dwCurrentState"  - State of the service.
+ * @param[in]   "dwWaitHint"      - Max Waiting time before action occur.
  *
- * @return		None.
+ * @return      None.
 */
 {
 	static DWORD dwCheckPoint = 1;
@@ -693,14 +695,14 @@ VOID U_CONTROLLER::SvcReportStatus(_In_ SERVICE_STATUS SvcStatus, _In_ SERVICE_S
 
 
 		if (dwCurrentState == SERVICE_START_PENDING)
-			SvcStatus.dwControlsAccepted = 0;						// Init the "dwControlsAccepted"
+			SvcStatus.dwControlsAccepted = 0;			// Init the "dwControlsAccepted"
 		else
-			SvcStatus.dwControlsAccepted = SERVICE_ACCEPT_STOP;		// If the service isn't START_PENDING it can retrieve a STOP from the user
+			SvcStatus.dwControlsAccepted = SERVICE_ACCEPT_STOP;	// If the service isn't START_PENDING it can retrieve a STOP from the user
 
 		if ((dwCurrentState == SERVICE_RUNNING) || (dwCurrentState == SERVICE_STOPPED))
-			SvcStatus.dwCheckPoint = 0;								// Init the "dwCheckPoint"
+			SvcStatus.dwCheckPoint = 0;				// Init the "dwCheckPoint"
 		else
-			SvcStatus.dwCheckPoint = dwCheckPoint++;				// Increments periodically the progress during a lengthy start, stop, pause or continue operation
+			SvcStatus.dwCheckPoint = dwCheckPoint++;		// Increments periodically the progress during a lengthy start, stop, pause or continue operation
 
 		SetServiceStatus(SvcStatusHandle, &SvcStatus);
 
