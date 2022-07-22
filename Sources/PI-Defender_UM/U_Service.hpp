@@ -1,10 +1,12 @@
 /**
- * @file		U_Service.hpp
- * @brief		Header for U_Service.cpp
- * @author		Berenger BRAULT, Nicolas JALLET
- * @version		1.0
- * @date		02/06/2022
- * @copyright	LGPLv3
+ * @file       U_Service.hpp
+ * @brief      Header for U_Service.cpp
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
 */
 
 
@@ -14,9 +16,9 @@
 
 
 #define SERVICE_NAME	L"PI-Defender_UM"
-#define DRIVER_NAME		L"PI-Defender"
-#define DRIVER_SYS		L"PI-Defender.sys"
-#define DLL_NAME		L"PI-Defender_UM_MsgFile.dll"
+#define DRIVER_NAME	L"PI-Defender"
+#define DRIVER_SYS	L"PI-Defender.sys"
+#define DLL_NAME	L"PI-Defender_UM_MsgFile.dll"
 
 
 #include "U_GlobalHeader.hpp"
