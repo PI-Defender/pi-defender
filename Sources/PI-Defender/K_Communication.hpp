@@ -1,12 +1,12 @@
 /**
- * @file        K_Communication.hpp
- * @brief       Header for K_Communication.cpp
- * @author      NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
- * @version     1.0
- * @date        02/06/2022
- * @copyright   ©Naval Group SA.
- *              This document in its content and form is the property of Naval Group SA and/or third parties.
- *              This project is released under the LGPLv3 license.
+ * @file		K_Communication.hpp
+ * @brief		Header for K_Communication.cpp
+ * @author		NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version		1.0
+ * @date		02/06/2022
+ * @copyright	©Naval Group SA.
+ *				This document in its content and form is the property of Naval Group SA and/or third parties.
+ *				This project is released under the LGPLv3 license.
 */
 
 

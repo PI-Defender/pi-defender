@@ -1,12 +1,12 @@
 /**
- * @file		K_Helper.cpp
- * @brief		Help functions used by several .cpp files
- * @author		NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
- * @version		1.0
- * @date		02/06/2022
- * @copyright	©Naval Group SA.
- *				This document in its content and form is the property of Naval Group SA and/or third parties.
- *				This project is released under the LGPLv3 license.
+ * @file        K_Helper.cpp
+ * @brief       Help functions used by several .cpp files
+ * @author      NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version     1.0
+ * @date        02/06/2022
+ * @copyright   ©Naval Group SA.
+ *              This document in its content and form is the property of Naval Group SA and/or third parties.
+ *              This project is released under the LGPLv3 license.
 */
 
 
@@ -18,14 +18,14 @@
 
 _Success_(return == STATUS_SUCCESS) NTSTATUS K_HELPER::GetFileHash(_In_ PUNICODE_STRING szFileName, _Out_ PVOID * pHash, _Out_ ULONG * ulHashSize)
 /**
- * @brief		Retrieve the file hash of "FileName"
+ * @brief       Retrieve the file hash of "FileName"
  *
- * @param[in]	"szFileName"	- Name of the file to hash
- * @param[out]	"pHash"			- Hash returned
- * @param[out]	"ulHashSize"	- Size of the hash returned
+ * @param[in]   "szFileName"    - Name of the file to hash
+ * @param[out]  "pHash"         - Hash returned
+ * @param[out]  "ulHashSize"    - Size of the hash returned
  *
- * @return		STATUS_SUCCESS	- No error occurs.
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS	- No error occurs.
+ *              Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	NTSTATUS status = 0;
@@ -230,13 +230,13 @@ _Success_(return == STATUS_SUCCESS) NTSTATUS K_HELPER::GetFileHash(_In_ PUNICODE
 
 _Success_(return != STATUS_SUCCESS) NTSTATUS K_HELPER::ConvertNtPathToDosPath(_In_ UNICODE_STRING szFullImageName, _Out_ UNICODE_STRING * szDosPath)
 /**
- * @brief		Convert NT Path to DOS Path (letter)
+ * @brief       Convert NT Path to DOS Path (letter)
  *
- * @param[in]	"szFullImageName"	- Path to convert
- * @param[out]	"szDosPath"		- Path converted (DOS)
+ * @param[in]   "szFullImageName"   - Path to convert
+ * @param[out]  "szDosPath"         - Path converted (DOS)
  *
- * @return		STATUS_SUCCESS	- No error occurs.
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS	- No error occurs.
+ *              Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	NTSTATUS status = STATUS_SUCCESS;
@@ -298,13 +298,13 @@ _Success_(return != STATUS_SUCCESS) NTSTATUS K_HELPER::ConvertNtPathToDosPath(_I
 
 _Success_(return != STATUS_SUCCESS) NTSTATUS K_HELPER::MyZwOpenKey(_Out_ PHANDLE hKey, _In_ PUNICODE_STRING szKeyPath)
 /**
- * @brief		Wrapper for ZwOpenKey\n
+ * @brief       Wrapper for ZwOpenKey\n
  *
- * @param[out]	"hKey"		- Pointer to registry key handle (out parameter)
- * @param[in]	"szKeyPath"	- Registry path, WARNING : User-mode applications access registry keys relative to global handles, such as HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER.
+ * @param[out]  "hKey"      - Pointer to registry key handle (out parameter)
+ * @param[in]   "szKeyPath"	- Registry path, WARNING : User-mode applications access registry keys relative to global handles, such as HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER.
  *
- * @return		STATUS_SUCCESS	- No error occurs.
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS  - No error occurs.
+ *              Other status    - Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	NTSTATUS status = STATUS_SUCCESS;
@@ -329,15 +329,15 @@ _Success_(return != STATUS_SUCCESS) NTSTATUS K_HELPER::MyZwOpenKey(_Out_ PHANDLE
 
 _Success_(return == STATUS_SUCCESS) NTSTATUS K_HELPER::MyZwQueryValueKey(_In_ const HANDLE hKey, _In_ PUNICODE_STRING szValueName, _Out_ PKEY_VALUE_PARTIAL_INFORMATION * pRetAddress)
 /**
- * @brief		Wrapper for ZwQueryValueKey.\n
- *				Warning: pRetAddress is a pointer to allocated memory that needs to be freed after use!
+ * @brief       Wrapper for ZwQueryValueKey.\n
+ *              Warning: pRetAddress is a pointer to allocated memory that needs to be freed after use!
  *
- * @param[in]	"hKey"			- Registry key handle
- * @param[in]	"pValueName"	- Name of the value to read from registry key (hKey)
- * @param[out]	"pRetAddress"	- Pointer to value reading information structure, that contains wanted data (out parameter)
+ * @param[in]   "hKey"          - Registry key handle
+ * @param[in]   "pValueName"    - Name of the value to read from registry key (hKey)
+ * @param[out]  "pRetAddress"   - Pointer to value reading information structure, that contains wanted data (out parameter)
  *
- * @return		STATUS_SUCCESS	- No error occurs.
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS  - No error occurs.
+ *              Other status    - Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	NTSTATUS status = STATUS_SUCCESS;
@@ -383,12 +383,12 @@ _Success_(return == STATUS_SUCCESS) NTSTATUS K_HELPER::MyZwQueryValueKey(_In_ co
 
 BOOLEAN K_HELPER::IsValidString(_In_ const _KEY_VALUE_PARTIAL_INFORMATION* pInfo)
 /**
- * @brief		Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry contains a valid Unicode string (REG_SZ type), else returns FALSE
+ * @brief       Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry contains a valid Unicode string (REG_SZ type), else returns FALSE
  *
- * @param[in]	"pInfo"	- Pointer to a _KEY_VALUE_PARTIAL_INFORMATION that contains data extracted from a value in the Registry
+ * @param[in]   "pInfo"	- Pointer to a _KEY_VALUE_PARTIAL_INFORMATION that contains data extracted from a value in the Registry
  *
- * @return		TRUE	- The provided structure contains a valid Unicode string (REG_SZ).
- *				FALSE	- The provided structure does not contain a valid Unicode string (REG_SZ).
+ * @return      TRUE    - The provided structure contains a valid Unicode string (REG_SZ).
+ *              FALSE   - The provided structure does not contain a valid Unicode string (REG_SZ).
 */
 {
 	// must be tagged as REG_SZ
@@ -421,13 +421,13 @@ BOOLEAN K_HELPER::IsValidString(_In_ const _KEY_VALUE_PARTIAL_INFORMATION* pInfo
 
 BOOLEAN K_HELPER::IsValidStringArray(_In_ const _KEY_VALUE_PARTIAL_INFORMATION* pInfo)
 /**
- * @brief		Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry contains a valid Unicode string array (REG_MULTI_SZ type), else returns FALSE\n
- *				The REG_MULTI_SZ type is a sequence of null-terminated strings, terminated by a empty string (\0). ex: String1\0String2\0String3\0LastString\0\0
+ * @brief       Returns TRUE if the passed _KEY_VALUE_PARTIAL_INFORMATION structure extracted from the Registry contains a valid Unicode string array (REG_MULTI_SZ type), else returns FALSE\n
+ *              The REG_MULTI_SZ type is a sequence of null-terminated strings, terminated by a empty string (\0). ex: String1\0String2\0String3\0LastString\0\0
  *
- * @param[in]	"pInfo"	- pointer to a _KEY_VALUE_PARTIAL_INFORMATION that contains data extracted from a value in the Registry
+ * @param[in]   "pInfo"	- pointer to a _KEY_VALUE_PARTIAL_INFORMATION that contains data extracted from a value in the Registry
  *
- * @return		TRUE	- The provided structure contains a valid Unicode string array (REG_MULTI_SZ).
- *				FALSE	- The provided structure does not contain a valid Unicode string array (REG_MULTI_SZ).
+ * @return      TRUE    - The provided structure contains a valid Unicode string array (REG_MULTI_SZ).
+ *              FALSE   - The provided structure does not contain a valid Unicode string array (REG_MULTI_SZ).
 */
 {
 	// must be tagged as REG_MULTI_SZ
@@ -453,12 +453,12 @@ BOOLEAN K_HELPER::IsValidStringArray(_In_ const _KEY_VALUE_PARTIAL_INFORMATION* 
 
 ULONG K_HELPER::CountWStringsInBuffer(_In_ PCWSTR szBuffer, _In_ const ULONG ulSize)
 /**
- * @brief		Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ).
+ * @brief       Returns the number of Unicode strings found in a buffer (raw data from REG_MULTI_SZ).
  *
- * @param[in]	szBuffer	- Pointer to a buffer that contains raw data from a REG_MULTI_SZ
- * @param[in]	ulSize		- Buffer size in bytes
+ * @param[in]   szBuffer    - Pointer to a buffer that contains raw data from a REG_MULTI_SZ
+ * @param[in]   ulSize      - Buffer size in bytes
  *
- * @return		count		- Number of Unicode strings found in Buffer.
+ * @return      count       - Number of Unicode strings found in Buffer.
 */
 {
 	ULONG lCount = 0;
@@ -476,13 +476,13 @@ ULONG K_HELPER::CountWStringsInBuffer(_In_ PCWSTR szBuffer, _In_ const ULONG ulS
 
 _Success_(return == STATUS_SUCCESS) NTSTATUS K_HELPER::GetFullImageNameByHandle(_In_ HANDLE hProcessId, _Out_ UNICODE_STRING * szFullImageName)
 /**
- * @brief		Get the full image name by providing a handle to a process.
+ * @brief       Get the full image name by providing a handle to a process.
  *
- * @param[in]	"hProcessId"		- Handle to a process
- * @param[out]	"szFullImageName"	- Name of the loaded process
+ * @param[in]   "hProcessId"        - Handle to a process
+ * @param[out]  "szFullImageName"   - Name of the loaded process
  *
- * @return		STATUS_SUCCESS		- No error occurs.
- *				!STATUS_SUCCES		- An error occurs.
+ * @return      STATUS_SUCCESS      - No error occurs.
+ *              !STATUS_SUCCES      - An error occurs.
 */
 {
 	NTSTATUS status = STATUS_SUCCESS;
@@ -587,14 +587,14 @@ _Success_(return == STATUS_SUCCESS) NTSTATUS K_HELPER::GetFullImageNameByHandle(
 
 _Success_(return != -1) INT K_HELPER::MyNtPathCchRemoveFileSpec(_In_ PUNICODE_STRING szPath)
 /**
- * @brief		Remake of PathCchRemoveFileSpec available in kernel-mode.\n
- *				Remove the last part of a path
+ * @brief       Remake of PathCchRemoveFileSpec available in kernel-mode.\n
+ *              Remove the last part of a path
  *
- * @param[in]	"szPath" - PUNICODE_STRING representing a path (NT path format!)
+ * @param[in]   "szPath" - PUNICODE_STRING representing a path (NT path format!)
  *
- * @return		1	- Routine removed a part of the specified path.
- *				0	- Nothing left to remove.
- *				-1	- Error occurs.
+ * @return      1   - Routine removed a part of the specified path.
+ *              0   - Nothing left to remove.
+ *              -1  - Error occurs.
 */
 {
 	INT status = -1;
@@ -628,13 +628,13 @@ _Success_(return != -1) INT K_HELPER::MyNtPathCchRemoveFileSpec(_In_ PUNICODE_ST
 
 _Success_(return == STATUS_SUCCESS) NTSTATUS K_HELPER::DosPathtoNtPath(_In_ PCUNICODE_STRING szPath, _Out_ UNICODE_STRING * szNormalized)
 /**
- * @brief		Translate a DOS path into a NT path.
- *				(ex: \??\C:\Windows -> \Device\HarddiskVolume1\Windows)
+ * @brief       Translate a DOS path into a NT path.
+ *              (ex: \??\C:\Windows -> \Device\HarddiskVolume1\Windows)
  *
- * @param[in]	"szPath"		- PUNICODE_STRING representing a path (NT path format!)
- * @param[out]	"szNormalized"	- Pointer to UNICODE_STRING that receive the NT Path (out) (SHOULD BE ALLOCATED)
+ * @param[in]   "szPath"        - PUNICODE_STRING representing a path (NT path format!)
+ * @param[out]  "szNormalized"  - Pointer to UNICODE_STRING that receive the NT Path (out) (SHOULD BE ALLOCATED)
  *
- * @return		status - NTSTATUS error code.
+ * @return      status - NTSTATUS error code.
 */
 {
 	NTSTATUS status = STATUS_SUCCESS;

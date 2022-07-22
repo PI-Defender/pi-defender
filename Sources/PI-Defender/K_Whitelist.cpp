@@ -1,12 +1,12 @@
 /**
- * @file		K_Whitelist.cpp
- * @brief		Store paths of autorized files and folders
- * @author		NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
- * @version		1.0
- * @date		02/06/2022
- * @copyright	©Naval Group SA.
- *				This document in its content and form is the property of Naval Group SA and/or third parties.
- *				This project is released under the LGPLv3 license.
+ * @file        K_Whitelist.cpp
+ * @brief       Store paths of autorized files and folders
+ * @author      NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version     1.0
+ * @date        02/06/2022
+ * @copyright   ©Naval Group SA.
+ *              This document in its content and form is the property of Naval Group SA and/or third parties.
+ *              This project is released under the LGPLv3 license.
 */
 
 
@@ -21,11 +21,11 @@ K_WHITELIST::WHITELIST K_WHITELIST::_Whitelist = { nullptr, 0 };
 
 VOID K_WHITELIST::Unload()
 /**
- * @brief		Free previously allocated memory. Called by DriverUnload.
+ * @brief       Free previously allocated memory. Called by DriverUnload.
  *
- * @param		None.
+ * @param       None.
  *
- * @return		None.
+ * @return      None.
 */
 {
 	if (_Whitelist.szBuffer) {
@@ -41,12 +41,12 @@ VOID K_WHITELIST::Unload()
 
 NTSTATUS K_WHITELIST::Initialize(_In_ PKEY_VALUE_PARTIAL_INFORMATION pInfo)
 /**
- * @brief		Set maximum size of Cache and initialize mutex
+ * @brief       Set maximum size of Cache and initialize mutex
  *
- * @param[in]	"pInfo" - Pointer to a structure containing data extracted from the registy relative to the whitelist.
+ * @param[in]   "pInfo" - Pointer to a structure containing data extracted from the registy relative to the whitelist.
  *
- * @return		STATUS_SUCCESS	- No error occurs.\n
- *				Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return      STATUS_SUCCESS	- No error occurs.\n
+ *              Other status	- Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
 	NTSTATUS status = STATUS_SUCCESS;
@@ -152,12 +152,12 @@ NTSTATUS K_WHITELIST::Initialize(_In_ PKEY_VALUE_PARTIAL_INFORMATION pInfo)
 
 NTSTATUS K_WHITELIST::IsInWhitelist(_In_ PUNICODE_STRING szTestString, _Out_ BOOLEAN * bResult)
 /**
- * @brief		Check if whitelist contains provided string
+ * @brief       Check if whitelist contains provided string
  *
- * @param[in]	"szTestString"	- String to test (UNICODE_STRING)
- * @param[in]	"bResult"		- Pointer that receive result (out)
+ * @param[in]   "szTestString"	- String to test (UNICODE_STRING)
+ * @param[in]   "bResult"		- Pointer that receive result (out)
  *
- * @return		status - NTSTATUS Error code.
+ * @return      status - NTSTATUS Error code.
 */
 {
 	NTSTATUS status = STATUS_FAIL_CHECK;

@@ -1,12 +1,12 @@
 /**
- * @file		K_ObCallback.cpp
- * @brief		Handle request callback
- * @author		NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
- * @version		1.0
- * @date		02/06/2022
- * @copyright	©Naval Group SA.
- *				This document in its content and form is the property of Naval Group SA and/or third parties.
- *				This project is released under the LGPLv3 license.
+ * @file        K_ObCallback.cpp
+ * @brief       Handle request callback
+ * @author      NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version     1.0
+ * @date        02/06/2022
+ * @copyright   ©Naval Group SA.
+ *              This document in its content and form is the property of Naval Group SA and/or third parties.
+ *              This project is released under the LGPLv3 license.
 */
 
 
@@ -22,16 +22,16 @@ K_COMMUNICATION Communication;
 
 NTSTATUS K_OB::Initialize()
 /**
- * @brief	Register the ObCallback routine.\n
+ * @brief   Register the ObCallback routine.\n
  *          /!\ In order to register the callback you must have:
  *             - a signed driver
  *             - /integritycheck parameter added in the linker
  *          Else, you'll get '0xC0000022' error
  *
- * @param	None.
+ * @param   None.
  *
- * @return	STATUS_SUCCESS - No error occurs.
- *			Other status - Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
+ * @return  STATUS_SUCCESS - No error occurs.
+ *          Other status   - Error status. For more information, see https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55
 */
 {
     NTSTATUS status = STATUS_SUCCESS;
@@ -82,15 +82,15 @@ NTSTATUS K_OB::Initialize()
 
 OB_PREOP_CALLBACK_STATUS K_OB::_PreObCallback(_In_ PVOID pRegistrationContext, _In_ POB_PRE_OPERATION_INFORMATION pPreOperationInfo)
 /**
- * @brief	    We get notify when a process want a handle.\n
+ * @brief       We get notify when a process want a handle.\n
  *              We communicate with the user-mode service to know if this process is signed.\n
  *              If the process is signed, we don't filter.\n
  *              Else, we filter it and remove 'PROCESS_VM_WRITE' and 'PROCESS_VM_OPERATION' to the desired access.
  *
- * @param[in]	"pRegistrationContext"   - Context that the driver want to pass to this callback.
- * @param[in]	"pPreOperationInfo"      - Pointer to OB_PRE_OPERATION_INFORMATION structure, that receive information about the handle created.
+ * @param[in]   "pRegistrationContext"   - Context that the driver want to pass to this callback.
+ * @param[in]   "pPreOperationInfo"      - Pointer to OB_PRE_OPERATION_INFORMATION structure, that receive information about the handle created.
  *
- * @return	    OB_PREOP_SUCCESS - Pre Operation callback finished.
+ * @return      OB_PREOP_SUCCESS - Pre Operation callback finished.
 */
 {
     DBG_UNREFERENCED_PARAMETER(pRegistrationContext);
@@ -337,9 +337,9 @@ BOOLEAN K_OB::_Checks(_In_ PVOID pOperationInfo)
  *              If 'bFlags' is TRUE: Pre Operation Callback
  *              If 'bFlags' is FALSE: Post Operation Callback
  * 
- * @param[in]	"pOperationInfo" - Pointer to a structure that will be cast depending on the bFlags value (see description above)
+ * @param[in]   "pOperationInfo" - Pointer to a structure that will be cast depending on the bFlags value (see description above)
  *
- * @return	    TRUE    - Pass the checks
+ * @return      TRUE    - Pass the checks
  *              FALSE   - Blocked
 */
 {

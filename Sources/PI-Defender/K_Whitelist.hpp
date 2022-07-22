@@ -1,12 +1,12 @@
 /**
- * @file		K_Whitelist.hpp
- * @brief		Header for K_Whitelist.cpp
- * @author		NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
- * @version		1.0
- * @date		02/06/2022
- * @copyright	©Naval Group SA.
- *				This document in its content and form is the property of Naval Group SA and/or third parties.
- *				This project is released under the LGPLv3 license.
+ * @file        K_Whitelist.hpp
+ * @brief       Header for K_Whitelist.cpp
+ * @author      NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version     1.0
+ * @date        02/06/2022
+ * @copyright   ©Naval Group SA.
+ *              This document in its content and form is the property of Naval Group SA and/or third parties.
+ *              This project is released under the LGPLv3 license.
 */
 
 
@@ -29,8 +29,8 @@ class K_WHITELIST
 
 		// Custom WHITELIST structure that contains a dynamically allocated WCHARs* and pointers of WCHARs* arrays and its number of elements
 		typedef struct _WHITELIST {
-			UNICODE_STRING* szBuffer;		// Array of UNICODE_STRINGs
-			ULONG ulLength;					// Number of elements in Buffer
+			UNICODE_STRING* szBuffer;       // Array of UNICODE_STRINGs
+			ULONG ulLength;                 // Number of elements in Buffer
 		} WHITELIST, * PWHITELIST;
 	
 		static WHITELIST _Whitelist;
