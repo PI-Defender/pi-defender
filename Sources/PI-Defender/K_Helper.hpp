@@ -1,10 +1,12 @@
 /**
  * @file		K_Helper.hpp
  * @brief		Header for K_Helper.cpp
- * @author		Berenger BRAULT, Nicolas JALLET
+ * @author		NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
  * @version		1.0
  * @date		02/06/2022
- * @copyright	LGPLv3
+ * @copyright	©Naval Group SA.
+ *				This document in its content and form is the property of Naval Group SA and/or third parties.
+ *				This project is released under the LGPLv3 license.
 */
 
 
