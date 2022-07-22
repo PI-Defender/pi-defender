@@ -1,6 +1,6 @@
 /**
  * @file       U_Signature.cpp
- * @brief      erify embedded signature and catalog signature of an executable
+ * @brief      Verify embedded signature and catalog signature of an executable
  * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
  * @version    1.0
  * @date       02/06/2022
