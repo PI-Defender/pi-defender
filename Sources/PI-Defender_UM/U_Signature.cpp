@@ -1,10 +1,12 @@
 /**
- * @file		U_Signature.cpp
- * @brief		Verify embedded signature and catalog signature of an executable
- * @author		Berenger BRAULT, Nicolas JALLET
- * @version		1.0
- * @date		02/06/2022
- * @copyright	LGPLv3
+ * @file       U_Signature.cpp
+ * @brief      erify embedded signature and catalog signature of an executable
+ * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
+ * @version    1.0
+ * @date       02/06/2022
+ * @copyright  ©Naval Group SA.
+ *             This document in its content and form is the property of Naval Group SA and/or third parties.
+ *             This project is released under the LGPLv3 license.
 */
 
 
@@ -13,14 +15,14 @@
 
 BOOLEAN U_SIGNATURE::VerifyEmbeddedSignature(_In_ PCWSTR szFile)
 /**
- * @brief		Check if the file "szFile" is signed by a trusted authority.\n
- *				[i] WINTRUST_ACTION_GENERIC_VERIFY_V2:
- *				- Check if the certificate used to sign the file chains up to a root certificate located in the trusted root certificate store.
+ * @brief      Check if the file "szFile" is signed by a trusted authority.\n
+ *             [i] WINTRUST_ACTION_GENERIC_VERIFY_V2:
+ *                 - Check if the certificate used to sign the file chains up to a root certificate located in the trusted root certificate store.
  *
- * @param[in]	"szFile"	- Name of the .exe to be verify
+ * @param[in]  "szFile" - Name of the .exe to be verify
  *
- * @return		TRUE	- File signed\n
- *				FALSE	- File not signed
+ * @return     TRUE  - File signed
+ *             FALSE - File not signed
 */
 {
 	WINTRUST_FILE_INFO winTrustFileInfo = { 0 };
@@ -36,20 +38,20 @@ BOOLEAN U_SIGNATURE::VerifyEmbeddedSignature(_In_ PCWSTR szFile)
 		//
 
 		winTrustData.cbStruct = sizeof(WINTRUST_DATA);
-		winTrustData.pPolicyCallbackData = NULL;				// Default code signing EKU
-		winTrustData.pSIPClientData = NULL;						// No data to pass to SIP
-		winTrustData.dwUIChoice = WTD_UI_NONE;					// Disable WVT UI
-		winTrustData.fdwRevocationChecks = WTD_REVOKE_NONE;		// No revocation checking
-		winTrustData.dwUnionChoice = WTD_CHOICE_FILE;			// Verify embedded signature
+		winTrustData.pPolicyCallbackData = NULL;		// Default code signing EKU
+		winTrustData.pSIPClientData = NULL;			// No data to pass to SIP
+		winTrustData.dwUIChoice = WTD_UI_NONE;			// Disable WVT UI
+		winTrustData.fdwRevocationChecks = WTD_REVOKE_NONE;	// No revocation checking
+		winTrustData.dwUnionChoice = WTD_CHOICE_FILE;		// Verify embedded signature
 		winTrustData.dwStateAction = WTD_STATEACTION_VERIFY;	// Verify action
-		winTrustData.hWVTStateData = NULL;						// Verification sets the value
-		winTrustData.pwszURLReference = NULL;					// Not used
-		winTrustData.dwUIContext = 0;							// UI Disable so no context
+		winTrustData.hWVTStateData = NULL;			// Verification sets the value
+		winTrustData.pwszURLReference = NULL;			// Not used
+		winTrustData.dwUIContext = 0;				// UI Disable so no context
 		
 		winTrustFileInfo.cbStruct = sizeof(WINTRUST_FILE_INFO);
 		winTrustFileInfo.pcwszFilePath = szFile;
 		winTrustFileInfo.hFile = NULL;
-		winTrustData.pFile = &winTrustFileInfo;					// Set pFile
+		winTrustData.pFile = &winTrustFileInfo;			// Set pFile
 
 		winTrustSettings.cbStruct = sizeof(WINTRUST_SIGNATURE_SETTINGS);
 		winTrustSettings.dwFlags = WSS_VERIFY_SPECIFIC | WSS_GET_SECONDARY_SIG_COUNT;
@@ -80,13 +82,13 @@ BOOLEAN U_SIGNATURE::VerifyEmbeddedSignature(_In_ PCWSTR szFile)
 
 BOOLEAN U_SIGNATURE::VerifyCatalogSignature(_In_ PCWSTR szFile, _In_ HANDLE hFile)
 /**
- * @brief		Verify the signature of 'szFile' by looking at catalogs files.
+ * @brief      Verify the signature of 'szFile' by looking at catalogs files.
  *
- * @param[in]	"szFile"	- Name of the file to check.
- * @param[in]	"hFile"		- Handle of the file to check
+ * @param[in]  "szFile" - Name of the file to check.
+ * @param[in]  "hFile"  - Handle of the file to check
  *
- * @return		TRUE	- File signed\n
- *				FALSE	- File not signed
+ * @return     TRUE  - File signed
+ *             FALSE - File not signed
 */
 {
 	BOOLEAN bSigned = FALSE;
