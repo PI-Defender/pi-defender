@@ -330,7 +330,7 @@ OB_PREOP_CALLBACK_STATUS K_OB::_PreObCallback(_In_ PVOID pRegistrationContext, _
 
 BOOLEAN K_OB::_Checks(_In_ PVOID pOperationInfo)
 /**
- * @brief	    Checks if :\n
+ * @brieF       Checks if :\n
  *                  - A client is connected
  *                  - The IRQL is at PASSIVE_LEVEL
  *                  - We are dealing with kernel handle

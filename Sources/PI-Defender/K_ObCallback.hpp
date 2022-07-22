@@ -20,11 +20,11 @@
 #include "K_Configuration.hpp"
 
 
-#define NumberOfOperations		2
-#define OB_ALTITUDE				L"1000"
-#define PROCESS_VM_OPERATION	0x0008
-#define PROCESS_VM_WRITE		0x0020
-#define ACCESS_BITS_REMOVED		(PROCESS_VM_WRITE | PROCESS_VM_OPERATION)
+#define NumberOfOperations      2
+#define OB_ALTITUDE             L"1000"
+#define PROCESS_VM_OPERATION    0x0008
+#define PROCESS_VM_WRITE        0x0020
+#define ACCESS_BITS_REMOVED     (PROCESS_VM_WRITE | PROCESS_VM_OPERATION)
 
 
 class K_OB

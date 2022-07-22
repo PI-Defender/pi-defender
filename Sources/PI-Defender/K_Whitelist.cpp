@@ -154,8 +154,8 @@ NTSTATUS K_WHITELIST::IsInWhitelist(_In_ PUNICODE_STRING szTestString, _Out_ BOO
 /**
  * @brief       Check if whitelist contains provided string
  *
- * @param[in]   "szTestString"	- String to test (UNICODE_STRING)
- * @param[in]   "bResult"		- Pointer that receive result (out)
+ * @param[in]   "szTestString"  - String to test (UNICODE_STRING)
+ * @param[in]   "bResult"       - Pointer that receive result (out)
  *
  * @return      status - NTSTATUS Error code.
 */
