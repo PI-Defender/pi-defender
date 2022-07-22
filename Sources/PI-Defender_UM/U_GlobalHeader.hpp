@@ -1,6 +1,6 @@
 /**
  * @file       U_GlobalHeader.hpp
- * @brief      eader used by several .hpp files
+ * @brief      Header used by several .hpp files
  * @author     NAVAL-Group (Berenger BRAULT, Nicolas JALLET)
  * @version    1.0
  * @date       02/06/2022
