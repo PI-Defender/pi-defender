@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Clone the project.
 ```bash
-git clone ...
+git clone https://github.com/PI-Defender/pi-defender.git
 ```
 * Load PI-Defender.sln with Visual Studio.
 * Make sure the configuration manager is set to x64 (Release).

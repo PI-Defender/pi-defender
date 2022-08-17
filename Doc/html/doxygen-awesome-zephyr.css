@@ -83,10 +83,10 @@ dl.section dd, dl.bug dd, dl.deprecated dd {
 }
 
 #projectlogo img {
-    width: 180px;/*200px;*/
-    height: 135px;/*95px;*/
+    width: 200px;
+    height: 95px;
     max-height: none !important;
-    padding-top: 10px;/*12px;*/
+    padding-top: 12px;
 }
 
 #projectalign {
