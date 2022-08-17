@@ -6,8 +6,8 @@ PI-Defender is a kernel security driver used to block past, current and future p
 * [Process Hollowing](https://attack.mitre.org/techniques/T1055/012/)
 * [Process Doppelgänging](https://attack.mitre.org/techniques/T1055/013/)
 * [Process Herpaderping](https://jxy-s.github.io/herpaderping/)
-* [Process Ghosting](https://www.elasstic.co/fr/blog/process-ghosting-a-new-executable-image-tampering-attack)
-* [Process Overwritting](https://github.com/hasherazade/process-overwriting)
+* [Process Ghosting](https://www.elastic.co/blog/process-ghosting-a-new-executable-image-tampering-attack)
+* [Process Overwritting](https://github.com/hasherezade/process_overwriting)
 * [Dll Injection](https://attack.mitre.org/techniques/T1055/001/)
 
 ## Demonstration
