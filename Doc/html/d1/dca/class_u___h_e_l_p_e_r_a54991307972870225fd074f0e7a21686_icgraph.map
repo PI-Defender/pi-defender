@@ -1,0 +1,14 @@
+<map id="U_HELPER::PrintMessage" name="U_HELPER::PrintMessage">
+<area shape="rect" id="node1" title="Print error message in the terminal." alt="" coords="1619,101,1797,128"/>
+<area shape="rect" id="node2" href="$d1/dca/class_u___h_e_l_p_e_r.html#a6fca38e2de32e2da0598743ef731c2f1" title="This routine will display an error message based off of the Win32 error code that is passed in." alt="" coords="1159,101,1328,128"/>
+<area shape="rect" id="node12" href="$d1/dca/class_u___h_e_l_p_e_r.html#a74e583e738595b638363c7cdec7b3d3f" title="Popup error message displaying the function that failed associated with the error code." alt="" coords="1376,127,1571,153"/>
+<area shape="rect" id="node3" href="$d9/da5/class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a6f2f0c62b6e4f1270d5c95c6e6521ee3" title="Push a new message in the queue." alt="" coords="861,94,1111,135"/>
+<area shape="rect" id="node5" href="$d9/da5/class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a1cbfbcf7e7e895608457abf405455e6a" title="Thread listening message sends from kernel driver." alt="" coords="353,69,554,110"/>
+<area shape="rect" id="node8" href="$d7/dc4/_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,80,67,107"/>
+<area shape="rect" id="node9" href="$d8/d69/_u___helper_8cpp.html#a7f13dfe79c6150a01e9043c2916814d9" title="Enable the virtual terminal to be able to print text in color." alt="" coords="943,160,1029,187"/>
+<area shape="rect" id="node10" href="$d8/dfb/class_u___c_o_n_t_r_o_l_l_e_r.html#a031d85cad5238299ce37dcac69a91ffc" title="Start the service &quot;szServiceName&quot;." alt="" coords="345,135,561,161"/>
+<area shape="rect" id="node4" href="$d9/da5/class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a87d0f531204d9141da9e181c20a18c59" title="Worker thread used to check file signature." alt="" coords="609,94,813,135"/>
+<area shape="rect" id="node6" href="$d7/dc4/_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="227,80,297,107"/>
+<area shape="rect" id="node7" href="$d7/dc4/_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="115,80,179,107"/>
+<area shape="rect" id="node11" href="$d7/dc4/_u___service_8cpp.html#a21146308d44a2de57aa21d12af7e5b65" title="Wrap the start of the service." alt="" coords="121,131,172,157"/>
+</map>

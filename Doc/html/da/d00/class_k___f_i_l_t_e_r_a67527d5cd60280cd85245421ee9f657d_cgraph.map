@@ -1,0 +1,10 @@
+<map id="K_FILTER::Initialize" name="K_FILTER::Initialize">
+<area shape="rect" id="node1" title="Initialize the filter." alt="" coords="5,81,141,108"/>
+<area shape="rect" id="node2" href="$d5/d03/class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a834e0751914de6a38db6a4c7544062d1" title=" " alt="" coords="189,5,476,32"/>
+<area shape="rect" id="node3" href="$d5/d03/class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#af798bb1ed7052bdfb257d471afbcec59" title=" " alt="" coords="214,56,451,83"/>
+<area shape="rect" id="node4" href="$d5/d00/class_k___c_o_m_m_u_n_i_c_a_t_i_o_n.html#afa2b920efeb5d740d33f1ff7d443059f" title="Initialize the communicaton." alt="" coords="231,107,434,133"/>
+<area shape="rect" id="node7" href="$da/d00/class_k___f_i_l_t_e_r.html#a8fdd916e469e934c6acd0a72245ca65b" title="Unload the communication &amp; the filter." alt="" coords="268,161,397,188"/>
+<area shape="rect" id="node5" href="$d5/d00/class_k___c_o_m_m_u_n_i_c_a_t_i_o_n.html#ab17f1e4ceb87f15d2698859cc66f637f" title="The disconnection notify callback is called when a user mode application disconnect from the server p..." alt="" coords="528,34,772,75"/>
+<area shape="rect" id="node6" href="$d5/d00/class_k___c_o_m_m_u_n_i_c_a_t_i_o_n.html#adc988a77deb3241099ddcebf06cf3af8" title="The connection notify callback is called when a user mode application connect to the server port." alt="" coords="524,99,776,141"/>
+<area shape="rect" id="node8" href="$d5/d00/class_k___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a53e190b73eab90e5fb6bfc07c8fe934f" title="Unload the communication." alt="" coords="553,165,747,192"/>
+</map>

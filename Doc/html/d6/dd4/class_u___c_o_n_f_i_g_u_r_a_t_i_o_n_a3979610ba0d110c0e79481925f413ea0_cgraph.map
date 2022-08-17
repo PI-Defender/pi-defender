@@ -1,0 +1,4 @@
+<map id="U_CONFIGURATION::GetMinWorkerThreads" name="U_CONFIGURATION::GetMinWorkerThreads">
+<area shape="rect" id="node1" title="Get the number of threads of the service by reading the values in the Registry." alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node2" href="$d1/da3/class_u___r_e_g_i_s_t_r_y.html#ab8fcbe86de2429b471dcaa94d9025aa8" title="Read the content (DWORD) of the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="288,13,463,39"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="U_CONTROLLER::QueryService" name="U_CONTROLLER::QueryService">
+<area shape="rect" id="node1" title="Query the service &quot;szServiceName&quot; configuration." alt="" coords="5,5,215,32"/>
+<area shape="rect" id="node2" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a65733b52c6801a89b0c12d7836feef9c" title="Get a handle to the Service Controller Database." alt="" coords="263,5,492,32"/>
+</map>

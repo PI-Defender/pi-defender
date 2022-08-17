@@ -1,0 +1,4 @@
+<map id="U_CONTROLLER::IsServiceInstalled" name="U_CONTROLLER::IsServiceInstalled">
+<area shape="rect" id="node1" title="Check if the service is already installed." alt="" coords="5,5,237,32"/>
+<area shape="rect" id="node2" href="$d8/dfb/class_u___c_o_n_t_r_o_l_l_e_r.html#a65733b52c6801a89b0c12d7836feef9c" title="Get a handle to the Service Controller Database." alt="" coords="285,5,515,32"/>
+</map>

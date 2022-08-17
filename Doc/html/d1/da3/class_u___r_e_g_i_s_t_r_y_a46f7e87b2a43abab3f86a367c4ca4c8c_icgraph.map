@@ -1,0 +1,6 @@
+<map id="U_REGISTRY::WriteMultiStringInRegistry" name="U_REGISTRY::WriteMultiStringInRegistry">
+<area shape="rect" id="node1" title="Write MULTI_SZ STRING in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="469,5,673,47"/>
+<area shape="rect" id="node2" href="$d6/dd4/class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a17aa0c6d783b391a5b324d26c562ac15" title="Create registry keys needed for the driver configuration." alt="" coords="219,5,421,47"/>
+<area shape="rect" id="node3" href="$d7/dc4/_u___service_8cpp.html#ab5c4ad56c0967c7aa59e84c28c445bc6" title="Wrap the installation of the service." alt="" coords="115,13,171,39"/>
+<area shape="rect" id="node4" href="$d7/dc4/_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,13,67,39"/>
+</map>

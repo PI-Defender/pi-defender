@@ -1,0 +1,5 @@
+<map id="U_CONFIGURATION::SetServiceConfiguration" name="U_CONFIGURATION::SetServiceConfiguration">
+<area shape="rect" id="node1" title="Create registry keys needed for the service configuration." alt="" coords="219,5,432,47"/>
+<area shape="rect" id="node2" href="$d7/dc4/_u___service_8cpp.html#ab5c4ad56c0967c7aa59e84c28c445bc6" title="Wrap the installation of the service." alt="" coords="115,13,171,39"/>
+<area shape="rect" id="node3" href="$d7/dc4/_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,13,67,39"/>
+</map>

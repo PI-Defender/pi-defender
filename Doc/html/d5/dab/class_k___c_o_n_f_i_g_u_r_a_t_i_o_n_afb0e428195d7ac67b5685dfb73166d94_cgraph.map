@@ -1,0 +1,5 @@
+<map id="K_CONFIGURATION::IsInCache" name="K_CONFIGURATION::IsInCache">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,213,32"/>
+<area shape="rect" id="node2" href="$d7/d35/class_k___c_a_c_h_e.html#a98344c274506318cf85edd7debb5de80" title="Set bIsOk to TRUE if cache contains specified Hash, FALSE otherwise." alt="" coords="261,5,451,32"/>
+<area shape="rect" id="node3" href="$d7/d35/class_k___c_a_c_h_e.html#a2a803e7f4af2e18b582ccc4f2b9f747a" title="Set &quot;pbIsOk&quot; to TRUE if cache contains specified Hash, FALSE otherwise." alt="" coords="499,5,695,32"/>
+</map>

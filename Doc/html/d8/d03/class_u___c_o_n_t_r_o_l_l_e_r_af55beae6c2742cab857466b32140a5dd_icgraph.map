@@ -1,0 +1,9 @@
+<map id="U_CONTROLLER::GetServiceState" name="U_CONTROLLER::GetServiceState">
+<area shape="rect" id="node1" title="Query the service &quot;szServiceName&quot; and return its state." alt="" coords="860,23,1055,65"/>
+<area shape="rect" id="node2" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a32bed2bf85d659bbaff8e1d3fcafa42e" title="Stop the service &quot;szServiceName&quot;." alt="" coords="611,31,812,57"/>
+<area shape="rect" id="node3" href="$d7/d00/_u___service_8cpp.html#a0532e721ee8f5d84f2c2f57cb3b19951" title="Wrap the stop of the driver and the service." alt="" coords="237,5,287,32"/>
+<area shape="rect" id="node5" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a62de7b3a08b00dde2a3de3fa50ed52ea" title="Receive signal send by the User / SC Manager, handle it, update service status." alt="" coords="345,56,563,83"/>
+<area shape="rect" id="node4" href="$d7/d00/_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,31,67,57"/>
+<area shape="rect" id="node6" href="$d7/d00/_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="227,56,297,83"/>
+<area shape="rect" id="node7" href="$d7/d00/_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="115,56,179,83"/>
+</map>

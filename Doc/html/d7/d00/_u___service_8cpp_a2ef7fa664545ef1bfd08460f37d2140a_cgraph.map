@@ -1,0 +1,27 @@
+<map id="SvcMain" name="SvcMain">
+<area shape="rect" id="node1" title="Entrypoint and core of the user space service." alt="" coords="5,253,76,280"/>
+<area shape="rect" id="node2" href="$d6/d00/class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#aafcf880d7361d9f00cd4dd497c3a97fa" title="Get the communication port used by the driver to interact with the service." alt="" coords="124,5,411,32"/>
+<area shape="rect" id="node4" href="$d6/d00/class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a11328249616049976aeafd9ad80429bc" title="Get the number of threads of the service by reading the values in the Registry." alt="" coords="158,57,377,98"/>
+<area shape="rect" id="node5" href="$d6/d00/class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a86c433a3d57e5800ad03a4411ace09d6" title="Get the number of threads of the service by reading the values in the REGISTRY::" alt="" coords="148,122,387,163"/>
+<area shape="rect" id="node6" href="$d6/d00/class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a3979610ba0d110c0e79481925f413ea0" title="Get the number of threads of the service by reading the values in the Registry." alt="" coords="150,187,385,229"/>
+<area shape="rect" id="node7" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a031d85cad5238299ce37dcac69a91ffc" title="Start the service &quot;szServiceName&quot;." alt="" coords="753,145,969,172"/>
+<area shape="rect" id="node13" href="$d9/d01/class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a1cbfbcf7e7e895608457abf405455e6a" title="Thread listening message sends from kernel driver." alt="" coords="167,315,368,357"/>
+<area shape="rect" id="node17" href="$d8/d00/class_u___l_o_g_s.html#a0f2932b79fce103453dd1cfc60de2007" title="Send the reported event in the Event Viewer (Application &#45;&gt; PI&#45;Defender_UM)." alt="" coords="1061,597,1235,624"/>
+<area shape="rect" id="node21" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a62de7b3a08b00dde2a3de3fa50ed52ea" title="Receive signal send by the User / SC Manager, handle it, update service status." alt="" coords="159,749,376,776"/>
+<area shape="rect" id="node25" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a01343cb31a17c7a8077472a59927415a" title="Depending on the state of the service, it can receive order from the user space." alt="" coords="459,851,688,877"/>
+<area shape="rect" id="node3" href="$d1/d03/class_u___r_e_g_i_s_t_r_y.html#ab8fcbe86de2429b471dcaa94d9025aa8" title="Read the content (DWORD) of the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="486,88,661,115"/>
+<area shape="rect" id="node8" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a65733b52c6801a89b0c12d7836feef9c" title="Get a handle to the Service Controller Database." alt="" coords="1033,749,1263,776"/>
+<area shape="rect" id="node9" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a6cbf07b4ef4a8f7f1e148e7b6d5bcb5d" title="Get a handle to the service." alt="" coords="1047,134,1249,175"/>
+<area shape="rect" id="node10" href="$d1/d02/class_u___h_e_l_p_e_r.html#a6fca38e2de32e2da0598743ef731c2f1" title="This routine will display an error message based off of the Win32 error code that is passed in." alt="" coords="1063,200,1233,227"/>
+<area shape="rect" id="node11" href="$d1/d02/class_u___h_e_l_p_e_r.html#a74e583e738595b638363c7cdec7b3d3f" title="Popup error message displaying the function that failed associated with the error code." alt="" coords="1311,175,1505,201"/>
+<area shape="rect" id="node12" href="$d1/d02/class_u___h_e_l_p_e_r.html#a54991307972870225fd074f0e7a21686" title="Print error message in the terminal." alt="" coords="1553,200,1732,227"/>
+<area shape="rect" id="node14" href="$d9/d01/class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a87d0f531204d9141da9e181c20a18c59" title="Worker thread used to check file signature." alt="" coords="471,357,675,398"/>
+<area shape="rect" id="node15" href="$d9/d01/class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a6f2f0c62b6e4f1270d5c95c6e6521ee3" title="Push a new message in the queue." alt="" coords="736,247,985,289"/>
+<area shape="rect" id="node16" href="$d9/d01/class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#ac7267746e2596819493bbf7fca1d4520" title="Reply to the kernel driver." alt="" coords="763,313,958,340"/>
+<area shape="rect" id="node18" href="$d1/d02/class_u___h_e_l_p_e_r.html#a0532d2f45a1a8977c99caf1c6d27e7c1" title=" " alt="" coords="739,415,983,441"/>
+<area shape="rect" id="node19" href="$dd/d00/class_u___s_i_g_n_a_t_u_r_e.html#a4a2b43ca305cb41a3eab3b76d60cb6db" title="Verify the signature of &#39;szFile&#39; by looking at catalogs files." alt="" coords="762,466,959,507"/>
+<area shape="rect" id="node20" href="$dd/d00/class_u___s_i_g_n_a_t_u_r_e.html#a08a76b9f115ae35af11c805c8a58ebb0" title="Check if the file &quot;szFile&quot; is signed by a trusted authority." alt="" coords="753,531,968,573"/>
+<area shape="rect" id="node22" href="$d9/d01/class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a24b9f6b8b2ec28d44b96e46804ee7ddb" title="Disconnect the client." alt="" coords="463,749,683,776"/>
+<area shape="rect" id="node23" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a32bed2bf85d659bbaff8e1d3fcafa42e" title="Stop the service &quot;szServiceName&quot;." alt="" coords="473,800,674,827"/>
+<area shape="rect" id="node24" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#af55beae6c2742cab857466b32140a5dd" title="Query the service &quot;szServiceName&quot; and return its state." alt="" coords="763,801,958,842"/>
+</map>

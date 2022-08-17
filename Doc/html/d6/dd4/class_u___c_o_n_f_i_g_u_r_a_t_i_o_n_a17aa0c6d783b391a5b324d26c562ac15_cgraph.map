@@ -1,0 +1,8 @@
+<map id="U_CONFIGURATION::SetDriverConfiguration" name="U_CONFIGURATION::SetDriverConfiguration">
+<area shape="rect" id="node1" title="Create registry keys needed for the driver configuration." alt="" coords="5,90,208,131"/>
+<area shape="rect" id="node2" href="$d1/da3/class_u___r_e_g_i_s_t_r_y.html#acb3aa163feb4caa0bbd10c41579ff78a" title="Create the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="256,5,476,32"/>
+<area shape="rect" id="node3" href="$d1/da3/class_u___r_e_g_i_s_t_r_y.html#ac826205b4627137b899c1e0066b3fb9a" title="Write DWORD in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="272,57,460,98"/>
+<area shape="rect" id="node5" href="$d1/da3/class_u___r_e_g_i_s_t_r_y.html#a46f7e87b2a43abab3f86a367c4ca4c8c" title="Write MULTI_SZ STRING in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="264,122,468,163"/>
+<area shape="rect" id="node6" href="$d1/da3/class_u___r_e_g_i_s_t_r_y.html#aa82742460b375f1fbd9534cd8f845bd0" title="Write STRING in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="273,187,459,229"/>
+<area shape="rect" id="node4" href="$d1/da3/class_u___r_e_g_i_s_t_r_y.html#aa3f355ae1e9c7c1f9db8496d25ac1f7d" title="Write data in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="524,122,711,163"/>
+</map>

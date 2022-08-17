@@ -1,0 +1,14 @@
+<map id="U_Controller.hpp" name="U_Controller.hpp">
+<area shape="rect" id="node1" title="Header for U_Controller.cpp." alt="" coords="105,5,223,32"/>
+<area shape="rect" id="node2" href="$d8/d62/_u___controller_8cpp.html" title="Controll the service/driver (Install|Start|Stop|Delete|Query)" alt="" coords="7,80,126,107"/>
+<area shape="rect" id="node3" href="$d2/de1/_u___service_8hpp.html" title="Header for U_Service.cpp." alt="" coords="202,80,307,107"/>
+<area shape="rect" id="node4" href="$d9/dc9/_u___communication_8hpp.html" title="Header for U_Communication.cpp." alt="" coords="371,304,525,331"/>
+<area shape="rect" id="node6" href="$d6/de0/_u___configuration_8hpp.html" title="Header for U_Configuration.cpp." alt="" coords="5,304,144,331"/>
+<area shape="rect" id="node8" href="$d5/d09/_u___helper_8hpp.html" title="Header for U_Helper.cpp." alt="" coords="117,155,217,181"/>
+<area shape="rect" id="node12" href="$d7/dc4/_u___service_8cpp.html" title="Entrypoint of the process &amp; the service." alt="" coords="293,155,398,181"/>
+<area shape="rect" id="node5" href="$d6/da6/_u___communication_8cpp.html" title="Manage the communication with the driver (Connect|Reply|ListenerThread|WorkerThread)" alt="" coords="371,379,525,405"/>
+<area shape="rect" id="node7" href="$dd/da0/_u___configuration_8cpp.html" title="Set all the needed configuration for the driver and the user&#45;mode service." alt="" coords="5,379,144,405"/>
+<area shape="rect" id="node9" href="$d8/d69/_u___helper_8cpp.html" title="Help function used by several .cpp files." alt="" coords="58,229,158,256"/>
+<area shape="rect" id="node10" href="$d3/d40/_u___logs_8hpp.html" title="Header for U_Logs.cpp." alt="" coords="233,229,324,256"/>
+<area shape="rect" id="node11" href="$da/d56/_u___logs_8cpp.html" title="Report Event to ETW." alt="" coords="233,304,324,331"/>
+</map>
