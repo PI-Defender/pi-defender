@@ -1,6 +1,6 @@
-<map id="C:/Users/Gshoo/Desktop/pi&#45;defender&#45;tmp/Sources/PI&#45;Defender/K_Filter.hpp" name="C:/Users/Gshoo/Desktop/pi&#45;defender&#45;tmp/Sources/PI&#45;Defender/K_Filter.hpp">
-<area shape="rect" id="node1" title="Header for K_Filter.cpp." alt="" coords="103,5,270,61"/>
-<area shape="rect" id="node2" href="$_k___driver_8hpp.html" title="Header for K_Driver.cpp." alt="" coords="5,109,176,165"/>
-<area shape="rect" id="node4" href="$_k___filter_8cpp.html" title="Initialize filter object used by the communication." alt="" coords="201,109,367,165"/>
-<area shape="rect" id="node3" href="$_k___driver_8cpp.html" title="Entrypoint of the driver, unload routine." alt="" coords="5,213,176,269"/>
+<map id="K_Filter.hpp" name="K_Filter.hpp">
+<area shape="rect" id="node1" title="Header for K_Filter.cpp." alt="" coords="65,5,157,32"/>
+<area shape="rect" id="node2" href="$_k___driver_8hpp.html" title="Header for K_Driver.cpp." alt="" coords="5,80,100,107"/>
+<area shape="rect" id="node4" href="$_k___filter_8cpp.html" title="Initialize filter object used by the communication." alt="" coords="124,80,216,107"/>
+<area shape="rect" id="node3" href="$_k___driver_8cpp.html" title="Entrypoint of the driver, unload routine." alt="" coords="5,155,100,181"/>
 </map>

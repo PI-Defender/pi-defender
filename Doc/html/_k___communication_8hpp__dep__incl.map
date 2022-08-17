@@ -1,10 +1,10 @@
-<map id="C:/Users/Gshoo/Desktop/pi&#45;defender&#45;tmp/Sources/PI&#45;Defender/K_Communication.hpp" name="C:/Users/Gshoo/Desktop/pi&#45;defender&#45;tmp/Sources/PI&#45;Defender/K_Communication.hpp">
-<area shape="rect" id="node1" title="Header for K_Communication.cpp." alt="" coords="227,5,455,61"/>
-<area shape="rect" id="node2" href="$_k___communication_8cpp.html" title="Create the communication server, send data to the user&#45;mode service once a client is connected." alt="" coords="5,109,233,165"/>
-<area shape="rect" id="node3" href="$_k___filter_8hpp.html" title="Header for K_Filter.cpp." alt="" coords="257,109,424,165"/>
-<area shape="rect" id="node7" href="$_k___ob_callback_8hpp.html" title="Header for K_ObCallback.cpp." alt="" coords="449,109,654,165"/>
-<area shape="rect" id="node4" href="$_k___driver_8hpp.html" title="Header for K_Driver.cpp." alt="" coords="351,213,522,269"/>
-<area shape="rect" id="node6" href="$_k___filter_8cpp.html" title="Initialize filter object used by the communication." alt="" coords="160,213,327,269"/>
-<area shape="rect" id="node5" href="$_k___driver_8cpp.html" title="Entrypoint of the driver, unload routine." alt="" coords="351,317,522,373"/>
-<area shape="rect" id="node8" href="$_k___ob_callback_8cpp.html" title="Handle request callback." alt="" coords="546,213,751,269"/>
+<map id="K_Communication.hpp" name="K_Communication.hpp">
+<area shape="rect" id="node1" title="Header for K_Communication.cpp." alt="" coords="152,5,305,32"/>
+<area shape="rect" id="node2" href="$_k___communication_8cpp.html" title="Create the communication server, send data to the user&#45;mode service once a client is connected." alt="" coords="5,80,159,107"/>
+<area shape="rect" id="node3" href="$_k___filter_8hpp.html" title="Header for K_Filter.cpp." alt="" coords="183,80,275,107"/>
+<area shape="rect" id="node7" href="$_k___ob_callback_8hpp.html" title="Header for K_ObCallback.cpp." alt="" coords="299,80,430,107"/>
+<area shape="rect" id="node4" href="$_k___driver_8hpp.html" title="Header for K_Driver.cpp." alt="" coords="240,155,335,181"/>
+<area shape="rect" id="node6" href="$_k___filter_8cpp.html" title="Initialize filter object used by the communication." alt="" coords="124,155,216,181"/>
+<area shape="rect" id="node5" href="$_k___driver_8cpp.html" title="Entrypoint of the driver, unload routine." alt="" coords="240,229,335,256"/>
+<area shape="rect" id="node8" href="$_k___ob_callback_8cpp.html" title="Handle request callback." alt="" coords="359,155,490,181"/>
 </map>

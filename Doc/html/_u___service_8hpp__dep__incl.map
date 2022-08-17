@@ -1,14 +1,14 @@
-<map id="C:/Users/Gshoo/Desktop/pi&#45;defender&#45;tmp/Sources/PI&#45;Defender_UM/U_Service.hpp" name="C:/Users/Gshoo/Desktop/pi&#45;defender&#45;tmp/Sources/PI&#45;Defender_UM/U_Service.hpp">
-<area shape="rect" id="node1" title="Header for U_Service.cpp." alt="" coords="199,5,405,61"/>
-<area shape="rect" id="node2" href="$_u___communication_8hpp.html" title="Header for U_Communication.cpp." alt="" coords="5,317,260,373"/>
-<area shape="rect" id="node4" href="$_u___configuration_8hpp.html" title="Header for U_Configuration.cpp." alt="" coords="285,317,525,373"/>
-<area shape="rect" id="node6" href="$_u___helper_8hpp.html" title="Header for U_Helper.cpp." alt="" coords="339,109,542,165"/>
-<area shape="rect" id="node12" href="$_u___service_8cpp.html" title="Entrypoint of the process &amp; the service." alt="" coords="617,109,824,165"/>
-<area shape="rect" id="node3" href="$_u___communication_8cpp.html" title="Manage the communication with the driver (Connect|Reply|ListenerThread|WorkerThread)" alt="" coords="5,421,260,477"/>
-<area shape="rect" id="node5" href="$_u___configuration_8cpp.html" title="Set all the needed configuration for the driver and the user&#45;mode service." alt="" coords="285,421,525,477"/>
-<area shape="rect" id="node7" href="$_u___controller_8hpp.html" title="Header for U_Controller.cpp." alt="" coords="785,213,1005,269"/>
-<area shape="rect" id="node9" href="$_u___helper_8cpp.html" title="Help function used by several .cpp files." alt="" coords="558,213,761,269"/>
-<area shape="rect" id="node10" href="$_u___logs_8hpp.html" title="Header for U_Logs.cpp." alt="" coords="289,213,483,269"/>
-<area shape="rect" id="node8" href="$_u___controller_8cpp.html" title="Controll the service/driver (Install|Start|Stop|Delete|Query)" alt="" coords="785,317,1005,373"/>
-<area shape="rect" id="node11" href="$_u___logs_8cpp.html" title="Report Event to ETW." alt="" coords="549,317,743,373"/>
+<map id="U_Service.hpp" name="U_Service.hpp">
+<area shape="rect" id="node1" title="Header for U_Service.cpp." alt="" coords="167,5,272,32"/>
+<area shape="rect" id="node2" href="$_u___communication_8hpp.html" title="Header for U_Communication.cpp." alt="" coords="5,229,159,256"/>
+<area shape="rect" id="node4" href="$_u___configuration_8hpp.html" title="Header for U_Configuration.cpp." alt="" coords="183,229,322,256"/>
+<area shape="rect" id="node6" href="$_u___helper_8hpp.html" title="Header for U_Helper.cpp." alt="" coords="257,80,357,107"/>
+<area shape="rect" id="node12" href="$_u___service_8cpp.html" title="Entrypoint of the process &amp; the service." alt="" coords="433,80,539,107"/>
+<area shape="rect" id="node3" href="$_u___communication_8cpp.html" title="Manage the communication with the driver (Connect|Reply|ListenerThread|WorkerThread)" alt="" coords="5,304,159,331"/>
+<area shape="rect" id="node5" href="$_u___configuration_8cpp.html" title="Set all the needed configuration for the driver and the user&#45;mode service." alt="" coords="183,304,322,331"/>
+<area shape="rect" id="node7" href="$_u___controller_8hpp.html" title="Header for U_Controller.cpp." alt="" coords="496,155,615,181"/>
+<area shape="rect" id="node9" href="$_u___helper_8cpp.html" title="Help function used by several .cpp files." alt="" coords="372,155,472,181"/>
+<area shape="rect" id="node10" href="$_u___logs_8hpp.html" title="Header for U_Logs.cpp." alt="" coords="206,155,297,181"/>
+<area shape="rect" id="node8" href="$_u___controller_8cpp.html" title="Controll the service/driver (Install|Start|Stop|Delete|Query)" alt="" coords="496,229,615,256"/>
+<area shape="rect" id="node11" href="$_u___logs_8cpp.html" title="Report Event to ETW." alt="" coords="346,229,437,256"/>
 </map>
