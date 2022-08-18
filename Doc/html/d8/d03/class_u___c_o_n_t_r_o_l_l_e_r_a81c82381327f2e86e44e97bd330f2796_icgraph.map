@@ -1,5 +1,0 @@
-<map id="U_CONTROLLER::InstallService" name="U_CONTROLLER::InstallService">
-<area shape="rect" id="node1" title="Install the service &quot;szServiceName&quot;." alt="" coords="219,5,427,32"/>
-<area shape="rect" id="node2" href="$d7/d00/_u___service_8cpp.html#ab5c4ad56c0967c7aa59e84c28c445bc6" title="Wrap the installation of the service." alt="" coords="115,5,171,32"/>
-<area shape="rect" id="node3" href="$d7/d00/_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,5,67,32"/>
-</map>

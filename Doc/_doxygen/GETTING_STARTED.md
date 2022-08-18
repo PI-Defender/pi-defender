@@ -19,14 +19,21 @@ git clone https://github.com/PI-Defender/pi-defender.git
 * Build the solution (Crtl + Maj + B).
 
 ## Installation
+1. The driver uses test signing, so before using it Windows should be set to install and run test signed drivers. 
+	Enable test signed drivers can be done with the following steps:
+	* *Reset this PC* (search bar)  
+    * *Troubleshoot*
+    * *Advanced Options*
+    * *Startup repair*
+    * Select the number **7** to disable the driver signature enforcement.
 
-* The driver uses test signing, so before using it Windows should be set to install and run test signed drivers.
-  Enable test signed drivers can be done in elevated command prompt with the following command:
-  ```bash
-  bcdedit /set testsigning on
-  ```
-* Restart Windows for changes to take effect.
-* Install the driver with a right click on the .inf file.
+	Windows will restart for changes to take effect.  
+2. Install the driver with the user-mode service.
+   ```bash
+   PI-Defender_UM.exe install
+   ```
+   To ensure a smooth installation, *PI-Defender_UM.exe*, *PI-Defender.sys* and *PI-Defender_MsgFile.dll* must be in the same folder before running the previous command.
+If everything went well, you should have a success message.
 
 ## Start / Usage
 

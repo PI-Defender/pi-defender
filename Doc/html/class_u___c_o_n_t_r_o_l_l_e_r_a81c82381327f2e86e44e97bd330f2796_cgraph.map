@@ -1,9 +1,0 @@
-<map id="U_CONTROLLER::InstallService" name="U_CONTROLLER::InstallService">
-<area shape="rect" id="node1" title="Install the service &quot;szServiceName&quot;." alt="" coords="5,107,213,133"/>
-<area shape="rect" id="node2" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a65733b52c6801a89b0c12d7836feef9c" title="Get a handle to the Service Controller Database." alt="" coords="261,5,491,32"/>
-<area shape="rect" id="node3" href="$class_u___r_e_g_i_s_t_r_y.html#acb3aa163feb4caa0bbd10c41579ff78a" title="Create the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="266,56,486,83"/>
-<area shape="rect" id="node4" href="$class_u___h_e_l_p_e_r.html#a3aec688c6ea99512067e4919e0020d12" title=" " alt="" coords="277,107,475,133"/>
-<area shape="rect" id="node5" href="$class_u___r_e_g_i_s_t_r_y.html#ac826205b4627137b899c1e0066b3fb9a" title="Write DWORD in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="282,158,470,199"/>
-<area shape="rect" id="node7" href="$class_u___r_e_g_i_s_t_r_y.html#aa82742460b375f1fbd9534cd8f845bd0" title="Write STRING in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="283,223,469,265"/>
-<area shape="rect" id="node6" href="$class_u___r_e_g_i_s_t_r_y.html#aa3f355ae1e9c7c1f9db8496d25ac1f7d" title="Write data in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="539,191,725,233"/>
-</map>

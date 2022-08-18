@@ -1,7 +1,0 @@
-<map id="K_CACHE::GetCachedValue" name="K_CACHE::GetCachedValue">
-<area shape="rect" id="node1" title="Set bIsOk to TRUE if cache contains specified Hash, FALSE otherwise." alt="" coords="761,5,951,32"/>
-<area shape="rect" id="node2" href="$d5/d03/class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#afb0e428195d7ac67b5685dfb73166d94" title=" " alt="" coords="505,5,713,32"/>
-<area shape="rect" id="node3" href="$d6/d02/class_k___o_b.html#a6b236f7c3b792f31133c3428966a2921" title="We get notify when a process want a handle." alt="" coords="299,5,457,32"/>
-<area shape="rect" id="node4" href="$d6/d02/class_k___o_b.html#a21fe4100571040a8d156fa0f045168ea" title="Register the ObCallback routine." alt="" coords="139,5,251,32"/>
-<area shape="rect" id="node5" href="$d3/d00/_k___driver_8cpp.html#abd482ac5174a4365b1fa1c26e463c60d" title="Main Driver Entry Routine." alt="" coords="5,5,91,32"/>
-</map>

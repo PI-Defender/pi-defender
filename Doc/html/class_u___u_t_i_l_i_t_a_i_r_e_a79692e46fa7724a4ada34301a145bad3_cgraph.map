@@ -1,6 +1,0 @@
-<map id="U_UTILITAIRE::EnableVirtualTerminal" name="U_UTILITAIRE::EnableVirtualTerminal">
-<area shape="rect" id="node1" title="Enable the virtual terminal to be able to print text in color." alt="" coords="5,23,195,65"/>
-<area shape="rect" id="node2" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#ad0b0328deb4197e357bb5d74c3173775" title="This routine will display an error message based off of the Win32 error code that is passed in." alt="" coords="243,31,425,57"/>
-<area shape="rect" id="node3" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#aa177d472a3d1e5f03fdb24d9181ab9a9" title="Popup error message displaying the function that failed associated with the error code." alt="" coords="473,5,681,32"/>
-<area shape="rect" id="node4" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a20839968820f2161ef19972f7316a141" title="Print error message in the terminal." alt="" coords="729,31,921,57"/>
-</map>

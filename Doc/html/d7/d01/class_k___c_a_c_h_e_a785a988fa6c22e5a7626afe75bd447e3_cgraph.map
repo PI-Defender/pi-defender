@@ -1,4 +1,0 @@
-<map id="K_CACHE::Add" name="K_CACHE::Add">
-<area shape="rect" id="node1" title="Add a Hash in the Cache and remember if it is signed or not." alt="" coords="5,5,120,32"/>
-<area shape="rect" id="node2" href="$d7/d01/class_k___c_a_c_h_e.html#a2a803e7f4af2e18b582ccc4f2b9f747a" title="Set &quot;pbIsOk&quot; to TRUE if cache contains specified Hash, FALSE otherwise." alt="" coords="168,5,364,32"/>
-</map>

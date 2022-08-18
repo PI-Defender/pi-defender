@@ -113,12 +113,21 @@ Building</h1>
 </ul>
 <h1><a class="anchor" id="autotoc_md21"></a>
 Installation</h1>
-<ul>
-<li>The driver uses test signing, so before using it Windows should be set to install and run test signed drivers. Enable test signed drivers can be done in elevated command prompt with the following command: <div class="fragment"><div class="line">bcdedit /set testsigning on</div>
-</div><!-- fragment --></li>
-<li>Restart Windows for changes to take effect.</li>
-<li>Install the driver with a right click on the .inf file.</li>
+<ol type="1">
+<li><p class="startli">The driver uses test signing, so before using it Windows should be set to install and run test signed drivers. Enable test signed drivers can be done with the following steps:</p><ul>
+<li><em>Reset this PC</em> (search bar) <br  />
+</li>
+<li><em>Troubleshoot</em></li>
+<li><em>Advanced Options</em></li>
+<li><em>Startup repair</em></li>
+<li>Select the number <b>7</b> to disable the driver signature enforcement.</li>
 </ul>
+<p class="startli">Windows will restart for changes to take effect. <br  />
+</p>
+</li>
+<li>Install the driver with the user-mode service. <div class="fragment"><div class="line">PI-Defender_UM.exe install</div>
+</div><!-- fragment --> To ensure a smooth installation, <em>PI-Defender_UM.exe</em>, <em>PI-Defender.sys</em> and <em>PI-Defender_MsgFile.dll</em> must be in the same folder before running the previous command. If everything went well, you should have a success message.</li>
+</ol>
 <h1><a class="anchor" id="autotoc_md22"></a>
 Start / Usage</h1>
 <div class="fragment"><div class="line">$ PI-Defender_UM.exe [install,start,query,stop,delete]</div>
@@ -138,7 +147,7 @@ Start / Usage</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Aug 17 2022 09:08:21 for PI-Defender by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Thu Aug 18 2022 09:08:15 for PI-Defender by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 <script type="text/javascript">

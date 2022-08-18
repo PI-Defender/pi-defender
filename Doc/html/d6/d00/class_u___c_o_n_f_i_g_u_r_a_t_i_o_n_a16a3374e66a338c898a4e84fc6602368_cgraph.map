@@ -1,4 +1,0 @@
-<map id="U_CONFIGURATION::GetMaxClients" name="U_CONFIGURATION::GetMaxClients">
-<area shape="rect" id="node1" title="Get the maximum number of clients of the service by reading the values in the REGISTRY:: &#160;[i] This va..." alt="" coords="5,5,243,32"/>
-<area shape="rect" id="node2" href="$d1/d03/class_u___r_e_g_i_s_t_r_y.html#ab8fcbe86de2429b471dcaa94d9025aa8" title="Read the content (DWORD) of the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="291,5,465,32"/>
-</map>

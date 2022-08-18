@@ -1,6 +1,0 @@
-<map id="U_CONTROLLER::SvcCtrlHandler" name="U_CONTROLLER::SvcCtrlHandler">
-<area shape="rect" id="node1" title="Receive signal send by the User / SC Manager, handle it, update service status." alt="" coords="345,5,563,32"/>
-<area shape="rect" id="node2" href="$d7/d00/_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="227,5,297,32"/>
-<area shape="rect" id="node3" href="$d7/d00/_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="115,5,179,32"/>
-<area shape="rect" id="node4" href="$d7/d00/_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,5,67,32"/>
-</map>

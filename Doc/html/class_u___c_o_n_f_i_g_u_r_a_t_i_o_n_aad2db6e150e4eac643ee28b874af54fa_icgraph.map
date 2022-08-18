@@ -1,6 +1,0 @@
-<map id="U_CONFIGURATION::PrintConfiguration" name="U_CONFIGURATION::PrintConfiguration">
-<area shape="rect" id="node1" title="Print and populate service structure with the configuration read from registry keys." alt="" coords="220,31,473,57"/>
-<area shape="rect" id="node2" href="$_u___service_8cpp.html#aff39ead9760e0687df750416a070f137" title="Wrap the query information about the service." alt="" coords="115,5,172,32"/>
-<area shape="rect" id="node4" href="$_u___service_8cpp.html#a21146308d44a2de57aa21d12af7e5b65" title="Wrap the start of the service." alt="" coords="118,56,169,83"/>
-<area shape="rect" id="node3" href="$_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,31,67,57"/>
-</map>

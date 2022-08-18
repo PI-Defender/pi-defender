@@ -1,5 +1,0 @@
-<map id="U_CONTROLLER::StopService" name="U_CONTROLLER::StopService">
-<area shape="rect" id="node1" title="Stop the service &quot;szServiceName&quot;." alt="" coords="5,5,207,32"/>
-<area shape="rect" id="node2" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a65733b52c6801a89b0c12d7836feef9c" title="Get a handle to the Service Controller Database." alt="" coords="497,5,727,32"/>
-<area shape="rect" id="node3" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#af55beae6c2742cab857466b32140a5dd" title="Query the service &quot;szServiceName&quot; and return its state." alt="" coords="255,27,449,69"/>
-</map>

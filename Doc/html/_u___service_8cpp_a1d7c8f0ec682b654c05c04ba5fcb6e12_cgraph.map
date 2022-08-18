@@ -1,6 +1,0 @@
-<map id="Delete" name="Delete">
-<area shape="rect" id="node1" title="Wrap the deletion of the driver and the service." alt="" coords="5,42,64,69"/>
-<area shape="rect" id="node2" href="$class_u___c_o_n_f_i_g_u_r_a_t_i_o_n.html#a0dc19a661a499390a39c084c0526c11d" title="Delete all the registry keys needed for ETW Logs." alt="" coords="112,5,328,47"/>
-<area shape="rect" id="node4" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#ad53dc3b8165b221277bea05456ca974f" title="Delete the service &quot;szServiceName&quot;." alt="" coords="123,71,317,98"/>
-<area shape="rect" id="node3" href="$class_u___l_o_g_s.html#a0f2932b79fce103453dd1cfc60de2007" title="Send the reported event in the Event Viewer (Application &#45;&gt; PI&#45;Defender_UM)." alt="" coords="376,13,549,39"/>
-</map>

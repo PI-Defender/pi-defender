@@ -1,8 +1,0 @@
-<map id="K_HELPER::MyNtPathCchRemoveFileSpec" name="K_HELPER::MyNtPathCchRemoveFileSpec">
-<area shape="rect" id="node1" title=" " alt="" coords="1008,5,1233,47"/>
-<area shape="rect" id="node2" href="$class_k___w_h_i_t_e_l_i_s_t.html#a0002133cb46ec30f7f0044eecc5c58a9" title="Check if whitelist contains provided string." alt="" coords="776,13,960,39"/>
-<area shape="rect" id="node3" href="$class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#aa0eade5fe406c90f04b739bf85e098f5" title=" " alt="" coords="505,13,728,39"/>
-<area shape="rect" id="node4" href="$class_k___o_b.html#a6b236f7c3b792f31133c3428966a2921" title="We get notify when a process want a handle." alt="" coords="299,13,457,39"/>
-<area shape="rect" id="node5" href="$class_k___o_b.html#a21fe4100571040a8d156fa0f045168ea" title="Register the ObCallback routine." alt="" coords="139,13,251,39"/>
-<area shape="rect" id="node6" href="$_k___driver_8cpp.html#abd482ac5174a4365b1fa1c26e463c60d" title="Main Driver Entry Routine." alt="" coords="5,13,91,39"/>
-</map>

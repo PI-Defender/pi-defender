@@ -1,6 +1,0 @@
-<map id="U_HELPER::GetCurrentFolder" name="U_HELPER::GetCurrentFolder">
-<area shape="rect" id="node1" title=" " alt="" coords="475,5,672,32"/>
-<area shape="rect" id="node2" href="$class_u___c_o_n_t_r_o_l_l_e_r.html#a81c82381327f2e86e44e97bd330f2796" title="Install the service &quot;szServiceName&quot;." alt="" coords="219,5,427,32"/>
-<area shape="rect" id="node3" href="$_u___service_8cpp.html#ab5c4ad56c0967c7aa59e84c28c445bc6" title="Wrap the installation of the service." alt="" coords="115,5,171,32"/>
-<area shape="rect" id="node4" href="$_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,5,67,32"/>
-</map>

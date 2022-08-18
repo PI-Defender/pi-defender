@@ -1,4 +1,0 @@
-<map id="U_UTILITAIRE::DisplayMessage" name="U_UTILITAIRE::DisplayMessage">
-<area shape="rect" id="node1" title="Popup error message displaying the function that failed associated with the error code." alt="" coords="5,5,213,32"/>
-<area shape="rect" id="node2" href="$class_u___u_t_i_l_i_t_a_i_r_e.html#a20839968820f2161ef19972f7316a141" title="Print error message in the terminal." alt="" coords="261,5,453,32"/>
-</map>

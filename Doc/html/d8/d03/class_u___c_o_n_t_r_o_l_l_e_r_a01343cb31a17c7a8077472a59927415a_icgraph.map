@@ -1,7 +1,0 @@
-<map id="U_CONTROLLER::SvcReportStatus" name="U_CONTROLLER::SvcReportStatus">
-<area shape="rect" id="node1" title="Depending on the state of the service, it can receive order from the user space." alt="" coords="611,31,840,57"/>
-<area shape="rect" id="node2" href="$d8/d03/class_u___c_o_n_t_r_o_l_l_e_r.html#a62de7b3a08b00dde2a3de3fa50ed52ea" title="Receive signal send by the User / SC Manager, handle it, update service status." alt="" coords="345,5,563,32"/>
-<area shape="rect" id="node3" href="$d7/d00/_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="227,31,297,57"/>
-<area shape="rect" id="node4" href="$d7/d00/_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="115,31,179,57"/>
-<area shape="rect" id="node5" href="$d7/d00/_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,31,67,57"/>
-</map>

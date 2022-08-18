@@ -1,8 +1,0 @@
-<map id="U_HELPER::GetHandleFromFileName" name="U_HELPER::GetHandleFromFileName">
-<area shape="rect" id="node1" title=" " alt="" coords="847,13,1091,39"/>
-<area shape="rect" id="node2" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a87d0f531204d9141da9e181c20a18c59" title="Worker thread used to check file signature." alt="" coords="595,5,799,47"/>
-<area shape="rect" id="node3" href="$class_u___c_o_m_m_u_n_i_c_a_t_i_o_n.html#a1cbfbcf7e7e895608457abf405455e6a" title="Thread listening message sends from kernel driver." alt="" coords="345,5,547,47"/>
-<area shape="rect" id="node4" href="$_u___service_8cpp.html#a2ef7fa664545ef1bfd08460f37d2140a" title="Entrypoint and core of the user space service." alt="" coords="227,13,297,39"/>
-<area shape="rect" id="node5" href="$_u___service_8cpp.html#afa2e3daf278842db7a49d41ebebc8519" title="Wrap the call to the service entrypoint." alt="" coords="115,13,179,39"/>
-<area shape="rect" id="node6" href="$_u___service_8cpp.html#a3e9716f0248a5a48598490cd4920cbee" title="Entrypoint of the user space executable." alt="" coords="5,13,67,39"/>
-</map>

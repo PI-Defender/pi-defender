@@ -1,6 +1,0 @@
-<map id="DriverUnload" name="DriverUnload">
-<area shape="rect" id="node1" title="Driver Unloading Routine." alt="" coords="5,31,100,57"/>
-<area shape="rect" id="node2" href="$d5/d03/class_k___c_o_n_f_i_g_u_r_a_t_i_o_n.html#aea522a70a76fab44d00ff8600c7559ef" title="Free previously allocated memory." alt="" coords="148,5,339,32"/>
-<area shape="rect" id="node4" href="$d6/d02/class_k___o_b.html#ad3d6ebe0d6cdc7160350668c394db38a" title="Routine used to unload ObCallback." alt="" coords="191,56,296,83"/>
-<area shape="rect" id="node3" href="$de/d03/class_k___w_h_i_t_e_l_i_s_t.html#a3d3c671480433a117099facd90d4d498" title="Free previously allocated memory." alt="" coords="387,5,540,32"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="U_REGISTRY::WriteStringInRegistry" name="U_REGISTRY::WriteStringInRegistry">
-<area shape="rect" id="node1" title="Write STRING in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node2" href="$d1/d03/class_u___r_e_g_i_s_t_r_y.html#aa3f355ae1e9c7c1f9db8496d25ac1f7d" title="Write data in the registry key &quot;szSubKey&quot; located in the HIVE &quot;hKeyParent&quot;." alt="" coords="240,5,427,47"/>
-</map>
