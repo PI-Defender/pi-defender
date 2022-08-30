@@ -6,8 +6,8 @@ graph TD
     B --> C{UM client connected?}
     C -->|no| BB(B)
     C -->|yes| D{Source == Kernel?}
-    D -->|no| BB
-    D -->|yes| E{ObjectType == Process?}
+    D -->|yes| BB
+    D -->|no| E{ObjectType == Process?}
     E -->|no| BB
     E -->|yes| F{SrcProcess == DstProcess?}
     F -->|yes| BB
