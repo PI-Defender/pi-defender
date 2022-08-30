@@ -1,0 +1,39 @@
+%%{init: {'themeVariables': {'fontSize': '40px'}}}%%
+
+graph TD
+   
+    START(START) --> B[handle request interception]
+    B --> C{UM client connected?}
+    C -->|no| BB(B)
+    C -->|yes| D{source = kernel?}
+    D -->|no| BB
+    D -->|yes| E{ObjectType == Process?}
+    E -->|no| BB
+    E -->|yes| F{SrcProcess == DstProcess?}
+    F -->|yes| BB
+    F -->|no| G{"(DesiredAccess & FilteredAccess) <br/> == FALSE ?"}
+    G -->|yes| BB
+    G -->|no| AA(A)
+    
+    BB_2(B) --> Z[handle request transmit]
+    AA_2(A) --> J{Is in whitelist?}
+    J -->|yes| Z
+    J -->|no| K{Is in cache?}
+    K -->|no| O[Signature check]
+    K -->|yes| M
+    O --> L[Result saved in cache]
+    L --> M{Is app signed by <br/> trusted certificate?}
+    M -->|yes| Z
+    M -->|no| N["GrantedAccess = <br/> DesiredAccess | FilteredAccess"]
+    N --> Z
+    Z --> END(END)
+
+%% Theming
+classDef func fill:#ede1ef
+class START,END,AA,AA_2,BB,BB_2 func
+
+classDef ifs fill:#e1ebf2
+class C,D,E,F,G,J,K,M ifs
+
+classDef actions fill:#f9e381 
+class B,L,O,N,Z actions
