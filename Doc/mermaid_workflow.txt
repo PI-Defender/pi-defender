@@ -1,11 +1,11 @@
-%%{init: {'themeVariables': {'fontSize': '40px'}}}%%
+%%{init: {'themeVariables': {'fontSize': '30px'}}}%%
 
 graph TD
    
     START(START) --> B[handle request interception]
     B --> C{UM client connected?}
     C -->|no| BB(B)
-    C -->|yes| D{source = kernel?}
+    C -->|yes| D{Source == Kernel?}
     D -->|no| BB
     D -->|yes| E{ObjectType == Process?}
     E -->|no| BB
