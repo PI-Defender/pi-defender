@@ -24,7 +24,7 @@ graph TD
     O --> L[Result saved in cache]
     L --> M{Is app signed by <br/> trusted certificate?}
     M -->|yes| Z
-    M -->|no| N["GrantedAccess = <br/> DesiredAccess | FilteredAccess"]
+    M -->|no| N["GrantedAccess = <br/> DesiredAccess & ~FilteredAccess"]
     N --> Z
     Z --> END(END)
 
